@@ -1,0 +1,801 @@
+2021-03-15 17:48:04,404 [Laurin_wrapper] DEBUG: Calling setup on callback.
+2021-03-15 17:48:04,404 [Laurin_code] INFO: Loading model from saved state.
+2021-03-15 17:48:04,405 [Laurin_code] INFO: [[ 1  1  1  1  1  1  1  1  1  1  1  1  1  1  1]
+ [ 2  2  2  2  2  2  2  2  2  2  2  2  2  2  2]
+ [ 3  3  3  3  3  3  3  3  3  3  3  3  3  3  3]
+ [ 4  4  4  4  4  4  4  4  4  4  4  4  4  4  4]
+ [ 5  5  5  5  5  5  5  5  5  5  5  5  5  5  5]
+ [ 6  6  6  6  6  6  6  6  6  6  6  6  6  6  6]
+ [ 7  7  7  7  7  7  7  7  7  7  7  7  7  7  7]
+ [ 8  8  8  8  8  8  8  8  8  8  8  8  8  8  8]
+ [ 9  9  9  9  9  9  9  9  9  9  9  9  9  9  9]
+ [10 10 10 10 10 10 10 10 10 10 10 10 10 10 10]
+ [11 11 11 11 11 11 11 11 11 11 11 11 11 11 11]
+ [12 12 12 12 12 12 12 12 12 12 12 12 12 12 12]
+ [13 13 13 13 13 13 13 13 13 13 13 13 13 13 13]
+ [14 14 14 14 14 14 14 14 14 14 14 14 14 14 14]
+ [15 15 15 15 15 15 15 15 15 15 15 15 15 15 15]]
+2021-03-15 17:48:04,406 [Laurin_code] INFO: [[15 14 13 12 11 10  9  8  7  6  5  4  3  2  1]
+ [15 14 13 12 11 10  9  8  7  6  5  4  3  2  1]
+ [15 14 13 12 11 10  9  8  7  6  5  4  3  2  1]
+ [15 14 13 12 11 10  9  8  7  6  5  4  3  2  1]
+ [15 14 13 12 11 10  9  8  7  6  5  4  3  2  1]
+ [15 14 13 12 11 10  9  8  7  6  5  4  3  2  1]
+ [15 14 13 12 11 10  9  8  7  6  5  4  3  2  1]
+ [15 14 13 12 11 10  9  8  7  6  5  4  3  2  1]
+ [15 14 13 12 11 10  9  8  7  6  5  4  3  2  1]
+ [15 14 13 12 11 10  9  8  7  6  5  4  3  2  1]
+ [15 14 13 12 11 10  9  8  7  6  5  4  3  2  1]
+ [15 14 13 12 11 10  9  8  7  6  5  4  3  2  1]
+ [15 14 13 12 11 10  9  8  7  6  5  4  3  2  1]
+ [15 14 13 12 11 10  9  8  7  6  5  4  3  2  1]
+ [15 14 13 12 11 10  9  8  7  6  5  4  3  2  1]]
+2021-03-15 17:48:04,425 [Laurin_wrapper] DEBUG: Got result from callback#setup in 0.021s.
+2021-03-15 17:48:04,527 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:04,527 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:04,528 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:04,528 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:04,627 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:04,628 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:04,628 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:04,628 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:04,727 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:04,728 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:04,728 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:04,728 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:04,827 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:04,828 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:04,828 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:04,828 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:04,927 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:04,928 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:04,928 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:04,928 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:05,027 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:05,028 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:05,028 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:05,029 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:05,132 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:05,134 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:05,134 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:05,135 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:05,232 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:05,234 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:05,234 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:05,235 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:05,333 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:05,334 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:05,335 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:05,335 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:05,433 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:05,434 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:05,434 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:05,435 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:05,533 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:05,535 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:05,535 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:05,536 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:05,633 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:05,635 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:05,635 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:05,636 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:05,733 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:05,733 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:05,733 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:05,733 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:05,847 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:05,849 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:05,849 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:05,849 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:05,941 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:05,942 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:05,942 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:05,943 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:06,041 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:06,043 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:06,043 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:06,043 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:06,141 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:06,143 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:06,144 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:06,144 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:06,241 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:06,242 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:06,243 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:06,243 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:06,342 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:06,343 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:06,343 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:06,344 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:06,441 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:06,442 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:06,442 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:06,442 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:06,542 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:06,542 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:06,542 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:06,542 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-15 17:48:06,642 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:06,643 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:06,644 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:06,644 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:06,742 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:06,744 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:06,744 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:06,744 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:06,843 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:06,845 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:06,846 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:06,846 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:06,942 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:06,943 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:06,943 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:06,943 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:07,043 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:07,044 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:07,044 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:07,045 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:07,143 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:07,144 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:07,144 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:07,144 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:07,243 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:07,244 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:07,244 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:07,245 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:07,343 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:07,343 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:07,343 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:07,344 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-15 17:48:07,445 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:07,452 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:07,458 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:07,463 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.013s.
+2021-03-15 17:48:07,561 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:07,567 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:07,568 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:07,569 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:07,660 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:07,662 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:07,663 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:07,663 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:07,755 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:07,756 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:07,756 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:07,757 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:07,855 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:07,856 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:07,856 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:07,857 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:07,956 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:07,958 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:07,958 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:07,958 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:08,056 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:08,057 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:08,057 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:08,057 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:08,156 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:08,158 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:08,158 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:08,158 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:08,257 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:08,258 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:08,259 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:08,259 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:08,357 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:08,359 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:08,365 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:08,370 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.012s.
+2021-03-15 17:48:08,474 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:08,481 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:08,482 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:08,482 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-15 17:48:08,575 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:08,576 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:08,576 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:08,576 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:08,668 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:08,669 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:08,669 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:08,670 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:08,769 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:08,770 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:08,770 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:08,771 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:08,868 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:08,869 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:08,869 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:08,869 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:08,969 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:08,970 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:08,971 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:08,971 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:09,069 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:09,076 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:09,082 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:09,087 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.012s.
+2021-03-15 17:48:09,181 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:09,188 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:09,193 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:09,194 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.007s.
+2021-03-15 17:48:09,285 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:09,287 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:09,287 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:09,287 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:09,380 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:09,382 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:09,382 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:09,382 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:09,480 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:09,481 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:09,481 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:09,482 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:09,581 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:09,582 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:09,582 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:09,582 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:09,680 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:09,681 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:09,681 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:09,681 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:09,781 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:09,783 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:09,783 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:09,784 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:09,882 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:09,884 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:09,884 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:09,885 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:09,998 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:10,005 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:10,009 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:10,009 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-15 17:48:10,103 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:10,105 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:10,105 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:10,106 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:10,195 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:10,196 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:10,196 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:10,196 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:10,295 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:10,296 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:10,296 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:10,296 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:10,395 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:10,396 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:10,396 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:10,396 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:10,495 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:10,496 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:10,497 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:10,497 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:10,596 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:10,597 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:10,598 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:10,598 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:10,696 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:10,697 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:10,697 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:10,697 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:10,796 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:10,797 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:10,798 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:10,798 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:10,912 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:10,914 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:10,914 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:10,915 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:11,003 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:11,004 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:11,004 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:11,005 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:11,102 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:11,103 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:11,104 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:11,104 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:11,202 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:11,203 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:11,204 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:11,204 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:11,302 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:11,304 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:11,304 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:11,305 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:11,403 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:11,404 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:11,405 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:11,405 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:11,503 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:11,504 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:11,505 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:11,505 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:11,614 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:11,615 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:11,616 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:11,616 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:11,708 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:11,709 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:11,709 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:11,710 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:11,809 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:11,811 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:11,811 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:11,812 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:11,909 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:11,910 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:11,910 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:11,910 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:12,009 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:12,011 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:12,012 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:12,012 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:12,110 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:12,112 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:12,113 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:12,113 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-15 17:48:12,210 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:12,212 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:12,218 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:12,224 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.013s.
+2021-03-15 17:48:12,331 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:12,334 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:12,335 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:12,335 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:12,421 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:12,423 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:12,424 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:12,424 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:12,521 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:12,521 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:12,521 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:12,522 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:12,621 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:12,622 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:12,623 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:12,624 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:12,722 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:12,722 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:12,723 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:12,723 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:12,821 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:12,822 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:12,822 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:12,823 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:12,922 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:12,924 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:12,925 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:12,925 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:13,023 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:13,025 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:13,025 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:13,026 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:13,134 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:13,140 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:13,141 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:13,142 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:13,230 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:13,231 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:13,232 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:13,232 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:13,330 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:13,331 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:13,331 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:13,331 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:13,430 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:13,431 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:13,431 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:13,432 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:13,531 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:13,532 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:13,533 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:13,533 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:13,631 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:13,632 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:13,633 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:13,633 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:13,731 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:13,733 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:13,734 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:13,734 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:13,847 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:13,853 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:13,853 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:13,854 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:13,936 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:13,937 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:13,937 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:13,937 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:14,037 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:14,039 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:14,039 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:14,039 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:14,137 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:14,138 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:14,139 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:14,139 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:14,237 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:14,239 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:14,239 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:14,240 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:14,338 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:14,340 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:14,340 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:14,340 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:14,438 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:14,440 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:14,441 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:14,441 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:14,554 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:14,558 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:14,559 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:14,559 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:14,645 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:14,647 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:14,647 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:14,648 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:14,745 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:14,746 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:14,746 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:14,746 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:14,846 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:14,847 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:14,848 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:14,848 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:14,946 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:14,947 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:14,948 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:14,948 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:15,046 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:15,047 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:15,048 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:15,048 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:15,166 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:15,168 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:15,168 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:15,169 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-15 17:48:15,254 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:15,256 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:15,256 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:15,257 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:15,355 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:15,356 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:15,357 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:15,357 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:15,455 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:15,456 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:15,456 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:15,457 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:15,555 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:15,557 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:15,557 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:15,557 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:15,655 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:15,657 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:15,657 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:15,657 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:15,755 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:15,757 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:15,757 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:15,757 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:15,868 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:15,869 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:15,870 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:15,870 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:15,961 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:15,962 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:15,962 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:15,962 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:16,061 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:16,062 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:16,062 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:16,063 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:16,161 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:16,162 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:16,163 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:16,163 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:16,262 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:16,263 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:16,264 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:16,264 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:16,362 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:16,363 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:16,364 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:16,364 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:16,462 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:16,464 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:16,464 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:16,465 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:16,573 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:16,579 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:16,581 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:16,581 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:16,670 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:16,671 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:16,672 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:16,672 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:16,770 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:16,796 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:16,796 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:16,797 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:16,871 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:16,873 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:16,873 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:16,873 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:16,971 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:16,972 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:16,973 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:16,973 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:17,071 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:17,073 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:17,073 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:17,073 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:17,172 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:17,174 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:17,174 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:17,174 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:17,282 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:17,288 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:17,288 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:17,289 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:17,377 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:17,378 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:17,379 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:17,379 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:17,477 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:17,479 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:17,479 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:17,479 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:17,577 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:17,578 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:17,578 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:17,579 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:17,678 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:17,680 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:17,680 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:17,680 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:17,778 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:17,779 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:17,779 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:17,779 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:17,878 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:17,878 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:17,879 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:17,879 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:17,980 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:17,981 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:17,982 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:17,982 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:18,080 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:18,081 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:18,081 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:18,082 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:18,180 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:18,181 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:18,181 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:18,181 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:18,280 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:18,281 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:18,281 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:18,282 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:18,380 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:18,381 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:18,381 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:18,381 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:18,481 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:18,482 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:18,483 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:18,483 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:18,581 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:18,583 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:18,588 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:18,594 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.013s.
+2021-03-15 17:48:18,697 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:18,698 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:18,699 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:18,699 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:18,786 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:18,787 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:18,787 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:18,787 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:18,887 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:18,887 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:18,888 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:18,888 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:18,987 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:18,988 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:18,988 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:18,988 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:19,088 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:19,089 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:19,090 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:19,091 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:19,188 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:19,189 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:19,190 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:19,190 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:19,288 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:19,290 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:19,297 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:19,303 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.014s.
+2021-03-15 17:48:19,404 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:19,409 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:19,410 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:19,410 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-15 17:48:19,496 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:19,498 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:19,498 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:19,499 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:19,597 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:19,598 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:19,599 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:19,599 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:19,697 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:19,697 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:19,698 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:19,698 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:19,797 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:19,799 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:19,799 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:19,800 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:19,898 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:19,899 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:19,899 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:19,899 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:19,998 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:19,999 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:20,000 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:20,000 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:20,113 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:20,115 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:20,115 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:20,115 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:20,204 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:20,205 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:20,205 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:20,205 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:20,304 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:20,305 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:20,305 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:20,306 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:20,404 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:20,406 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:20,406 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:20,406 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:20,505 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:20,506 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:20,507 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:20,507 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:20,605 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:20,606 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:20,607 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:20,607 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:20,705 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:20,706 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:20,706 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:20,706 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:20,806 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:20,808 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:20,808 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:20,808 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:20,906 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:20,907 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:20,908 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:20,908 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:21,006 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:21,007 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:21,007 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:21,007 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:21,106 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:21,107 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:21,107 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:21,107 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:21,207 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:21,209 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:21,209 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:21,210 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:21,307 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:21,309 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:21,309 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:21,309 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:21,411 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:21,411 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:21,411 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:21,411 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-15 17:48:21,511 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:21,511 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:21,511 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:21,512 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-15 17:48:21,611 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:21,611 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:21,612 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:21,612 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-15 17:48:21,712 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:21,713 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:21,713 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:21,713 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:21,839 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:21,841 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:21,843 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:21,844 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-15 17:48:21,920 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:21,921 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:21,921 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:21,921 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:22,020 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:22,020 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:22,020 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:22,021 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:22,120 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:22,120 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:22,120 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:22,120 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:22,231 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:22,232 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:22,233 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:22,233 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:22,325 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:22,326 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:22,327 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:22,327 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:22,426 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:22,427 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:22,427 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:22,427 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:22,526 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:22,527 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:22,527 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:22,528 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:22,626 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:22,628 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:22,628 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:22,629 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:22,727 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:22,728 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:22,730 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:22,730 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-15 17:48:22,827 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:22,828 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:22,829 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:22,829 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:22,927 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:22,929 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:22,929 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:22,930 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:23,027 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:23,029 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:23,029 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:23,030 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:23,143 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:23,150 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:23,156 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:23,156 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.007s.
+2021-03-15 17:48:23,254 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:23,260 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:23,260 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:23,261 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:23,354 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:23,360 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:23,360 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:23,361 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-15 17:48:23,454 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:23,456 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:23,456 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:23,457 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-15 17:48:23,549 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:23,550 [Laurin_code] DEBUG: UP
+2021-03-15 17:48:23,550 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:23,550 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:23,649 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:23,649 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:23,649 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:23,650 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:23,749 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:23,749 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:23,749 [Laurin_code] DEBUG: LEFT
+2021-03-15 17:48:23,750 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 17:48:23,849 [Laurin_wrapper] DEBUG: Calling act on callback.
+2021-03-15 17:48:23,850 [Laurin_code] DEBUG: RIGHT
+2021-03-15 17:48:23,850 [Laurin_code] DEBUG: DOWN
+2021-03-15 17:48:23,850 [Laurin_wrapper] DEBUG: Got result from callback#act in 0.001s.
