@@ -1,0 +1,170 @@
+2021-03-19 23:53:19,568 [peaceful_agent_wrapper] DEBUG: Calling setup on callback.
+2021-03-19 23:53:19,569 [peaceful_agent_wrapper] DEBUG: Got result from callback#setup in 0.000s.
+2021-03-19 23:53:19,781 [peaceful_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-19 23:53:19,781 [peaceful_agent_code] INFO: Pick action at random, but no bombs.
+2021-03-19 23:53:19,782 [peaceful_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-19 23:53:19,883 [peaceful_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-19 23:53:19,883 [peaceful_agent_code] INFO: Pick action at random, but no bombs.
+2021-03-19 23:53:19,883 [peaceful_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-19 23:53:19,984 [peaceful_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-19 23:53:19,984 [peaceful_agent_code] INFO: Pick action at random, but no bombs.
+2021-03-19 23:53:19,984 [peaceful_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-19 23:53:20,086 [peaceful_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-19 23:53:20,086 [peaceful_agent_code] INFO: Pick action at random, but no bombs.
+2021-03-19 23:53:20,086 [peaceful_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-19 23:53:20,188 [peaceful_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-19 23:53:20,188 [peaceful_agent_code] INFO: Pick action at random, but no bombs.
+2021-03-19 23:53:20,189 [peaceful_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-19 23:53:20,306 [peaceful_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-19 23:53:20,306 [peaceful_agent_code] INFO: Pick action at random, but no bombs.
+2021-03-19 23:53:20,307 [peaceful_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-19 23:53:20,399 [peaceful_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-19 23:53:20,399 [peaceful_agent_code] INFO: Pick action at random, but no bombs.
+2021-03-19 23:53:20,399 [peaceful_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-19 23:53:20,499 [peaceful_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-19 23:53:20,499 [peaceful_agent_code] INFO: Pick action at random, but no bombs.
+2021-03-19 23:53:20,499 [peaceful_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-19 23:53:20,602 [peaceful_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-19 23:53:20,603 [peaceful_agent_code] INFO: Pick action at random, but no bombs.
+2021-03-19 23:53:20,603 [peaceful_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-19 23:53:20,702 [peaceful_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-19 23:53:20,702 [peaceful_agent_code] INFO: Pick action at random, but no bombs.
+2021-03-19 23:53:20,702 [peaceful_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-19 23:53:20,804 [peaceful_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-19 23:53:20,804 [peaceful_agent_code] INFO: Pick action at random, but no bombs.
+2021-03-19 23:53:20,804 [peaceful_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-19 23:53:20,907 [peaceful_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-19 23:53:20,908 [peaceful_agent_code] INFO: Pick action at random, but no bombs.
+2021-03-19 23:53:20,908 [peaceful_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-19 23:53:21,008 [peaceful_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-19 23:53:21,009 [peaceful_agent_code] INFO: Pick action at random, but no bombs.
+2021-03-19 23:53:21,009 [peaceful_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-19 23:53:21,108 [peaceful_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-19 23:53:21,108 [peaceful_agent_code] INFO: Pick action at random, but no bombs.
+2021-03-19 23:53:21,108 [peaceful_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-19 23:53:21,212 [peaceful_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-19 23:53:21,212 [peaceful_agent_code] INFO: Pick action at random, but no bombs.
+2021-03-19 23:53:21,212 [peaceful_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-19 23:53:21,313 [peaceful_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-19 23:53:21,313 [peaceful_agent_code] INFO: Pick action at random, but no bombs.
+2021-03-19 23:53:21,314 [peaceful_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-19 23:53:21,415 [peaceful_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-19 23:53:21,416 [peaceful_agent_code] INFO: Pick action at random, but no bombs.
+2021-03-19 23:53:21,416 [peaceful_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-19 23:53:21,516 [peaceful_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-19 23:53:21,516 [peaceful_agent_code] INFO: Pick action at random, but no bombs.
+2021-03-19 23:53:21,516 [peaceful_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-19 23:53:21,623 [peaceful_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-19 23:53:21,623 [peaceful_agent_code] INFO: Pick action at random, but no bombs.
+2021-03-19 23:53:21,624 [peaceful_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-19 23:53:21,723 [peaceful_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-19 23:53:21,723 [peaceful_agent_code] INFO: Pick action at random, but no bombs.
+2021-03-19 23:53:21,723 [peaceful_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-19 23:53:21,826 [peaceful_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-19 23:53:21,826 [peaceful_agent_code] INFO: Pick action at random, but no bombs.
+2021-03-19 23:53:21,826 [peaceful_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-19 23:53:21,927 [peaceful_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-19 23:53:21,927 [peaceful_agent_code] INFO: Pick action at random, but no bombs.
+2021-03-19 23:53:21,928 [peaceful_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-19 23:53:22,044 [peaceful_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-19 23:53:22,044 [peaceful_agent_code] INFO: Pick action at random, but no bombs.
+2021-03-19 23:53:22,044 [peaceful_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-19 23:53:22,135 [peaceful_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-19 23:53:22,135 [peaceful_agent_code] INFO: Pick action at random, but no bombs.
+2021-03-19 23:53:22,136 [peaceful_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-19 23:53:22,238 [peaceful_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-19 23:53:22,238 [peaceful_agent_code] INFO: Pick action at random, but no bombs.
+2021-03-19 23:53:22,238 [peaceful_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-19 23:53:22,340 [peaceful_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-19 23:53:22,341 [peaceful_agent_code] INFO: Pick action at random, but no bombs.
+2021-03-19 23:53:22,341 [peaceful_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-19 23:53:22,441 [peaceful_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-19 23:53:22,441 [peaceful_agent_code] INFO: Pick action at random, but no bombs.
+2021-03-19 23:53:22,441 [peaceful_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-19 23:53:22,541 [peaceful_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-19 23:53:22,541 [peaceful_agent_code] INFO: Pick action at random, but no bombs.
+2021-03-19 23:53:22,541 [peaceful_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-19 23:53:22,643 [peaceful_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-19 23:53:22,643 [peaceful_agent_code] INFO: Pick action at random, but no bombs.
+2021-03-19 23:53:22,643 [peaceful_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-19 23:53:22,745 [peaceful_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-19 23:53:22,746 [peaceful_agent_code] INFO: Pick action at random, but no bombs.
+2021-03-19 23:53:22,746 [peaceful_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-19 23:53:22,846 [peaceful_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-19 23:53:22,847 [peaceful_agent_code] INFO: Pick action at random, but no bombs.
+2021-03-19 23:53:22,847 [peaceful_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-19 23:53:22,948 [peaceful_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-19 23:53:22,948 [peaceful_agent_code] INFO: Pick action at random, but no bombs.
+2021-03-19 23:53:22,949 [peaceful_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-19 23:53:23,058 [peaceful_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-19 23:53:23,058 [peaceful_agent_code] INFO: Pick action at random, but no bombs.
+2021-03-19 23:53:23,058 [peaceful_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-19 23:53:23,150 [peaceful_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-19 23:53:23,150 [peaceful_agent_code] INFO: Pick action at random, but no bombs.
+2021-03-19 23:53:23,150 [peaceful_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-19 23:53:23,252 [peaceful_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-19 23:53:23,253 [peaceful_agent_code] INFO: Pick action at random, but no bombs.
+2021-03-19 23:53:23,253 [peaceful_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-19 23:53:23,354 [peaceful_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-19 23:53:23,354 [peaceful_agent_code] INFO: Pick action at random, but no bombs.
+2021-03-19 23:53:23,354 [peaceful_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-19 23:53:23,468 [peaceful_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-19 23:53:23,469 [peaceful_agent_code] INFO: Pick action at random, but no bombs.
+2021-03-19 23:53:23,469 [peaceful_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-19 23:53:23,563 [peaceful_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-19 23:53:23,563 [peaceful_agent_code] INFO: Pick action at random, but no bombs.
+2021-03-19 23:53:23,564 [peaceful_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-19 23:53:23,666 [peaceful_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-19 23:53:23,666 [peaceful_agent_code] INFO: Pick action at random, but no bombs.
+2021-03-19 23:53:23,666 [peaceful_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-19 23:53:23,766 [peaceful_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-19 23:53:23,766 [peaceful_agent_code] INFO: Pick action at random, but no bombs.
+2021-03-19 23:53:23,773 [peaceful_agent_wrapper] DEBUG: Got result from callback#act in 0.007s.
+2021-03-19 23:53:23,872 [peaceful_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-19 23:53:23,872 [peaceful_agent_code] INFO: Pick action at random, but no bombs.
+2021-03-19 23:53:23,872 [peaceful_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-19 23:53:23,972 [peaceful_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-19 23:53:23,972 [peaceful_agent_code] INFO: Pick action at random, but no bombs.
+2021-03-19 23:53:23,972 [peaceful_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-19 23:53:24,074 [peaceful_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-19 23:53:24,074 [peaceful_agent_code] INFO: Pick action at random, but no bombs.
+2021-03-19 23:53:24,074 [peaceful_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-19 23:53:24,176 [peaceful_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-19 23:53:24,176 [peaceful_agent_code] INFO: Pick action at random, but no bombs.
+2021-03-19 23:53:24,176 [peaceful_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-19 23:53:24,278 [peaceful_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-19 23:53:24,278 [peaceful_agent_code] INFO: Pick action at random, but no bombs.
+2021-03-19 23:53:24,278 [peaceful_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-19 23:53:24,379 [peaceful_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-19 23:53:24,379 [peaceful_agent_code] INFO: Pick action at random, but no bombs.
+2021-03-19 23:53:24,379 [peaceful_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-19 23:53:24,480 [peaceful_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-19 23:53:24,480 [peaceful_agent_code] INFO: Pick action at random, but no bombs.
+2021-03-19 23:53:24,480 [peaceful_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-19 23:53:24,580 [peaceful_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-19 23:53:24,580 [peaceful_agent_code] INFO: Pick action at random, but no bombs.
+2021-03-19 23:53:24,580 [peaceful_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-19 23:53:24,684 [peaceful_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-19 23:53:24,684 [peaceful_agent_code] INFO: Pick action at random, but no bombs.
+2021-03-19 23:53:24,684 [peaceful_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-19 23:53:24,786 [peaceful_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-19 23:53:24,786 [peaceful_agent_code] INFO: Pick action at random, but no bombs.
+2021-03-19 23:53:24,786 [peaceful_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-19 23:53:24,887 [peaceful_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-19 23:53:24,887 [peaceful_agent_code] INFO: Pick action at random, but no bombs.
+2021-03-19 23:53:24,888 [peaceful_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-19 23:53:24,990 [peaceful_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-19 23:53:24,990 [peaceful_agent_code] INFO: Pick action at random, but no bombs.
+2021-03-19 23:53:24,990 [peaceful_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-19 23:53:25,091 [peaceful_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-19 23:53:25,092 [peaceful_agent_code] INFO: Pick action at random, but no bombs.
+2021-03-19 23:53:25,092 [peaceful_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-19 23:53:25,193 [peaceful_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-19 23:53:25,193 [peaceful_agent_code] INFO: Pick action at random, but no bombs.
+2021-03-19 23:53:25,193 [peaceful_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-19 23:53:25,296 [peaceful_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-19 23:53:25,296 [peaceful_agent_code] INFO: Pick action at random, but no bombs.
+2021-03-19 23:53:25,296 [peaceful_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-19 23:53:25,526 [peaceful_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-19 23:53:25,527 [peaceful_agent_code] INFO: Pick action at random, but no bombs.
+2021-03-19 23:53:25,527 [peaceful_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.

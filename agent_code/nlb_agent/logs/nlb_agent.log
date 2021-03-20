@@ -1,0 +1,281 @@
+2021-03-20 20:49:51,383 [nlb_agent_wrapper] DEBUG: Calling setup on callback.
+2021-03-20 20:49:51,384 [nlb_agent_wrapper] DEBUG: Got result from callback#setup in 0.000s.
+2021-03-20 20:49:51,486 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:51,486 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:51,486 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-20 20:49:51,588 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:51,589 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:51,589 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-20 20:49:51,690 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:51,697 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:51,697 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-20 20:49:51,791 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:51,792 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:51,792 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-20 20:49:51,892 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:51,892 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:51,893 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-20 20:49:51,994 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:51,994 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:51,995 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-20 20:49:52,096 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:52,096 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:52,097 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-20 20:49:52,197 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:52,198 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:52,198 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-20 20:49:52,299 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:52,301 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:52,301 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-20 20:49:52,400 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:52,400 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:52,401 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-20 20:49:52,503 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:52,504 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:52,504 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-20 20:49:52,605 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:52,605 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:52,605 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-20 20:49:52,707 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:52,707 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:52,707 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-20 20:49:52,808 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:52,808 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:52,809 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-20 20:49:52,908 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:52,908 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:52,909 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-20 20:49:53,010 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:53,010 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:53,011 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-20 20:49:53,112 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:53,113 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:53,113 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-20 20:49:53,214 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:53,215 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:53,215 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-20 20:49:53,316 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:53,317 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:53,317 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-20 20:49:53,417 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:53,418 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:53,418 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-20 20:49:53,518 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:53,519 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:53,519 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-20 20:49:53,622 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:53,622 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:53,622 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-20 20:49:53,725 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:53,725 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:53,725 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-20 20:49:53,827 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:53,827 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:53,827 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-20 20:49:53,927 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:53,927 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:53,928 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-20 20:49:54,029 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:54,029 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:54,030 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-20 20:49:54,131 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:54,132 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:54,132 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-20 20:49:54,232 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:54,233 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:54,233 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-20 20:49:54,334 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:54,335 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:54,335 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-20 20:49:54,436 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:54,436 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:54,436 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-20 20:49:54,537 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:54,538 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:54,539 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-20 20:49:54,639 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:54,640 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:54,640 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-20 20:49:54,751 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:54,752 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:54,752 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-20 20:49:54,848 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:54,848 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:54,849 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-20 20:49:54,950 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:54,951 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:54,951 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-20 20:49:55,058 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:55,058 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:55,059 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-20 20:49:55,160 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:55,160 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:55,161 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-20 20:49:55,262 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:55,263 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:55,263 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-20 20:49:55,364 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:55,365 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:55,365 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-20 20:49:55,466 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:55,467 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:55,467 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-20 20:49:55,568 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:55,569 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:55,569 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-20 20:49:55,670 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:55,670 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:55,670 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-20 20:49:55,774 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:55,774 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:55,774 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-20 20:49:55,873 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:55,874 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:55,874 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-20 20:49:55,976 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:55,976 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:55,976 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-20 20:49:56,077 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:56,078 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:56,078 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-20 20:49:56,180 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:56,180 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:56,181 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-20 20:49:56,282 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:56,282 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:56,283 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-20 20:49:56,388 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:56,389 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:56,389 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-20 20:49:56,490 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:56,490 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:56,490 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-20 20:49:56,591 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:56,591 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:56,591 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-20 20:49:56,696 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:56,696 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:56,697 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-20 20:49:56,798 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:56,798 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:56,798 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-20 20:49:56,899 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:56,899 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:56,899 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-20 20:49:57,000 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:57,000 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:57,001 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-20 20:49:57,102 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:57,103 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:57,103 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-20 20:49:57,203 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:57,203 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:57,204 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-20 20:49:57,306 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:57,306 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:57,306 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-20 20:49:57,418 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:57,418 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:57,418 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-20 20:49:57,514 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:57,515 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:57,515 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-20 20:49:57,618 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:57,618 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:57,618 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-20 20:49:57,718 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:57,719 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:57,719 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-20 20:49:57,828 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:57,828 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:57,828 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-20 20:49:57,925 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:57,926 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:57,926 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-20 20:49:58,026 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:58,026 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:58,026 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-20 20:49:58,127 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:58,127 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:58,128 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-20 20:49:58,238 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:58,238 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:58,240 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-20 20:49:58,335 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:58,335 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:58,336 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-20 20:49:58,436 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:58,436 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:58,437 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-20 20:49:58,537 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:58,537 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:58,538 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-20 20:49:58,646 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:58,647 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:58,647 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-20 20:49:58,747 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:58,748 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:58,748 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-20 20:49:58,849 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:58,849 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:58,849 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-20 20:49:58,950 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:58,951 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:58,951 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-20 20:49:59,052 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:59,052 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:59,053 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-20 20:49:59,153 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:59,153 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:59,154 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-20 20:49:59,255 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:59,255 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:59,256 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-20 20:49:59,367 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:59,367 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:59,367 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-20 20:49:59,465 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:59,466 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:59,466 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-20 20:49:59,567 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:59,567 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:59,568 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-20 20:49:59,668 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:59,668 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:59,669 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-20 20:49:59,770 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:59,770 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:59,771 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-20 20:49:59,872 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:59,872 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:59,873 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-20 20:49:59,975 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:49:59,975 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:49:59,975 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-20 20:50:00,076 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:50:00,076 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:50:00,077 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-20 20:50:00,184 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:50:00,185 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:50:00,185 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-20 20:50:00,285 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:50:00,286 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:50:00,286 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-20 20:50:00,387 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:50:00,387 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:50:00,387 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-20 20:50:00,488 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:50:00,488 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:50:00,489 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-20 20:50:00,592 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:50:00,592 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:50:00,593 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-20 20:50:00,692 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:50:00,692 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:50:00,693 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-20 20:50:00,794 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:50:00,794 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:50:00,795 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-20 20:50:01,008 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-20 20:50:01,009 [nlb_agent_code] INFO: Pick action according to pressed key
+2021-03-20 20:50:01,009 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
