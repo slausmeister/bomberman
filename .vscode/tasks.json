@@ -8,15 +8,17 @@
             "type": "shell",
             "command": "python main.py play --my-agent slausmeister",
             "problemMatcher": [],
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            }
+            "group": "build"
         },
         {
             "label": "train",
             "type": "shell",
-            "command": "python main.py play --my-agent slausmeister --train 1"
+            "command": "python main.py play --my-agent slausmeister --train 1",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
         }
     ]
 }

@@ -5,126 +5,57 @@ from typing import List
 
 import events as e
 from .callbacks import state_to_features
-
-# This is only an example!
-Transition = namedtuple('Transition',
-                        ('state', 'action', 'next_state', 'reward'))
-
-# Hyper parameters -- DO modify
-TRANSITION_HISTORY_SIZE = 3  # keep only ... last transitions
-RECORD_ENEMY_TRANSITIONS = 1.0  # record enemy transitions with probability ...
-
-# Events
-PLACEHOLDER_EVENT = "PLACEHOLDER"
+from agent_code.slausmeister.func import *
 
 
 def setup_training(self):
-    """
-    Initialise self for training purpose.
+    self.order_ld = {"LEFT": "UP", "RIGHT": "DOWN", "UP": "RIGHT", "DOWN": "LEFT"}
+    self.order_rd = {"LEFT": "RIGHT", "RIGHT": "LEFT", "UP": "DOWN", "DOWN": "UP"}
+    self.order_ru = {"LEFT": "DOWN", "UP": "LEFT", "RIGHT": "UP", "DOWN": "RIGHT"}
 
-    This is called after `setup` in callbacks.py.
-
-    :param self: This object is passed to all callbacks and you can set arbitrary values.
-    """
-    # Example: Setup an array that will note transition tuples
-    # (s, a, r, s')
-    self.transitions = deque(maxlen=TRANSITION_HISTORY_SIZE)
-
-"""     try:
-        self.state_actions = pickle.load(open("state_action.pt", "rb"))
+    try:
+        self.state_action = pickle.load(open("state_action.pt", "rb"))
     except:
         self.state_action = None
-        self.logger.debug(f"state_action could not be loaded")
+        self.logger.debug(f"state_action could not be loaded in train.py")
 
-    self.preoldpos = None
 
-    if self.state_action == None:
+    if self.state_action == None or self.state_action != None:
         self.state_action = {}
-        for i in range(1, 9):
-            for j in range(1, 9):
-                for k in range(1, 16):
-                    for l in range(1, 16):
-                        self.coin_states_actions[str(i) + str(j) + str(k) + str(l) + "LEFT"] = 1
-                        self.coin_states_actions[str(i) + str(j) + str(k) + str(l) + "RIGHT"] = 1
-                        self.coin_states_actions[str(i) + str(j) + str(k) + str(l) + "UP"] = 1
-                        self.coin_states_actions[str(i) + str(j) + str(k) + str(l) + "DOWN"] = 1 """
+        for x in range(1, 9):
+            for y in range(1, 9):
+                for m in range(1, 17):
+                    for n in range(1, 17):
+                        self.state_action[str(x) + str(y) + str(m) + str(n) + "LEFT"] = 1
+                        self.state_action[str(x) + str(y) + str(m) + str(n) + "RIGHT"] = 1
+                        self.state_action[str(x) + str(y) + str(m) + str(n) + "UP"] = 1
+                        self.state_action[str(x) + str(y) + str(m) + str(n) + "DOWN"] = 1
+                        
+    
 
 
 def game_events_occurred(self, old_game_state: dict, self_action: str, new_game_state: dict, events: List[str]):
-    """
-    Called once per step to allow intermediate rewards based on game events.
+    
+    if self.round>1:
+        old, old_quad = oriented_state(self,old_game_state)
+        new, new_quad = oriented_state(self,new_game_state)
+        reward = 0
 
-    When this method is called, self.events will contain a list of all game
-    events relevant to your agent that occurred during the previous step. Consult
-    settings.py to see what events are tracked. You can hand out rewards to your
-    agent based on these events and your knowledge of the (new) game state.
-
-    This is *one* of the places where you could update your agent.
-
-    :param self: This object is passed to all callbacks and you can set arbitrary values.
-    :param old_game_state: The state that was passed to the last call of `act`.
-    :param self_action: The action that you took.
-    :param new_game_state: The state the agent is in now.
-    :param events: The events that occurred when going from  `old_game_state` to `new_game_state`
-    """
-
-    self.logger.debug(f'Encountered game event(s) {", ".join(map(repr, events))} in step {new_game_state["step"]}')
-
-    reward = 0
-    if self_action in ["LEFT", "RIGHT", "UP", "DOWN"]:
-
-
-        self.logger.debug(f"{self_action}")
         if self_action in ["LEFT", "RIGHT", "UP", "DOWN"]:
-                    if oldstate == "ru":
-                        self_action = self.order_ld[self_action]
-                    if oldstate == "rd":
-                        self_action = self.order_rd[self_action]
-                    if oldstate == "ld":
+                    if old_quad == "ru":
                         self_action = self.order_ru[self_action]
+                    if old_quad == "rd":
+                        self_action = self.order_rd[self_action]
+                    if old_quad == "ld":
+                        self_action = self.order_ld[self_action]
 
-        self.logger.debug(f"{oldstate}")
-        self.logger.debug(f"{self_action}")
+        reward = reward + reward_from_events(self, events)
 
-        # getting oldposition and new position on rotated board
-        oldpos = old_game_state['self'][3]
-        newpos = new_game_state['self'][3]
-
-        # get nearest coin positionb and distance to it on rotated board
-        oldcoin, oldmin = get_nearest_coin_position(oldpos, old_game_state["coins"])
-        newcoin, newmin = get_nearest_coin_position(newpos, new_game_state["coins"])
-
-        # if there is a coin on the board reward the bot according to rule set
-        if oldcoin != None:
-            self.oldcoin = oldcoin
-
-            # punish not lowering distance
-            if newmin == oldmin:
-                reward += -0.5
-
-            #reward lowering distance
-            elif newmin < oldmin:
-                reward += 1/(old_game_state['step'])
-
-            # punish increasing distance
-            elif newmin > oldmin:
-                reward += -1 
-
-            # if reward < 0:
-            #     reward = 40* reward
-
-            # punish visiting tile twice (to try and minimize getting stuck between two tiles)
-            if self.preoldpos != None:
-                if newpos == self.preoldpos:
-                    reward += -2
-
-            self.preoldpos = oldpos
-            reward += reward_from_events(self, events)
-
-            self.logger.info(f"Awarded {reward}")
-            self.logger.info(f"mins {oldmin}, {newmin}")
-            self.logger.info(f"position {oldpos}")
-            self.coin_states_actions[str(oldpos[0]) + str(oldpos[1]) + str(oldcoin[0]) + str(oldcoin[1]) + self_action] += reward
+        print(f"Old distance: {taxi(np.nonzero(old[0]),np.nonzero(old[1]))[0]}")
+        print(f"New distance: {taxi(np.nonzero(new[0]),np.nonzero(new[1]))[0]}")
+        if taxi(np.nonzero(old[0]),np.nonzero(old[1]))[0] > taxi(np.nonzero(new[0]),np.nonzero(new[1]))[0]:
+            reward = reward +30
+        self.state_action[state_identification(old) + self_action] = reward + self.state_action[state_identification(old) + self_action]
 
 
 def end_of_round(self, last_game_state: dict, last_action: str, events: List[str]):
@@ -139,12 +70,12 @@ def end_of_round(self, last_game_state: dict, last_action: str, events: List[str
 
     :param self: The same object that is passed to all of your callbacks.
     """
-    self.logger.debug(f'Encountered event(s) {", ".join(map(repr, events))} in final step')
-    self.transitions.append(Transition(state_to_features(last_game_state), last_action, None, reward_from_events(self, events)))
+    #self.logger.debug(f'Encountered event(s) {", ".join(map(repr, events))} in final step')
+    #self.transitions.append(Transition(state_to_features(last_game_state), last_action, None, reward_from_events(self, events)))
 
     # Store the model
-    with open("my-saved-model.pt", "wb") as file:
-        pickle.dump(self.model, file)
+    with open("state_action.pt", "wb") as file:
+        pickle.dump(self.state_action, file)
 
 
 def reward_from_events(self, events: List[str]) -> int:
@@ -155,9 +86,10 @@ def reward_from_events(self, events: List[str]) -> int:
     certain behavior.
     """
     game_rewards = {
-        e.COIN_COLLECTED: 1,
+        e.COIN_COLLECTED: 100,
         e.KILLED_OPPONENT: 5,
-        PLACEHOLDER_EVENT: -.1  # idea: the custom event is bad
+        e.INVALID_ACTION: -5
+
     }
     reward_sum = 0
     for event in events:
