@@ -10,7 +10,7 @@
             "type": "python",
             "request": "launch",
             "program": "main.py",
-            "args": ["play", "--my-agent", "slausmeister", "--train", "1"],
+            "args": ["play", "--my-agent", "slausmeister", "--train", "1", "--n-rounds", "50", "--no-gui"],
             "console": "integratedTerminal"
         }
     ]

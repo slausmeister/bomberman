@@ -48,9 +48,45 @@ def oriented_state(self, game_state):
 
     return state, quad
 
+def oriented_relative_state(self, game_state):
+
+
+    state = np.zeros((31,31))
+    
+    
+
+    #Additng stuff to rotation
+    close_coin=nearest_coin(game_state)
+    state[tuple(np.subtract(close_coin[1],game_state['self'][3]))]=1
+
+
+    #rotate and inticate current quadrant: state[2]
+    if game_state['self'][3][0]>7:
+        if game_state['self'][3][1]>7:
+            state = np.rot90(state,2)
+            quad="rd"
+            #self.order_rd = {"LEFT": "RIGHT", "RIGHT": "LEFT", "UP": "DOWN", "DOWN": "UP"}
+            
+        else:
+            state = np.rot90(state,3)
+            quad="ru"
+            #self.order_ru = {"LEFT": "UP", "RIGHT": "DOWN", "UP": "RIGHT", "DOWN": "LEFT"}
+    else: 
+        if game_state['self'][3][1]>7:
+            state = np.rot90(state,1)
+            quad="ld"
+            #self.order_ld = {"LEFT": "DOWN", "UP": "LEFT", "RIGHT": "UP", "DOWN": "RIGHT"}
+        else:
+            quad="lu"        
+
+    return state, quad
+
 def state_identification(state):
     # The [1:-1] is to remove the square brakets
     return str(np.nonzero(state[0])[0])[1:-1] + str(np.nonzero(state[0])[1])[1:-1] + str(np.nonzero(state[1])[0])[1:-1] + str(np.nonzero(state[1])[1])[1:-1]
 
+def relative_state_identification(state):
+    print( str(np.nonzero(state)[0])[1:-1] + str(np.nonzero(state)[1])[1:-1])
+    return str(np.nonzero(state)[0])[1:-1] + str(np.nonzero(state)[1])[1:-1]
 
 

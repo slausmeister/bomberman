@@ -6,6 +6,7 @@ from typing import List
 import events as e
 from .callbacks import state_to_features
 from agent_code.slausmeister.func import *
+from agent_code.slausmeister.setup import *
 
 
 def setup_training(self):
@@ -20,16 +21,9 @@ def setup_training(self):
         self.logger.debug(f"state_action could not be loaded in train.py")
 
 
-    if self.state_action == None or self.state_action != None:
-        self.state_action = {}
-        for x in range(1, 9):
-            for y in range(1, 9):
-                for m in range(1, 17):
-                    for n in range(1, 17):
-                        self.state_action[str(x) + str(y) + str(m) + str(n) + "LEFT"] = 1
-                        self.state_action[str(x) + str(y) + str(m) + str(n) + "RIGHT"] = 1
-                        self.state_action[str(x) + str(y) + str(m) + str(n) + "UP"] = 1
-                        self.state_action[str(x) + str(y) + str(m) + str(n) + "DOWN"] = 1
+    if self.state_action == None:
+        #setup_state(self)
+        setup_relative_state(self)
                         
     
 
@@ -37,9 +31,13 @@ def setup_training(self):
 def game_events_occurred(self, old_game_state: dict, self_action: str, new_game_state: dict, events: List[str]):
     
     if self.round>1:
-        old, old_quad = oriented_state(self,old_game_state)
-        new, new_quad = oriented_state(self,new_game_state)
+        #old, old_quad = oriented_state(self,old_game_state)
+        #new, new_quad = oriented_state(self,new_game_state)
         reward = 0
+
+        old, old_quad = oriented_relative_state(self,old_game_state)
+        new, new_quad = oriented_relative_state(self,new_game_state)
+
 
         if self_action in ["LEFT", "RIGHT", "UP", "DOWN"]:
                     if old_quad == "ru":
@@ -51,11 +49,13 @@ def game_events_occurred(self, old_game_state: dict, self_action: str, new_game_
 
         reward = reward + reward_from_events(self, events)
 
-        print(f"Old distance: {taxi(np.nonzero(old[0]),np.nonzero(old[1]))[0]}")
-        print(f"New distance: {taxi(np.nonzero(new[0]),np.nonzero(new[1]))[0]}")
-        if taxi(np.nonzero(old[0]),np.nonzero(old[1]))[0] > taxi(np.nonzero(new[0]),np.nonzero(new[1]))[0]:
+        #if taxi(np.nonzero(old[0]),np.nonzero(old[1]))[0] > taxi(np.nonzero(new[0]),np.nonzero(new[1]))[0]:
+        #    reward = reward +30
+
+        if taxi(np.nonzero(old),(15,15))[0] > taxi(np.nonzero(new),(15,15))[0]:
             reward = reward +30
-        self.state_action[state_identification(old) + self_action] = reward + self.state_action[state_identification(old) + self_action]
+
+        self.state_action[relative_state_identification(old) + self_action] = reward + self.state_action[relative_state_identification(old) + self_action]
 
 
 def end_of_round(self, last_game_state: dict, last_action: str, events: List[str]):
