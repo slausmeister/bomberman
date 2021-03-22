@@ -14,7 +14,7 @@ ACTIONS = ['UP', 'RIGHT', 'DOWN', 'LEFT']
 
 if True:
     def setup(self):
-        self.round = 1
+        self.round = 0
         if not self.train:
             try:
                 self.state_action = pickle.load(open("state_action.pt", "rb"))
@@ -39,6 +39,9 @@ if True:
         max(val_actions,key=lambda item:item[0])
         if len(val_actions)>1:
             suggestion = random.choice(val_actions)[1]
+            #print("I'm guessing!")
+        else:
+            print("Seems familiar")
 
 
         # Reversing state rotation

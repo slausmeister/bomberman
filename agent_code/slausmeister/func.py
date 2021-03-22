@@ -23,10 +23,11 @@ def oriented_state(self, game_state):
 
     #Additng stuff to rotation
     state=np.stack((state,np.zeros((17,17))))
-    close_coin=nearest_coin(game_state)
-    state[1][close_coin[1]]=1
-
-
+    try:
+        close_coin=nearest_coin(game_state)
+        state[1][close_coin[1]]=1
+    except:
+        self.logger.info("No more coins to find")
     #rotate and inticate current quadrant: state[2]
     if game_state['self'][3][0]>7:
         if game_state['self'][3][1]>7:
@@ -86,7 +87,6 @@ def state_identification(state):
     return str(np.nonzero(state[0])[0])[1:-1] + str(np.nonzero(state[0])[1])[1:-1] + str(np.nonzero(state[1])[0])[1:-1] + str(np.nonzero(state[1])[1])[1:-1]
 
 def relative_state_identification(state):
-    print( str(np.nonzero(state)[0])[1:-1] + str(np.nonzero(state)[1])[1:-1])
-    return str(np.nonzero(state)[0])[1:-1] + str(np.nonzero(state)[1])[1:-1]
+    return str(np.nonzero(state)[0])[1:-1] +" "+ str(np.nonzero(state)[1])[1:-1]
 
 

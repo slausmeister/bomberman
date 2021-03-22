@@ -30,7 +30,7 @@ def setup_training(self):
 
 def game_events_occurred(self, old_game_state: dict, self_action: str, new_game_state: dict, events: List[str]):
     
-    if self.round>1:
+    try:
         #old, old_quad = oriented_state(self,old_game_state)
         #new, new_quad = oriented_state(self,new_game_state)
         reward = 0
@@ -56,7 +56,8 @@ def game_events_occurred(self, old_game_state: dict, self_action: str, new_game_
             reward = reward +30
 
         self.state_action[relative_state_identification(old) + self_action] = reward + self.state_action[relative_state_identification(old) + self_action]
-
+    except:
+        print(f"Number of itterations: {self.round}")
 
 def end_of_round(self, last_game_state: dict, last_action: str, events: List[str]):
     """
@@ -76,7 +77,7 @@ def end_of_round(self, last_game_state: dict, last_action: str, events: List[str
     # Store the model
     with open("state_action.pt", "wb") as file:
         pickle.dump(self.state_action, file)
-
+    self.round = 0
 
 def reward_from_events(self, events: List[str]) -> int:
     """
