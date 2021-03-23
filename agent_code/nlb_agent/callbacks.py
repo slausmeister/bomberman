@@ -1,7 +1,53 @@
+from agent_code.nlb_agent.func import possible_actions, state_to_features
+import os
+import pickle
+import random
+
+import numpy as np
+
+
+ACTIONS = ['UP', 'RIGHT', 'DOWN', 'LEFT', 'WAIT', 'BOMB']
+ACTIONBEGIN = ['UP', 'RIGHT', 'DOWN', 'LEFT', 'WAIT']
+
 def setup(self):
-    pass
+    if self.train or not os.path.isfile("my-saved-model.pt"):
+        self.logger.info("Setting up model from scratch.")
+        self.model = np.array([[0],[0],[0],[0],[0]])
+    else:
+        self.logger.info("Loading model from saved state.")
+        with open("my-saved-model.pt", "rb") as file:
+            self.model = pickle.load(file)
 
 
-def act(self, game_state: dict):
-    self.logger.info('Pick action according to pressed key')
-    return game_state['user_input']
+def act(self, game_state: dict) -> str:
+    acts=np.array(ACTIONS)
+    eps = 0.2
+    X = state_to_features(game_state)
+    moves = possible_actions(game_state)
+    beta = self.model
+    print(beta)
+    q_values = []
+
+    for mov in moves:
+        index = np.where(acts==mov)[0]           
+        q_hat = X@beta[index]
+        q_values.append(q_hat)
+
+    q_values = np.array(q_values)
+    highest_value = np.amax(q_values)
+    value_indices = np.where(q_values==highest_value)[0]
+    
+    j=np.random.choice(value_indices,1)[0]
+
+    action_greedy = moves[j]
+
+    if self.train:
+        actual_action = np.random.choice([action_greedy,np.random.choice(moves,1)],1,p=[1-eps,eps])
+        return actual_action
+    else:
+        return action_greedy
+
+    
+
+
+

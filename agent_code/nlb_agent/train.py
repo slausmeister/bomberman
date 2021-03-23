@@ -1,61 +1,66 @@
+from agent_code.nlb_agent.func import nearest_coin
 import pickle
 import random
+import numpy as np
 from collections import namedtuple, deque
 from typing import List
 
 import events as e
 from .callbacks import state_to_features
 
+ACTIONS = ['UP', 'RIGHT', 'DOWN', 'LEFT', 'WAIT', 'BOMB']
+ACTIONBEGIN = ['UP', 'RIGHT', 'DOWN', 'LEFT', 'WAIT']
+CLOSER = 'CLOSER'
+FURTHER = 'FURTHER'
+
+
 # This is only an example!
 Transition = namedtuple('Transition',
                         ('state', 'action', 'next_state', 'reward'))
 
 # Hyper parameters -- DO modify
-TRANSITION_HISTORY_SIZE = 3  # keep only ... last transitions
+TRANSITION_HISTORY_SIZE = 1  # keep only ... last transitions
 RECORD_ENEMY_TRANSITIONS = 1.0  # record enemy transitions with probability ...
 
-# Events
-PLACEHOLDER_EVENT = "PLACEHOLDER"
-
+alpha=0.1
+gamma=0.9
 
 def setup_training(self):
-    """
-    Initialise self for training purpose.
-
-    This is called after `setup` in callbacks.py.
-
-    :param self: This object is passed to all callbacks and you can set arbitrary values.
-    """
     # Example: Setup an array that will note transition tuples
     # (s, a, r, s')
     self.transitions = deque(maxlen=TRANSITION_HISTORY_SIZE)
 
 
 def game_events_occurred(self, old_game_state: dict, self_action: str, new_game_state: dict, events: List[str]):
-    """
-    Called once per step to allow intermediate rewards based on game events.
 
-    When this method is called, self.events will contain a list of all game
-    events relevant to your agent that occurred during the previous step. Consult
-    settings.py to see what events are tracked. You can hand out rewards to your
-    agent based on these events and your knowledge of the (new) game state.
+    #self.logger.debug(f'Encountered game event(s) {", ".join(map(repr, events))} in step {new_game_state["step"]}')
+    if old_game_state == None:
+        pass
+    else:
+        if nearest_coin(old_game_state)[0] > nearest_coin(new_game_state)[0]:
+            events.append(CLOSER)
+        if nearest_coin(old_game_state)[0] < nearest_coin(new_game_state)[0]:
+            events.append(FURTHER)
 
-    This is *one* of the places where you could update your agent.
+        R = reward_from_events(self,events)
 
-    :param self: This object is passed to all callbacks and you can set arbitrary values.
-    :param old_game_state: The state that was passed to the last call of `act`.
-    :param self_action: The action that you took.
-    :param new_game_state: The state the agent is in now.
-    :param events: The events that occurred when going from  `old_game_state` to `new_game_state`
-    """
-    self.logger.debug(f'Encountered game event(s) {", ".join(map(repr, events))} in step {new_game_state["step"]}')
+        beta = self.model
 
-    # Idea: Add your own events to hand out rewards
-    if ...:
-        events.append(PLACEHOLDER_EVENT)
+        beta_best = []
+        for i in range(len(ACTIONBEGIN)):
+            features = state_to_features(new_game_state)
+            beta_best.append(features@self.model[i])
 
+        q_max = np.amax(beta_best)
+        Y = R + gamma * q_max
+
+        index = np.where(ACTIONS==self_action)[0]
+        X = state_to_features(old_game_state)
+        beta[index] = beta[index]+alpha*(X@(Y-X@beta[index]))
+        
+    
     # state_to_features is defined in callbacks.py
-    self.transitions.append(Transition(state_to_features(old_game_state), self_action, state_to_features(new_game_state), reward_from_events(self, events)))
+    #self.transitions.append(Transition(state_to_features(old_game_state), self_action, state_to_features(new_game_state), reward_from_events(self, events)))
 
 
 def end_of_round(self, last_game_state: dict, last_action: str, events: List[str]):
@@ -70,29 +75,37 @@ def end_of_round(self, last_game_state: dict, last_action: str, events: List[str
 
     :param self: The same object that is passed to all of your callbacks.
     """
-    self.logger.debug(f'Encountered event(s) {", ".join(map(repr, events))} in final step')
-    self.transitions.append(Transition(state_to_features(last_game_state), last_action, None, reward_from_events(self, events)))
+    #self.logger.debug(f'Encountered event(s) {", ".join(map(repr, events))} in final step')
+    #self.transitions.append(Transition(state_to_features(last_game_state), last_action, None, reward_from_events(self, events)))
+    beta = self.model
+    index=np.where(ACTIONS==last_action)[0]
+    X = state_to_features(last_game_state)
+    Y = reward_from_events(self,events)
 
+    beta[index]=beta[index]+0.1*(X@(Y-X@beta[index]))
+
+    self.model = beta
     # Store the model
     with open("my-saved-model.pt", "wb") as file:
         pickle.dump(self.model, file)
 
 
 def reward_from_events(self, events: List[str]) -> int:
-    """
-    *This is not a required function, but an idea to structure your code.*
-
-    Here you can modify the rewards your agent get so as to en/discourage
-    certain behavior.
-    """
+    
     game_rewards = {
-        e.COIN_COLLECTED: 1,
-        e.KILLED_OPPONENT: 5,
-        PLACEHOLDER_EVENT: -.1  # idea: the custom event is bad
+        e.COIN_COLLECTED: 3,
+        e.MOVED_UP: -0.2,
+        e.MOVED_DOWN: -0.2,
+        e.MOVED_LEFT: -0.2,
+        e.MOVED_RIGHT: -0.2,
+        e.WAITED: -0.2,
+        e.INVALID_ACTION: -5,
+        CLOSER: 0.5,
+        FURTHER: -0.5
     }
     reward_sum = 0
     for event in events:
         if event in game_rewards:
             reward_sum += game_rewards[event]
-    self.logger.info(f"Awarded {reward_sum} for events {', '.join(events)}")
+    #self.logger.info(f"Awarded {reward_sum} for events {', '.join(events)}")
     return reward_sum
