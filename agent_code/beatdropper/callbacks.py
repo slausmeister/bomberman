@@ -54,7 +54,6 @@ def act(self, game_state: dict) -> str:
     # Look for a target if none is found
     
     coin_lock(self,game_state)
-    print(self.target_pos)
     return game_state['user_input']
     #return np.random.choice(ACTIONS, p=self.model)
 
@@ -107,11 +106,21 @@ def state_to_features(game_state: dict) -> np.array:
     if game_state is None:
         return None
 
-# For example, you could construct several channels of equal shape, ...
-    channels = []
-    channels.append(...)
-    # concatenate them as a feature tensor (they must have the same shape), ...
-    stacked_channels = np.stack(channels)
+    # 1: Initialising coin potential
+    coins = game_state['coins']
+    coins = [norm(coin,game_state['self'][3]) for coin in coins]
+    
+    if len(coins)!=0:
+        coins = [1/coin for coin in coins]
+
+    #Sorting the array, and reshape it to lenght 9
+    coins.sort()
+    for n in range(len(coins), 9):
+        coins.append(0)
+    
+    print(coins)
+    
+    stacked_channels = np.stack(coins)
 
 # and return them as a vector
     return stacked_channels.reshape(-1)

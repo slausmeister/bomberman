@@ -1,0 +1,1325 @@
+2021-03-23 09:56:19,498 [beatdropper_wrapper] DEBUG: Calling setup on callback.
+2021-03-23 09:56:19,498 [beatdropper_code] INFO: Setting up model from scratch.
+2021-03-23 09:56:19,499 [beatdropper_wrapper] DEBUG: Got result from callback#setup in 0.000s.
+2021-03-23 09:56:19,499 [beatdropper_wrapper] DEBUG: Calling setup_training on callback.
+2021-03-23 09:56:19,499 [beatdropper_wrapper] DEBUG: Got result from callback#setup_training in 0.000s.
+2021-03-23 09:56:19,603 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:19,603 [beatdropper_code] DEBUG: Encountered game event(s)  in step 1
+2021-03-23 09:56:19,603 [beatdropper_code] INFO: Awarded -0.1 for events PLACEHOLDER
+2021-03-23 09:56:19,603 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-23 09:56:19,604 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:19,604 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:19,604 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:19,703 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:19,703 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 2
+2021-03-23 09:56:19,703 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:19,703 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-23 09:56:19,703 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:19,703 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:19,704 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:19,803 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:19,803 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 3
+2021-03-23 09:56:19,803 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:19,803 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-23 09:56:19,804 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:19,804 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:19,804 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:19,903 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:19,903 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 4
+2021-03-23 09:56:19,903 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:19,903 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-23 09:56:19,904 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:19,904 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:19,904 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:20,003 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:20,003 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 5
+2021-03-23 09:56:20,004 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:20,004 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-23 09:56:20,004 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:20,004 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:20,005 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:20,103 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:20,103 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 6
+2021-03-23 09:56:20,104 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:20,104 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-23 09:56:20,104 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:20,104 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:20,104 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:20,203 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:20,203 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 7
+2021-03-23 09:56:20,204 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:20,204 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-23 09:56:20,204 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:20,204 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:20,204 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:20,304 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:20,304 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 8
+2021-03-23 09:56:20,304 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:20,304 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-23 09:56:20,304 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:20,305 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:20,305 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:20,415 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:20,416 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 9
+2021-03-23 09:56:20,416 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:20,417 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-23 09:56:20,417 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:20,417 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:20,417 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:20,509 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:20,509 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 10
+2021-03-23 09:56:20,509 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:20,509 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-23 09:56:20,509 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:20,510 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:20,510 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:20,609 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:20,609 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 11
+2021-03-23 09:56:20,609 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:20,610 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-23 09:56:20,610 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:20,610 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:20,610 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:20,713 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:20,713 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 12
+2021-03-23 09:56:20,713 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:20,713 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-23 09:56:20,714 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:20,714 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:20,714 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:20,813 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:20,813 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 13
+2021-03-23 09:56:20,814 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:20,814 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-23 09:56:20,814 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:20,814 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:20,814 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:20,913 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:20,913 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 14
+2021-03-23 09:56:20,914 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:20,914 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-23 09:56:20,914 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:20,914 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:20,914 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:21,013 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:21,013 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 15
+2021-03-23 09:56:21,014 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:21,014 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-23 09:56:21,014 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:21,014 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:21,014 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:21,113 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:21,113 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 16
+2021-03-23 09:56:21,114 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:21,114 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-23 09:56:21,114 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:21,114 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:21,114 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:21,213 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:21,214 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 17
+2021-03-23 09:56:21,214 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:21,214 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-23 09:56:21,214 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:21,214 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:21,215 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:21,314 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:21,314 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 18
+2021-03-23 09:56:21,314 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:21,314 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-23 09:56:21,315 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:21,315 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:21,315 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:21,414 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:21,414 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 19
+2021-03-23 09:56:21,415 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:21,415 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-23 09:56:21,415 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:21,415 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:21,415 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:21,514 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:21,514 [beatdropper_code] DEBUG: Encountered game event(s) 'MOVED_LEFT' in step 20
+2021-03-23 09:56:21,514 [beatdropper_code] INFO: Awarded -0.1 for events MOVED_LEFT, PLACEHOLDER
+2021-03-23 09:56:21,514 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-23 09:56:21,515 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:21,515 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:21,515 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:21,614 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:21,614 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 21
+2021-03-23 09:56:21,615 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:21,615 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-23 09:56:21,615 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:21,615 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:21,615 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:21,714 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:21,714 [beatdropper_code] DEBUG: Encountered game event(s) 'MOVED_LEFT' in step 22
+2021-03-23 09:56:21,715 [beatdropper_code] INFO: Awarded -0.1 for events MOVED_LEFT, PLACEHOLDER
+2021-03-23 09:56:21,715 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-23 09:56:21,715 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:21,716 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:21,716 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:21,820 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:21,821 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 23
+2021-03-23 09:56:21,821 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:21,821 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-23 09:56:21,821 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:21,821 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:21,822 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:21,920 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:21,920 [beatdropper_code] DEBUG: Encountered game event(s) 'MOVED_LEFT' in step 24
+2021-03-23 09:56:21,920 [beatdropper_code] INFO: Awarded -0.1 for events MOVED_LEFT, PLACEHOLDER
+2021-03-23 09:56:21,920 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-23 09:56:21,920 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:21,921 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:21,921 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:22,020 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:22,020 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 25
+2021-03-23 09:56:22,021 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:22,021 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-23 09:56:22,021 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:22,021 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:22,022 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:22,124 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:22,124 [beatdropper_code] DEBUG: Encountered game event(s) 'MOVED_LEFT', 'COIN_COLLECTED' in step 26
+2021-03-23 09:56:22,124 [beatdropper_code] INFO: Awarded 0.9 for events MOVED_LEFT, COIN_COLLECTED, PLACEHOLDER
+2021-03-23 09:56:22,125 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-23 09:56:22,125 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:22,125 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:22,125 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:22,224 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:22,224 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 27
+2021-03-23 09:56:22,224 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:22,225 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-23 09:56:22,225 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:22,225 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:22,225 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:22,324 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:22,324 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 28
+2021-03-23 09:56:22,324 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:22,324 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-23 09:56:22,325 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:22,325 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:22,325 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:22,429 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:22,430 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 29
+2021-03-23 09:56:22,430 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:22,431 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-23 09:56:22,431 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:22,431 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:22,431 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:22,529 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:22,530 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 30
+2021-03-23 09:56:22,531 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:22,531 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-23 09:56:22,532 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:22,532 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:22,532 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:22,630 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:22,631 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 31
+2021-03-23 09:56:22,632 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:22,633 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:22,634 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:22,634 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:22,634 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:22,730 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:22,730 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 32
+2021-03-23 09:56:22,730 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:22,731 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-23 09:56:22,731 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:22,731 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:22,731 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:22,830 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:22,830 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 33
+2021-03-23 09:56:22,831 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:22,831 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-23 09:56:22,831 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:22,831 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:22,831 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:22,931 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:22,931 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 34
+2021-03-23 09:56:22,933 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:22,933 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:22,934 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:22,935 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:22,935 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:23,031 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:23,031 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 35
+2021-03-23 09:56:23,033 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:23,033 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:23,034 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:23,035 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:23,035 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:23,142 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:23,148 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 36
+2021-03-23 09:56:23,155 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:23,160 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.012s.
+2021-03-23 09:56:23,162 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:23,162 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:23,163 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:23,242 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:23,248 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 37
+2021-03-23 09:56:23,257 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:23,257 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.010s.
+2021-03-23 09:56:23,258 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:23,258 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:23,259 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:23,349 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:23,349 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 38
+2021-03-23 09:56:23,350 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:23,350 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-23 09:56:23,351 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:23,351 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:23,351 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:23,442 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:23,442 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 39
+2021-03-23 09:56:23,444 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:23,444 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:23,445 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:23,445 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:23,445 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:23,542 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:23,542 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 40
+2021-03-23 09:56:23,543 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:23,543 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-23 09:56:23,544 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:23,544 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:23,544 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:23,643 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:23,643 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 41
+2021-03-23 09:56:23,644 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:23,645 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:23,647 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:23,647 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:23,647 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:23,743 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:23,743 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 42
+2021-03-23 09:56:23,745 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:23,746 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:23,747 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:23,748 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:23,748 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:23,843 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:23,844 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 43
+2021-03-23 09:56:23,862 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:23,868 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.024s.
+2021-03-23 09:56:23,878 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:23,878 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:23,879 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:23,944 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:23,944 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 44
+2021-03-23 09:56:23,946 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:23,946 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:23,948 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:23,954 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:23,959 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2021-03-23 09:56:24,044 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:24,045 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 45
+2021-03-23 09:56:24,047 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:24,048 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.003s.
+2021-03-23 09:56:24,049 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:24,049 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:24,050 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:24,144 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:24,144 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 46
+2021-03-23 09:56:24,146 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:24,146 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:24,147 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:24,148 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:24,148 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:24,245 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:24,245 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 47
+2021-03-23 09:56:24,247 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:24,247 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:24,248 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:24,249 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:24,249 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:24,345 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:24,345 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 48
+2021-03-23 09:56:24,347 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:24,347 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:24,349 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:24,349 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:24,350 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:24,445 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:24,469 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 49
+2021-03-23 09:56:24,470 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:24,471 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-23 09:56:24,471 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:24,472 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:24,472 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:24,545 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:24,545 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 50
+2021-03-23 09:56:24,546 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:24,547 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-23 09:56:24,547 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:24,547 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:24,548 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:24,645 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:24,646 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 51
+2021-03-23 09:56:24,647 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:24,647 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-23 09:56:24,648 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:24,648 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:24,648 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:24,746 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:24,746 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 52
+2021-03-23 09:56:24,748 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:24,748 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:24,750 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:24,750 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:24,751 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:24,846 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:24,847 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 53
+2021-03-23 09:56:24,848 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:24,849 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:24,849 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:24,850 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:24,850 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:24,947 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:24,947 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 54
+2021-03-23 09:56:24,949 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:24,950 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:24,951 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:24,951 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:24,952 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-23 09:56:25,047 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:25,047 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 55
+2021-03-23 09:56:25,049 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:25,049 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:25,050 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:25,051 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:25,052 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:25,147 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:25,147 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 56
+2021-03-23 09:56:25,149 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:25,149 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:25,150 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:25,151 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:25,151 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:25,247 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:25,248 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 57
+2021-03-23 09:56:25,249 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:25,250 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:25,251 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:25,251 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:25,251 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:25,347 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:25,348 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 58
+2021-03-23 09:56:25,349 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:25,349 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:25,350 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:25,351 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:25,351 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:25,448 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:25,448 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 59
+2021-03-23 09:56:25,449 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:25,450 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:25,451 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:25,451 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:25,452 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:25,548 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:25,548 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 60
+2021-03-23 09:56:25,549 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:25,549 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-23 09:56:25,550 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:25,550 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:25,550 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:25,648 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:25,649 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 61
+2021-03-23 09:56:25,651 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:25,651 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:25,652 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:25,653 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:25,653 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:25,749 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:25,749 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 62
+2021-03-23 09:56:25,750 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:25,751 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:25,752 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:25,752 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:25,753 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:25,849 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:25,849 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 63
+2021-03-23 09:56:25,851 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:25,851 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:25,852 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:25,854 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:25,854 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:25,949 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:25,949 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 64
+2021-03-23 09:56:25,951 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:25,951 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:25,953 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:25,953 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:25,954 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:26,050 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:26,050 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 65
+2021-03-23 09:56:26,052 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:26,053 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:26,054 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:26,054 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:26,054 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:26,150 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:26,150 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 66
+2021-03-23 09:56:26,151 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:26,152 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:26,153 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:26,153 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:26,154 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:26,250 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:26,250 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 67
+2021-03-23 09:56:26,252 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:26,252 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:26,259 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:26,259 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:26,265 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2021-03-23 09:56:26,350 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:26,351 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 68
+2021-03-23 09:56:26,352 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:26,353 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:26,353 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:26,354 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:26,354 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:26,451 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:26,451 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 69
+2021-03-23 09:56:26,453 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:26,453 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:26,454 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:26,455 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:26,455 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:26,551 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:26,551 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 70
+2021-03-23 09:56:26,553 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:26,553 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:26,555 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:26,555 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:26,555 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:26,651 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:26,652 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 71
+2021-03-23 09:56:26,653 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:26,653 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:26,654 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:26,655 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:26,655 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:26,751 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:26,752 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 72
+2021-03-23 09:56:26,753 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:26,754 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:26,755 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:26,755 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:26,756 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:26,852 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:26,852 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 73
+2021-03-23 09:56:26,854 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:26,854 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:26,855 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:26,856 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:26,861 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2021-03-23 09:56:26,952 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:26,952 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 74
+2021-03-23 09:56:26,954 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:26,954 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:26,955 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:26,956 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:26,956 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:27,052 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:27,053 [beatdropper_code] DEBUG: Encountered game event(s) 'MOVED_LEFT' in step 75
+2021-03-23 09:56:27,055 [beatdropper_code] INFO: Awarded -0.1 for events MOVED_LEFT, PLACEHOLDER
+2021-03-23 09:56:27,055 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:27,056 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:27,057 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:27,057 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:27,153 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:27,153 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 76
+2021-03-23 09:56:27,154 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:27,155 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:27,156 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:27,156 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:27,157 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:27,253 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:27,253 [beatdropper_code] DEBUG: Encountered game event(s) 'MOVED_LEFT' in step 77
+2021-03-23 09:56:27,255 [beatdropper_code] INFO: Awarded -0.1 for events MOVED_LEFT, PLACEHOLDER
+2021-03-23 09:56:27,255 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:27,256 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:27,257 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:27,257 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:27,353 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:27,354 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 78
+2021-03-23 09:56:27,355 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:27,356 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:27,357 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:27,357 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:27,358 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:27,453 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:27,454 [beatdropper_code] DEBUG: Encountered game event(s) 'MOVED_LEFT' in step 79
+2021-03-23 09:56:27,455 [beatdropper_code] INFO: Awarded -0.1 for events MOVED_LEFT, PLACEHOLDER
+2021-03-23 09:56:27,456 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:27,456 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:27,457 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:27,457 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:27,554 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:27,554 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 80
+2021-03-23 09:56:27,556 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:27,556 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:27,557 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:27,558 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:27,558 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:27,654 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:27,654 [beatdropper_code] DEBUG: Encountered game event(s) 'MOVED_LEFT' in step 81
+2021-03-23 09:56:27,656 [beatdropper_code] INFO: Awarded -0.1 for events MOVED_LEFT, PLACEHOLDER
+2021-03-23 09:56:27,657 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:27,658 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:27,658 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:27,659 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:27,754 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:27,755 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 82
+2021-03-23 09:56:27,756 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:27,757 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:27,757 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:27,758 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:27,758 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:27,854 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:27,855 [beatdropper_code] DEBUG: Encountered game event(s) 'MOVED_LEFT', 'COIN_COLLECTED' in step 83
+2021-03-23 09:56:27,857 [beatdropper_code] INFO: Awarded 0.9 for events MOVED_LEFT, COIN_COLLECTED, PLACEHOLDER
+2021-03-23 09:56:27,857 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:27,858 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:27,859 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:27,859 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-23 09:56:27,955 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:27,955 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 84
+2021-03-23 09:56:27,956 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:27,957 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-23 09:56:27,958 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:27,958 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:27,959 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:28,055 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:28,056 [beatdropper_code] DEBUG: Encountered game event(s) 'MOVED_LEFT', 'COIN_COLLECTED' in step 85
+2021-03-23 09:56:28,057 [beatdropper_code] INFO: Awarded 0.9 for events MOVED_LEFT, COIN_COLLECTED, PLACEHOLDER
+2021-03-23 09:56:28,057 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:28,058 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:28,059 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:28,059 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-23 09:56:28,155 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:28,156 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 86
+2021-03-23 09:56:28,157 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:28,158 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:28,159 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:28,159 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:28,160 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:28,256 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:28,256 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 87
+2021-03-23 09:56:28,257 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:28,258 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:28,259 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:28,259 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:28,260 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:28,356 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:28,356 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 88
+2021-03-23 09:56:28,358 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:28,358 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:28,359 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:28,359 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:28,360 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:28,456 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:28,456 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 89
+2021-03-23 09:56:28,458 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:28,459 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:28,460 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:28,460 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:28,461 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-23 09:56:28,556 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:28,557 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 90
+2021-03-23 09:56:28,558 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:28,559 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:28,560 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:28,561 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:28,562 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:28,656 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:28,657 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 91
+2021-03-23 09:56:28,658 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:28,659 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:28,660 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:28,660 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:28,661 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:28,757 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:28,757 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 92
+2021-03-23 09:56:28,759 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:28,760 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:28,761 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:28,761 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:28,762 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:28,857 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:28,857 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 93
+2021-03-23 09:56:28,859 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:28,860 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:28,861 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:28,861 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:28,861 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:28,957 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:28,958 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 94
+2021-03-23 09:56:28,959 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:28,960 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:28,961 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:28,961 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:28,962 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:29,068 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:29,074 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 95
+2021-03-23 09:56:29,086 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:29,087 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.013s.
+2021-03-23 09:56:29,088 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:29,088 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:29,088 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:29,168 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:29,174 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 96
+2021-03-23 09:56:29,184 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:29,185 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.011s.
+2021-03-23 09:56:29,186 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:29,187 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:29,187 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:29,279 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:29,285 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 97
+2021-03-23 09:56:29,286 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:29,287 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:29,288 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:29,288 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:29,289 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:29,383 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:29,383 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 98
+2021-03-23 09:56:29,385 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:29,386 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:29,387 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:29,387 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:29,388 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:29,475 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:29,476 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 99
+2021-03-23 09:56:29,478 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:29,478 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:29,479 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:29,480 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:29,480 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:29,575 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:29,576 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 100
+2021-03-23 09:56:29,577 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:29,578 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:29,579 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:29,580 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:29,580 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:29,676 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:29,677 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 101
+2021-03-23 09:56:29,679 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:29,679 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.003s.
+2021-03-23 09:56:29,680 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:29,681 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:29,681 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:29,776 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:29,776 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 102
+2021-03-23 09:56:29,777 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:29,777 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-23 09:56:29,778 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:29,778 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:29,779 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:29,876 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:29,877 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 103
+2021-03-23 09:56:29,879 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:29,879 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:29,880 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:29,880 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:29,881 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:29,977 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:29,977 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 104
+2021-03-23 09:56:29,979 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:29,979 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:29,980 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:29,981 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:29,981 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:30,076 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:30,077 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 105
+2021-03-23 09:56:30,078 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:30,078 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-23 09:56:30,079 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:30,079 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:30,080 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:30,177 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:30,183 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 106
+2021-03-23 09:56:30,201 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:30,207 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.024s.
+2021-03-23 09:56:30,220 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:30,221 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:30,221 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:30,278 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:30,278 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 107
+2021-03-23 09:56:30,282 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:30,283 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.005s.
+2021-03-23 09:56:30,284 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:30,284 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:30,285 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:30,377 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:30,378 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 108
+2021-03-23 09:56:30,379 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:30,380 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:30,381 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:30,382 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:30,382 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:30,478 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:30,479 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 109
+2021-03-23 09:56:30,480 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:30,481 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:30,481 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:30,482 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:30,482 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:30,578 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:30,578 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 110
+2021-03-23 09:56:30,580 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:30,580 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:30,581 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:30,582 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:30,582 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:30,678 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:30,679 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 111
+2021-03-23 09:56:30,680 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:30,682 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.003s.
+2021-03-23 09:56:30,683 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:30,683 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:30,683 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:30,779 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:30,780 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 112
+2021-03-23 09:56:30,792 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:30,793 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.013s.
+2021-03-23 09:56:30,810 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:30,811 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:30,811 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:30,879 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:30,879 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 113
+2021-03-23 09:56:30,881 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:30,881 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:30,882 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:30,883 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:30,883 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:30,979 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:30,979 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 114
+2021-03-23 09:56:30,981 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:30,982 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:30,982 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:30,983 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:30,983 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:31,079 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:31,079 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 115
+2021-03-23 09:56:31,081 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:31,082 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:31,083 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:31,083 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:31,083 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:31,179 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:31,180 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 116
+2021-03-23 09:56:31,181 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:31,182 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:31,183 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:31,183 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:31,184 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:31,285 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:31,291 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 117
+2021-03-23 09:56:31,303 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:31,308 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.017s.
+2021-03-23 09:56:31,310 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:31,310 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:31,311 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-23 09:56:31,390 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:31,396 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 118
+2021-03-23 09:56:31,408 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:31,409 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.013s.
+2021-03-23 09:56:31,410 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:31,410 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:31,411 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-23 09:56:31,505 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:31,505 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 119
+2021-03-23 09:56:31,507 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:31,508 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.003s.
+2021-03-23 09:56:31,509 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:31,510 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:31,510 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:31,600 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:31,600 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 120
+2021-03-23 09:56:31,602 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:31,602 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:31,603 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:31,604 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:31,605 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-23 09:56:31,696 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:31,697 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 121
+2021-03-23 09:56:31,699 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:31,700 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.003s.
+2021-03-23 09:56:31,700 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:31,701 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:31,701 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:31,796 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:31,797 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 122
+2021-03-23 09:56:31,798 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:31,799 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:31,800 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:31,800 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:31,800 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:31,896 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:31,897 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 123
+2021-03-23 09:56:31,898 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:31,899 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:31,900 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:31,900 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:31,901 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:31,996 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:31,997 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 124
+2021-03-23 09:56:31,998 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:31,999 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:32,000 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:32,000 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:32,001 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:32,097 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:32,097 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 125
+2021-03-23 09:56:32,099 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:32,099 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:32,101 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:32,101 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:32,102 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:32,197 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:32,197 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 126
+2021-03-23 09:56:32,198 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:32,198 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-23 09:56:32,198 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:32,199 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:32,199 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:32,297 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:32,298 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 127
+2021-03-23 09:56:32,299 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:32,300 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:32,300 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:32,301 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:32,301 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:32,397 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:32,398 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 128
+2021-03-23 09:56:32,399 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:32,399 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:32,400 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:32,400 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:32,401 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:32,498 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:32,528 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 129
+2021-03-23 09:56:32,537 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:32,537 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.009s.
+2021-03-23 09:56:32,539 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:32,540 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:32,540 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:32,598 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:32,598 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 130
+2021-03-23 09:56:32,600 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:32,600 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:32,602 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:32,602 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:32,603 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:32,698 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:32,698 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 131
+2021-03-23 09:56:32,700 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:32,700 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:32,701 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:32,702 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:32,703 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:32,798 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:32,799 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 132
+2021-03-23 09:56:32,800 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:32,800 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:32,802 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:32,803 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:32,804 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:32,898 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:32,899 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 133
+2021-03-23 09:56:32,900 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:32,901 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:32,902 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:32,902 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:32,903 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:32,999 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:32,999 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 134
+2021-03-23 09:56:33,001 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:33,007 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.007s.
+2021-03-23 09:56:33,029 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:33,034 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:33,034 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-23 09:56:33,099 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:33,099 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 135
+2021-03-23 09:56:33,101 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:33,102 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:33,120 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:33,126 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:33,132 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2021-03-23 09:56:33,199 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:33,199 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 136
+2021-03-23 09:56:33,201 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:33,201 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:33,202 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:33,203 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:33,203 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:33,299 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:33,300 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 137
+2021-03-23 09:56:33,301 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:33,302 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:33,303 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:33,303 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:33,304 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:33,401 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:33,401 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 138
+2021-03-23 09:56:33,403 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:33,403 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:33,405 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:33,406 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:33,406 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-23 09:56:33,500 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:33,500 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 139
+2021-03-23 09:56:33,502 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:33,503 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.003s.
+2021-03-23 09:56:33,504 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:33,504 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:33,505 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:33,600 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:33,600 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 140
+2021-03-23 09:56:33,602 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:33,603 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:33,604 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:33,604 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:33,604 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:33,700 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:33,701 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 141
+2021-03-23 09:56:33,702 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:33,703 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:33,704 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:33,704 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:33,704 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:33,800 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:33,801 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 142
+2021-03-23 09:56:33,802 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:33,802 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:33,803 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:33,804 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:33,804 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:33,901 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:33,901 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 143
+2021-03-23 09:56:33,902 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:33,903 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:33,904 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:33,905 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:33,905 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:34,001 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:34,001 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 144
+2021-03-23 09:56:34,003 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:34,003 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:34,004 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:34,005 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:34,005 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:34,101 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:34,101 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 145
+2021-03-23 09:56:34,103 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:34,103 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:34,104 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:34,105 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:34,105 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:34,201 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:34,202 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 146
+2021-03-23 09:56:34,203 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:34,204 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:34,205 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:34,205 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:34,206 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:34,302 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:34,302 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 147
+2021-03-23 09:56:34,303 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:34,304 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:34,305 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:34,306 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:34,307 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:34,402 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:34,402 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 148
+2021-03-23 09:56:34,404 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:34,405 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:34,406 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:34,406 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:34,407 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:34,502 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:34,503 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 149
+2021-03-23 09:56:34,504 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:34,505 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:34,506 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:34,506 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:34,507 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:34,602 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:34,603 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 150
+2021-03-23 09:56:34,604 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:34,604 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:34,606 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:34,607 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:34,607 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:34,703 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:34,703 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 151
+2021-03-23 09:56:34,704 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:34,705 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:34,706 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:34,706 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:34,707 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:34,803 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:34,803 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 152
+2021-03-23 09:56:34,805 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:34,805 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:34,806 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:34,807 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:34,807 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:34,903 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:34,904 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 153
+2021-03-23 09:56:34,905 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:34,906 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:34,907 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:34,907 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:34,907 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:35,003 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:35,004 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 154
+2021-03-23 09:56:35,005 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:35,006 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:35,007 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:35,007 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:35,008 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:35,103 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:35,104 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 155
+2021-03-23 09:56:35,105 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:35,106 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:35,107 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:35,107 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:35,108 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:35,204 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:35,204 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 156
+2021-03-23 09:56:35,206 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:35,206 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:35,207 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:35,208 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:35,208 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-23 09:56:35,304 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:35,305 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 157
+2021-03-23 09:56:35,306 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:35,307 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:35,313 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:35,319 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:35,325 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2021-03-23 09:56:35,404 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:35,405 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 158
+2021-03-23 09:56:35,407 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:35,407 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.003s.
+2021-03-23 09:56:35,408 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:35,409 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:35,409 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:35,505 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:35,505 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 159
+2021-03-23 09:56:35,507 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:35,507 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:35,508 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:35,509 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:35,509 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:35,604 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:35,605 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 160
+2021-03-23 09:56:35,606 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:35,606 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-23 09:56:35,606 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:35,607 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:35,607 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:35,721 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:35,727 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 161
+2021-03-23 09:56:35,730 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:35,731 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.004s.
+2021-03-23 09:56:35,731 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:35,732 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:35,733 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:35,823 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:35,823 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 162
+2021-03-23 09:56:35,825 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:35,826 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.003s.
+2021-03-23 09:56:35,827 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:35,827 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:35,827 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:35,916 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:35,917 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 163
+2021-03-23 09:56:35,918 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:35,919 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.003s.
+2021-03-23 09:56:35,920 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:35,921 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:35,921 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:36,016 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:36,017 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 164
+2021-03-23 09:56:36,019 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:36,020 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.003s.
+2021-03-23 09:56:36,021 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:36,021 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:36,022 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:36,116 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:36,117 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 165
+2021-03-23 09:56:36,119 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:36,119 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:36,120 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:36,121 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:36,121 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-23 09:56:36,216 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:36,217 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 166
+2021-03-23 09:56:36,218 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:36,218 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:36,219 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:36,220 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:36,220 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:36,317 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:36,317 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 167
+2021-03-23 09:56:36,319 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:36,320 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:36,321 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:36,321 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:36,322 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:36,418 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:36,418 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 168
+2021-03-23 09:56:36,420 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:36,421 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:36,422 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:36,423 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:36,424 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-23 09:56:36,518 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:36,518 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 169
+2021-03-23 09:56:36,520 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:36,521 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:36,521 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:36,522 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:36,523 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-23 09:56:36,618 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:36,619 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 170
+2021-03-23 09:56:36,620 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:36,621 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.003s.
+2021-03-23 09:56:36,622 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:36,622 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:36,623 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:36,718 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:36,719 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 171
+2021-03-23 09:56:36,720 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:36,721 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:36,722 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:36,722 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:36,723 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:36,818 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:36,819 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 172
+2021-03-23 09:56:36,820 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:36,821 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:36,822 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:36,822 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:36,823 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:36,918 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:36,919 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 173
+2021-03-23 09:56:36,920 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:36,921 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:36,922 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:36,922 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:36,923 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:37,019 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:37,019 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 174
+2021-03-23 09:56:37,022 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:37,023 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.004s.
+2021-03-23 09:56:37,024 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:37,025 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:37,025 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:37,119 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:37,120 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 175
+2021-03-23 09:56:37,121 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:37,122 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:37,123 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:37,123 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:37,124 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:37,219 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:37,219 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 176
+2021-03-23 09:56:37,219 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:37,219 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-23 09:56:37,220 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:37,220 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:37,220 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:37,335 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:37,341 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 177
+2021-03-23 09:56:37,351 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:37,351 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.010s.
+2021-03-23 09:56:37,352 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:37,353 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:37,353 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:37,436 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:37,436 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 178
+2021-03-23 09:56:37,438 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:37,441 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.005s.
+2021-03-23 09:56:37,442 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:37,443 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:37,448 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2021-03-23 09:56:37,525 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:37,556 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 179
+2021-03-23 09:56:37,557 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:37,558 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:37,575 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:37,581 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:37,591 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.009s.
+2021-03-23 09:56:37,625 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:37,625 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 180
+2021-03-23 09:56:37,626 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:37,626 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-23 09:56:37,626 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:37,626 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:37,627 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:37,725 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:37,725 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 181
+2021-03-23 09:56:37,726 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:37,726 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-23 09:56:37,726 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:37,727 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:37,727 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:37,836 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:37,842 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 182
+2021-03-23 09:56:37,852 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:37,858 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.016s.
+2021-03-23 09:56:37,860 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:37,860 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:37,861 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-23 09:56:37,931 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:37,931 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 183
+2021-03-23 09:56:37,933 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:37,934 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
+2021-03-23 09:56:37,935 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:37,936 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:37,936 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:38,031 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:38,031 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 184
+2021-03-23 09:56:38,031 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:38,032 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-23 09:56:38,032 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:38,032 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:38,032 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:38,138 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:38,144 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 185
+2021-03-23 09:56:38,146 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:38,146 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.003s.
+2021-03-23 09:56:38,147 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:38,148 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:38,149 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-23 09:56:38,248 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:38,250 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 186
+2021-03-23 09:56:38,252 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:38,253 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.003s.
+2021-03-23 09:56:38,254 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:38,255 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:38,255 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:38,342 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:38,342 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 187
+2021-03-23 09:56:38,343 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:38,343 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-23 09:56:38,343 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:38,343 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:38,343 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:38,442 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-23 09:56:38,442 [beatdropper_code] DEBUG: Encountered game event(s) 'WAITED' in step 188
+2021-03-23 09:56:38,443 [beatdropper_code] INFO: Awarded -0.1 for events WAITED, PLACEHOLDER
+2021-03-23 09:56:38,443 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-23 09:56:38,444 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-23 09:56:38,444 [beatdropper_code] DEBUG: Querying model for action.
+2021-03-23 09:56:38,444 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-23 09:56:38,475 [beatdropper_wrapper] DEBUG: Calling end_of_round on callback.
+2021-03-23 09:56:38,475 [beatdropper_code] DEBUG: Encountered event(s) 'WAITED', 'SURVIVED_ROUND' in final step
+2021-03-23 09:56:38,475 [beatdropper_code] INFO: Awarded 0 for events WAITED, SURVIVED_ROUND
+2021-03-23 09:56:38,476 [beatdropper_wrapper] DEBUG: Got result from callback#end_of_round in 0.001s.

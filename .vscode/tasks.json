@@ -6,12 +6,19 @@
         {
             "label": "play",
             "type": "shell",
-            "command": "python play --my-agent slausmeister"
+            "command": "python main.py play --my-agent beatdropper",
+            "problemMatcher": [],
+            "group": "build"
         },
         {
-            "label": "python train ",
+            "label": "train",
             "type": "shell",
-            "command": "python play --my-agent slausmeister --train 1"
-        },
+            "command": "python main.py play --my-agent beatdropper --train 1",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
     ]
 }
