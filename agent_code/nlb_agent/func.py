@@ -51,11 +51,29 @@ def state_to_features(game_state: dict) -> np.array:
     # This is the dict before the game begins and after it ends
     if game_state is None:
         return None
+    state = game_state['self']
 
     features =[]
-    #feature 1: distance to closest coin
+    #feature 1: total distance to closest coin
     dist=nearest_coin(game_state)[0]
+    coordinates = nearest_coin(game_state)[1]
     features.append(dist)
+
+    #feature 2: horizontal distance to closest coin
+    hori=coordinates[0]-state[3][0]
+    #if hori >= 0:
+    #    print('Debug: coin is to the right')
+    #else:
+    #    print('Debug: coin is to the left')
+    features.append(hori)
+
+    #feature 3: vertical distance to closest coin
+    vert=coordinates[1]-state[3][1]
+    #if vert >=0:
+    #    print('Debug: coin is below')
+    #else:
+    #    print('Debug: coin is above')
+    features.append(vert)
 
     #print('Debug: state_to_features executed succesfully')
     

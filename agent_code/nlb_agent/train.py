@@ -2,6 +2,7 @@ from agent_code.nlb_agent.func import nearest_coin
 import pickle
 import random
 import numpy as np
+import sys
 from collections import namedtuple, deque
 from typing import List
 
@@ -22,7 +23,7 @@ Transition = namedtuple('Transition',
 TRANSITION_HISTORY_SIZE = 1  # keep only ... last transitions
 RECORD_ENEMY_TRANSITIONS = 1.0  # record enemy transitions with probability ...
 
-alpha=0.1
+alpha=0.01
 gamma=0.9
 
 def setup_training(self):
@@ -43,22 +44,25 @@ def game_events_occurred(self, old_game_state: dict, self_action: str, new_game_
             events.append(FURTHER)
 
         R = reward_from_events(self,events)
-
+        X = state_to_features(old_game_state)
+        index = np.where(ACTIONS==self_action)[0][0]
+        
         beta = self.model
-
+        
         beta_best = []
         for i in range(len(ACTIONBEGIN)):
             features = state_to_features(new_game_state)
-            beta_best.append(features@self.model[i])
+            beta_best.append(features@beta[i])
 
         q_max = np.amax(beta_best)
-        Y = R + gamma * q_max
-
-        index = np.where(ACTIONS==self_action)[0]
-        X = state_to_features(old_game_state)
-        beta[index] = beta[index]+alpha*(X@(Y-X@beta[index]))
+        delta = R + gamma * q_max - X@beta[index]
         
-    
+        print(new_game_state['round'])
+        for i in range(len(beta[index])):
+            beta[index][i] = beta[index][i]+alpha*delta*state_to_features(old_game_state)[i]
+            if beta[index][i]>=1000:
+                sys.exit('Zahlen zu groß')
+        self.model=beta
     # state_to_features is defined in callbacks.py
     #self.transitions.append(Transition(state_to_features(old_game_state), self_action, state_to_features(new_game_state), reward_from_events(self, events)))
 
@@ -78,12 +82,19 @@ def end_of_round(self, last_game_state: dict, last_action: str, events: List[str
     #self.logger.debug(f'Encountered event(s) {", ".join(map(repr, events))} in final step')
     #self.transitions.append(Transition(state_to_features(last_game_state), last_action, None, reward_from_events(self, events)))
     beta = self.model
-    index=np.where(ACTIONS==last_action)[0]
+    index=np.where(ACTIONS==last_action)[0][0]
     X = state_to_features(last_game_state)
-    Y = reward_from_events(self,events)
+    R= reward_from_events(self,events)
+    beta_best = []
+    for i in range(len(ACTIONBEGIN)):
+         features = state_to_features(last_game_state)
+         beta_best.append(features@beta[i])
 
-    beta[index]=beta[index]+0.1*(X@(Y-X@beta[index]))
-
+    q_max = np.amax(beta_best)
+    delta = R + gamma * q_max - X@beta[index]
+    for i in range(len(beta[index])):
+        beta[index][i] = beta[index][i]+alpha*delta*state_to_features(last_game_state)[i]
+        
     self.model = beta
     # Store the model
     with open("my-saved-model.pt", "wb") as file:
@@ -94,12 +105,12 @@ def reward_from_events(self, events: List[str]) -> int:
     
     game_rewards = {
         e.COIN_COLLECTED: 3,
-        e.MOVED_UP: -0.2,
-        e.MOVED_DOWN: -0.2,
-        e.MOVED_LEFT: -0.2,
-        e.MOVED_RIGHT: -0.2,
-        e.WAITED: -0.2,
-        e.INVALID_ACTION: -5,
+        e.MOVED_UP: -.1,
+        e.MOVED_DOWN: -.1,
+        e.MOVED_LEFT: -.1,
+        e.MOVED_RIGHT: -.1,
+        e.WAITED: -0.1,
+        #e.INVALID_ACTION: -5,
         CLOSER: 0.5,
         FURTHER: -0.5
     }
@@ -108,4 +119,5 @@ def reward_from_events(self, events: List[str]) -> int:
         if event in game_rewards:
             reward_sum += game_rewards[event]
     #self.logger.info(f"Awarded {reward_sum} for events {', '.join(events)}")
+    #print(reward_sum)
     return reward_sum

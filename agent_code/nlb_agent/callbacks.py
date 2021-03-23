@@ -12,7 +12,7 @@ ACTIONBEGIN = ['UP', 'RIGHT', 'DOWN', 'LEFT', 'WAIT']
 def setup(self):
     if self.train or not os.path.isfile("my-saved-model.pt"):
         self.logger.info("Setting up model from scratch.")
-        self.model = np.array([[0],[0],[0],[0],[0]])
+        self.model = np.array([[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0]],dtype=float)
     else:
         self.logger.info("Loading model from saved state.")
         with open("my-saved-model.pt", "rb") as file:
@@ -25,11 +25,10 @@ def act(self, game_state: dict) -> str:
     X = state_to_features(game_state)
     moves = possible_actions(game_state)
     beta = self.model
-    print(beta)
     q_values = []
-
+    print(beta)
     for mov in moves:
-        index = np.where(acts==mov)[0]           
+        index = np.where(acts==mov)[0][0]         
         q_hat = X@beta[index]
         q_values.append(q_hat)
 
