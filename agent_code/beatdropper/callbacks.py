@@ -1,6 +1,7 @@
 import os
 import pickle
 import random
+import copy as copy
 
 import numpy as np
 
@@ -31,6 +32,37 @@ def setup(self):
         with open("my-saved-model.pt", "rb") as file:
             self.model = pickle.load(file)
     self.target_pos=None
+
+
+
+def q(self,game_state,action):
+
+    game_state_temp=copy.deepcopy(game_state)
+
+    agent = game_state['self']
+    field = game_state['field']
+    
+    # Check wether execution is possible:
+    if action == "UP" and field[agent[3][0],agent[3][1]-1]==0:  game_state_temp['self']=(agent[0],agent[1],agent[2],(agent[3][0],agent[3][1]-1))
+    if action == "DOWN" and field[agent[3][0],agent[3][1]+1]==0:  game_state_temp['self']=(agent[0],agent[1],agent[2],(agent[3][0],agent[3][1]+1))
+    if action == "Left" and field[agent[3][0]-1,agent[3][1]]==0:  game_state_temp['self']=(agent[0],agent[1],agent[2],(agent[3][0]-1,agent[3][1]))
+    if action == "Right" and field[agent[3][0]+1,agent[3][1]]==0:  game_state_temp['self']=(agent[0],agent[1],agent[2],(agent[3][0]+1,agent[3][1]))
+
+    features = state_to_features(game_state_temp)
+
+    return features@self.model
+        
+
+
+
+
+
+
+
+
+
+
+
 
 
 def act(self, game_state: dict) -> str:
@@ -114,7 +146,7 @@ def state_to_features(game_state: dict) -> np.array:
         coins = [1/coin for coin in coins]
 
     #Sorting the array, and reshape it to lenght 9
-    coins.sort()
+    coins.sort(reverse=True)
     for n in range(len(coins), 9):
         coins.append(0)
     
