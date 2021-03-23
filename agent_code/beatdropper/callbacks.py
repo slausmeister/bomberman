@@ -6,7 +6,7 @@ import copy as copy
 import numpy as np
 
 
-ACTIONS = ['UP', 'RIGHT', 'DOWN', 'LEFT', 'WAIT', 'BOMB']
+ACTIONS = ['UP', 'RIGHT', 'DOWN', 'LEFT']
 
 
 def setup(self):
@@ -25,23 +25,22 @@ def setup(self):
     """
     if self.train or not os.path.isfile("my-saved-model.pt"):
         self.logger.info("Setting up model from scratch.")
-        weights = np.random.rand(len(ACTIONS))
-        self.model = weights / weights.sum()
+        weights = np.zeros(9)
+        self.model = weights
     else:
         self.logger.info("Loading model from saved state.")
         with open("my-saved-model.pt", "rb") as file:
             self.model = pickle.load(file)
-    self.target_pos=None
 
 
 
-def q(self,game_state,action):
+def q(self, game_state ,action, weight=None): 
 
     game_state_temp=copy.deepcopy(game_state)
 
     agent = game_state['self']
     field = game_state['field']
-    
+
     # Check wether execution is possible:
     if action == "UP" and field[agent[3][0],agent[3][1]-1]==0:  game_state_temp['self']=(agent[0],agent[1],agent[2],(agent[3][0],agent[3][1]-1))
     if action == "DOWN" and field[agent[3][0],agent[3][1]+1]==0:  game_state_temp['self']=(agent[0],agent[1],agent[2],(agent[3][0],agent[3][1]+1))
@@ -50,7 +49,10 @@ def q(self,game_state,action):
 
     features = state_to_features(game_state_temp)
 
-    return features@self.model
+    if weight==None:
+        return features@self.model
+    else:
+        return features@weight
         
 
 
@@ -84,10 +86,8 @@ def act(self, game_state: dict) -> str:
     self.logger.debug("Querying model for action.")
 
     # Look for a target if none is found
-    
-    coin_lock(self,game_state)
-    return game_state['user_input']
-    #return np.random.choice(ACTIONS, p=self.model)
+    #return game_state['user_input']
+    return np.random.choice(ACTIONS, p=self.model)
 
 def norm(a,b):
     return abs(a[0]-b[0])+abs(a[1]-b[1])
@@ -104,8 +104,8 @@ def coin_lock(self, game_state):
         else:
             self.target_pos=None
             print("No target could be found")
-        
-        
+      
+
 
 
 

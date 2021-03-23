@@ -30,6 +30,16 @@ def setup_training(self):
     # (s, a, r, s')
     self.transitions = deque(maxlen=TRANSITION_HISTORY_SIZE)
 
+def gradient(self, game_state, action):
+    grad, direction = np.zeros_like(self.model)
+
+    for i in range(0, len(probe)):
+        direction[i] = 1
+        grad[i] = q(self, game_state, action, direction)
+        direction[i]=0
+
+    return grad
+
 
 def game_events_occurred(self, old_game_state: dict, self_action: str, new_game_state: dict, events: List[str]):
     """
@@ -51,11 +61,65 @@ def game_events_occurred(self, old_game_state: dict, self_action: str, new_game_
     self.logger.debug(f'Encountered game event(s) {", ".join(map(repr, events))} in step {new_game_state["step"]}')
 
     # Idea: Add your own events to hand out rewards
-    if ...:
-        events.append(PLACEHOLDER_EVENT)
+    if old_game_state==None:
+        print("Fehler")
 
-    # state_to_features is defined in callbacks.py
-    self.transitions.append(Transition(state_to_features(old_game_state), self_action, state_to_features(new_game_state), reward_from_events(self, events)))
+    else:
+        #shorter nomenclature
+        S=old_game_state
+        S_prime = new_game_state
+        A=self_action
+        
+
+        old_features = state_to_features(old_game_state)
+        new_features = state_to_features(new_game_state)
+        
+        #trigger event when agent gets closer to coin or looses it
+        # if new_features[0]>old_features[0]:
+        #     events.append(GETTING_CLOSER)
+            
+        # if (new_features[0]<old_features[0]):
+        #     events.append(LOOSING_COIN)
+
+
+        
+        R=reward_from_events(self,events)
+            
+        #hyperparameter for training algorithm  
+        #TODO Find good hyperparameter (Sutton 9.6) @Simon 
+        gamma=0.9
+        alpha=0.01
+        
+        
+        
+        ###first crucial distinction: which algorithm to choose. MAin difference is how to choose A'
+        #Right now it is Q-learning, but SARSA or expected-SARSA are also possible (lecture 3, p.2; Sutton 6 and 10)
+        #TODO: Try different algorithms @Simon
+
+        tester = np.array([(q(self,S,a)) for a in ACTIONS])
+        if np.all(tester==tester[0]):###if all entries are equal the first entry is chosen by argmax
+            greedy = np.random.choice(['RIGHT', 'LEFT', 'UP', 'DOWN'], p=[.25, .25, .25, .25])
+        else:
+            greedy_ind = np.argmax(tester)
+            greedy=ACTIONS[greedy_ind]
+        
+        ###SARSA
+        #epsilon=0.05
+        #A_prime=np.random.choice((greedy,np.random.choice(ACTIONS,1)),1,[1-epsilon,epsilon])
+
+        ###Q-learning
+        A_prime = greedy 
+        
+        # You can find the algorithm for SARSA in Sutton, p.244
+        # But it is not hard to find that algorithm:
+        # We want to find a better w, because q_hat=Xw (with X beeing the feature vector)
+        # If we define R+gamma*g_hat(S',A',w):=Y (as seen in lecture 3, p.2) we want to minimize the squared Error (Y-Xw)^2=(Y-q_hat)^2
+        # We want to find a w that the squared error is minimal:
+        # We take gradient of (Y-q_hat)^2 with respect to w and get a direction in which we have to correct our w (like in every Newton-method)
+        
+        
+        ####Iteration
+        self.model += alpha*(R+gamma*q(self,S_prime,A_prime)-q(self,S,A))*gradient(self,S,A)
 
 
 def end_of_round(self, last_game_state: dict, last_action: str, events: List[str]):
