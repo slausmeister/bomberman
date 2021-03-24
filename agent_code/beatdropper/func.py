@@ -75,6 +75,8 @@ def state_to_features(game_state: dict) -> np.array:
     #    print('Debug: coin is above')
     features.append(vert)
 
+    print(features)
+
     #print('Debug: state_to_features executed succesfully')
     
     return np.array(features)

@@ -26,7 +26,6 @@ def act(self, game_state: dict) -> str:
     moves = possible_actions(game_state)
     beta = self.model
     q_values = []
-    print(beta)
     for mov in moves:
         index = np.where(acts==mov)[0][0]         
         q_hat = X@beta[index]
