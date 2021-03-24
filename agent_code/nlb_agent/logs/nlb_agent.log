@@ -1,563 +1,1581 @@
-2021-03-24 22:19:13,677 [nlb_agent_wrapper] DEBUG: Calling setup on callback.
-2021-03-24 22:19:13,677 [nlb_agent_code] INFO: Setting up model from scratch.
-2021-03-24 22:19:13,677 [nlb_agent_wrapper] DEBUG: Got result from callback#setup in 0.000s.
-2021-03-24 22:19:13,678 [nlb_agent_wrapper] DEBUG: Calling setup_training on callback.
-2021-03-24 22:19:13,678 [nlb_agent_wrapper] DEBUG: Got result from callback#setup_training in 0.000s.
-2021-03-24 22:19:13,787 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:19:13,787 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
-2021-03-24 22:19:13,788 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:19:13,805 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.017s.
-2021-03-24 22:19:13,887 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:19:14,004 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.117s.
-2021-03-24 22:19:14,004 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:19:14,008 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
-2021-03-24 22:19:14,011 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:19:14,063 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.052s.
-2021-03-24 22:19:14,064 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:19:14,066 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
-2021-03-24 22:19:14,122 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:19:14,231 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.109s.
-2021-03-24 22:19:14,232 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:19:14,235 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
-2021-03-24 22:19:14,238 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:19:14,283 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.045s.
-2021-03-24 22:19:14,283 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:19:14,287 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
-2021-03-24 22:19:14,338 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:19:14,390 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.052s.
-2021-03-24 22:19:14,391 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:19:14,394 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
-2021-03-24 22:19:14,438 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:19:14,515 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.076s.
-2021-03-24 22:19:14,515 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:19:14,521 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
-2021-03-24 22:19:14,539 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:19:14,626 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.087s.
-2021-03-24 22:19:14,626 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:19:14,633 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.007s.
-2021-03-24 22:19:14,639 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:19:14,696 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.057s.
-2021-03-24 22:19:14,696 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:19:14,700 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
-2021-03-24 22:19:14,739 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:19:14,790 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.050s.
-2021-03-24 22:19:14,790 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:19:14,795 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
-2021-03-24 22:19:14,848 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:19:15,006 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.157s.
-2021-03-24 22:19:15,006 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:19:15,010 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
-2021-03-24 22:19:15,013 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:19:15,088 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.075s.
-2021-03-24 22:19:15,088 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:19:15,093 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
-2021-03-24 22:19:15,096 [nlb_agent_wrapper] DEBUG: Calling end_of_round on callback.
-2021-03-24 22:19:15,161 [nlb_agent_wrapper] DEBUG: Got result from callback#end_of_round in 0.065s.
-2021-03-24 22:19:44,995 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:19:44,996 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
-2021-03-24 22:19:44,996 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:19:45,008 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.012s.
-2021-03-24 22:19:45,095 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:19:45,200 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.104s.
-2021-03-24 22:19:45,200 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:19:45,204 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
-2021-03-24 22:19:45,207 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:19:45,260 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.053s.
-2021-03-24 22:19:45,261 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:19:45,264 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
-2021-03-24 22:19:45,307 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:19:45,467 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.160s.
-2021-03-24 22:19:45,468 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:19:45,479 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.011s.
-2021-03-24 22:19:45,481 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:19:45,526 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.044s.
-2021-03-24 22:19:45,526 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:19:45,529 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
-2021-03-24 22:19:45,582 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:19:45,729 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.146s.
-2021-03-24 22:19:45,729 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:19:45,733 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
-2021-03-24 22:19:45,736 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:19:45,787 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.051s.
-2021-03-24 22:19:45,788 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:19:45,791 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
-2021-03-24 22:19:45,849 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:19:45,970 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.120s.
-2021-03-24 22:19:45,971 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:19:45,975 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
-2021-03-24 22:19:45,978 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:19:46,024 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.045s.
-2021-03-24 22:19:46,024 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:19:46,028 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
-2021-03-24 22:19:46,083 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:19:46,127 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.044s.
-2021-03-24 22:19:46,128 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:19:46,131 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
-2021-03-24 22:19:46,134 [nlb_agent_wrapper] DEBUG: Calling end_of_round on callback.
-2021-03-24 22:19:46,182 [nlb_agent_wrapper] DEBUG: Got result from callback#end_of_round in 0.048s.
-2021-03-24 22:19:51,848 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:19:51,848 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
-2021-03-24 22:19:51,849 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:19:51,857 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.007s.
-2021-03-24 22:19:51,949 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:19:52,098 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.149s.
-2021-03-24 22:19:52,098 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:19:52,103 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
-2021-03-24 22:19:52,134 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:19:52,200 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.065s.
-2021-03-24 22:19:52,200 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:19:52,207 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.007s.
-2021-03-24 22:19:52,234 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:19:52,278 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.043s.
-2021-03-24 22:19:52,278 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:19:52,282 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
-2021-03-24 22:19:52,335 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:19:52,385 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.050s.
-2021-03-24 22:19:52,385 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:19:52,389 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
-2021-03-24 22:19:52,435 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:19:52,492 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.057s.
-2021-03-24 22:19:52,493 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:19:52,498 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
-2021-03-24 22:19:52,535 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:19:52,612 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.076s.
-2021-03-24 22:19:52,612 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:19:52,617 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
-2021-03-24 22:19:52,623 [nlb_agent_wrapper] DEBUG: Calling end_of_round on callback.
-2021-03-24 22:19:52,671 [nlb_agent_wrapper] DEBUG: Got result from callback#end_of_round in 0.048s.
-2021-03-24 22:19:54,106 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:19:54,106 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
-2021-03-24 22:19:54,107 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:19:54,116 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.009s.
-2021-03-24 22:19:54,196 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:19:54,260 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.063s.
-2021-03-24 22:19:54,260 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:19:54,264 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
-2021-03-24 22:19:54,296 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:19:54,366 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.069s.
-2021-03-24 22:19:54,367 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:19:54,370 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
-2021-03-24 22:19:54,397 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:19:54,448 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.051s.
-2021-03-24 22:19:54,449 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:19:54,453 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
-2021-03-24 22:19:54,497 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:19:54,554 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.056s.
-2021-03-24 22:19:54,554 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:19:54,557 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
-2021-03-24 22:19:54,597 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:19:54,748 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.151s.
-2021-03-24 22:19:54,749 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:19:54,753 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
-2021-03-24 22:19:54,759 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:19:54,810 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.051s.
-2021-03-24 22:19:54,811 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:19:54,814 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
-2021-03-24 22:19:54,859 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:19:54,907 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.047s.
-2021-03-24 22:19:54,907 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:19:54,911 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
-2021-03-24 22:19:54,960 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:19:55,034 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.075s.
-2021-03-24 22:19:55,035 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:19:55,039 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
-2021-03-24 22:19:55,060 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:19:55,110 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.051s.
-2021-03-24 22:19:55,111 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:19:55,114 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
-2021-03-24 22:19:55,160 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:19:55,204 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.045s.
-2021-03-24 22:19:55,205 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:19:55,208 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
-2021-03-24 22:19:55,260 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:19:55,326 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.066s.
-2021-03-24 22:19:55,326 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:19:55,330 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
-2021-03-24 22:19:55,361 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:19:55,497 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.135s.
-2021-03-24 22:19:55,497 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:19:55,502 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
-2021-03-24 22:19:55,506 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:19:55,557 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.051s.
-2021-03-24 22:19:55,557 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:19:55,560 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
-2021-03-24 22:19:55,606 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:19:55,653 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.047s.
-2021-03-24 22:19:55,654 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:19:55,658 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
-2021-03-24 22:19:55,662 [nlb_agent_wrapper] DEBUG: Calling end_of_round on callback.
-2021-03-24 22:19:55,712 [nlb_agent_wrapper] DEBUG: Got result from callback#end_of_round in 0.050s.
-2021-03-24 22:19:56,829 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:19:56,830 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
-2021-03-24 22:19:56,830 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:19:56,834 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
-2021-03-24 22:19:56,930 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:19:57,034 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.104s.
-2021-03-24 22:19:57,034 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:19:57,039 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
-2021-03-24 22:19:57,042 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:19:57,086 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.045s.
-2021-03-24 22:19:57,087 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:19:57,090 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
-2021-03-24 22:19:57,142 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:19:57,301 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.158s.
-2021-03-24 22:19:57,301 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:19:57,305 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
-2021-03-24 22:19:57,309 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:19:57,357 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.049s.
-2021-03-24 22:19:57,358 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:19:57,361 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
-2021-03-24 22:19:57,409 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:19:57,529 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.115s.
-2021-03-24 22:19:57,530 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:19:57,537 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.008s.
-2021-03-24 22:19:57,542 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:19:57,616 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.074s.
-2021-03-24 22:19:57,616 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:19:57,621 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
-2021-03-24 22:19:57,642 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:19:57,687 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.045s.
-2021-03-24 22:19:57,687 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:19:57,691 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
-2021-03-24 22:19:57,758 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:19:57,852 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.093s.
-2021-03-24 22:19:57,852 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:19:57,856 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
-2021-03-24 22:19:57,861 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:19:57,902 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.041s.
-2021-03-24 22:19:57,902 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:19:57,911 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.009s.
-2021-03-24 22:19:57,961 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:19:58,015 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.054s.
-2021-03-24 22:19:58,016 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:19:58,020 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
-2021-03-24 22:19:58,068 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:19:58,212 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.138s.
-2021-03-24 22:19:58,213 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:19:58,216 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
-2021-03-24 22:19:58,220 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:19:58,268 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.049s.
-2021-03-24 22:19:58,269 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:19:58,273 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
-2021-03-24 22:19:58,276 [nlb_agent_wrapper] DEBUG: Calling end_of_round on callback.
-2021-03-24 22:19:58,312 [nlb_agent_wrapper] DEBUG: Got result from callback#end_of_round in 0.036s.
-2021-03-24 22:19:59,228 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:19:59,229 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
-2021-03-24 22:19:59,229 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:19:59,243 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.013s.
-2021-03-24 22:19:59,344 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:19:59,404 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.054s.
-2021-03-24 22:19:59,405 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:19:59,409 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
-2021-03-24 22:19:59,433 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:19:59,471 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.038s.
-2021-03-24 22:19:59,472 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:19:59,476 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
-2021-03-24 22:19:59,533 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:19:59,593 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.060s.
-2021-03-24 22:19:59,593 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:19:59,598 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
-2021-03-24 22:19:59,634 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:19:59,794 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.159s.
-2021-03-24 22:19:59,794 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:19:59,798 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
-2021-03-24 22:19:59,801 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:19:59,844 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.042s.
-2021-03-24 22:19:59,844 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:19:59,847 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
-2021-03-24 22:19:59,903 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:20:00,095 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.191s.
-2021-03-24 22:20:00,095 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:20:00,099 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
-2021-03-24 22:20:00,103 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:20:00,183 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.080s.
-2021-03-24 22:20:00,184 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:20:00,188 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
-2021-03-24 22:20:00,203 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:20:00,262 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.059s.
-2021-03-24 22:20:00,263 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:20:00,266 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
-2021-03-24 22:20:00,304 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:20:00,430 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.120s.
-2021-03-24 22:20:00,431 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:20:00,439 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.009s.
-2021-03-24 22:20:00,444 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:20:00,483 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.039s.
-2021-03-24 22:20:00,483 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:20:00,486 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
-2021-03-24 22:20:00,545 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:20:00,635 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.090s.
-2021-03-24 22:20:00,636 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:20:00,639 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
-2021-03-24 22:20:00,644 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:20:00,683 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.039s.
-2021-03-24 22:20:00,683 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:20:00,687 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
-2021-03-24 22:20:00,745 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:20:00,797 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.052s.
-2021-03-24 22:20:00,797 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:20:00,800 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
-2021-03-24 22:20:00,845 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:20:00,968 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.123s.
-2021-03-24 22:20:00,968 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:20:00,976 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.008s.
-2021-03-24 22:20:00,981 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:20:01,032 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.051s.
-2021-03-24 22:20:01,032 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:20:01,035 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
-2021-03-24 22:20:01,081 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:20:01,138 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.056s.
-2021-03-24 22:20:01,138 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:20:01,143 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
-2021-03-24 22:20:01,181 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:20:01,233 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.051s.
-2021-03-24 22:20:01,233 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:20:01,245 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.012s.
-2021-03-24 22:20:01,281 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:20:01,343 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.061s.
-2021-03-24 22:20:01,344 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:20:01,348 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
-2021-03-24 22:20:01,382 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:20:01,444 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.062s.
-2021-03-24 22:20:01,445 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:20:01,450 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
-2021-03-24 22:20:01,482 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:20:01,535 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.053s.
-2021-03-24 22:20:01,536 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:20:01,540 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
-2021-03-24 22:20:01,582 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:20:01,635 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.052s.
-2021-03-24 22:20:01,635 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:20:01,638 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
-2021-03-24 22:20:01,682 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:20:01,729 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.047s.
-2021-03-24 22:20:01,730 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:20:01,732 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
-2021-03-24 22:20:01,783 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:20:01,842 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.060s.
-2021-03-24 22:20:01,843 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:20:01,848 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
-2021-03-24 22:20:01,883 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:20:01,950 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.067s.
-2021-03-24 22:20:01,951 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:20:01,955 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
-2021-03-24 22:20:01,983 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:20:02,099 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.115s.
-2021-03-24 22:20:02,100 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:20:02,103 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
-2021-03-24 22:20:02,106 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:20:02,152 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.046s.
-2021-03-24 22:20:02,152 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:20:02,180 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
-2021-03-24 22:20:02,208 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:20:02,253 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.045s.
-2021-03-24 22:20:02,254 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:20:02,258 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
-2021-03-24 22:20:02,307 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:20:02,368 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.061s.
-2021-03-24 22:20:02,369 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:20:02,373 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
-2021-03-24 22:20:02,408 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:20:02,535 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.126s.
-2021-03-24 22:20:02,535 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:20:02,539 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
-2021-03-24 22:20:02,542 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:20:02,592 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.049s.
-2021-03-24 22:20:02,592 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:20:02,596 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
-2021-03-24 22:20:02,645 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:20:02,688 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.043s.
-2021-03-24 22:20:02,688 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:20:02,692 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
-2021-03-24 22:20:02,745 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:20:02,821 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.076s.
-2021-03-24 22:20:02,822 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:20:02,828 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
-2021-03-24 22:20:02,845 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:20:02,939 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.093s.
-2021-03-24 22:20:02,939 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:20:02,945 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
-2021-03-24 22:20:02,950 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:20:03,026 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.076s.
-2021-03-24 22:20:03,026 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:20:03,030 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
-2021-03-24 22:20:03,051 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:20:03,106 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.055s.
-2021-03-24 22:20:03,107 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:20:03,110 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
-2021-03-24 22:20:03,151 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:20:03,203 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.051s.
-2021-03-24 22:20:03,203 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:20:03,207 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
-2021-03-24 22:20:03,252 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:20:03,321 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.069s.
-2021-03-24 22:20:03,321 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:20:03,327 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
-2021-03-24 22:20:03,363 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:20:03,485 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.116s.
-2021-03-24 22:20:03,486 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:20:03,488 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
-2021-03-24 22:20:03,490 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:20:03,539 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.049s.
-2021-03-24 22:20:03,540 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:20:03,544 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
-2021-03-24 22:20:03,592 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:20:03,753 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.161s.
-2021-03-24 22:20:03,754 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:20:03,757 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
-2021-03-24 22:20:03,762 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:20:03,804 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.043s.
-2021-03-24 22:20:03,805 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:20:03,815 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.010s.
-2021-03-24 22:20:03,862 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:20:03,909 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.046s.
-2021-03-24 22:20:03,909 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:20:03,913 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
-2021-03-24 22:20:03,962 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:20:04,019 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.057s.
-2021-03-24 22:20:04,020 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:20:04,024 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
-2021-03-24 22:20:04,063 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:20:04,170 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.107s.
-2021-03-24 22:20:04,171 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:20:04,174 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
-2021-03-24 22:20:04,177 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:20:04,223 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.045s.
-2021-03-24 22:20:04,223 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:20:04,227 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
-2021-03-24 22:20:04,278 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:20:04,329 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.051s.
-2021-03-24 22:20:04,329 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:20:04,333 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
-2021-03-24 22:20:04,378 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:20:04,454 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.076s.
-2021-03-24 22:20:04,455 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:20:04,459 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
-2021-03-24 22:20:04,478 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:20:04,528 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.050s.
-2021-03-24 22:20:04,528 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:20:04,532 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
-2021-03-24 22:20:04,579 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:20:04,730 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.151s.
-2021-03-24 22:20:04,731 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:20:04,735 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
-2021-03-24 22:20:04,746 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:20:04,789 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.043s.
-2021-03-24 22:20:04,790 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:20:04,794 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
-2021-03-24 22:20:04,846 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:20:05,022 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.175s.
-2021-03-24 22:20:05,022 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:20:05,025 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
-2021-03-24 22:20:05,031 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:20:05,074 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.043s.
-2021-03-24 22:20:05,074 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:20:05,079 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
-2021-03-24 22:20:05,132 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:20:05,278 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.146s.
-2021-03-24 22:20:05,278 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:20:05,282 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
-2021-03-24 22:20:05,285 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:20:05,334 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.049s.
-2021-03-24 22:20:05,334 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:20:05,339 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
-2021-03-24 22:20:05,385 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:20:05,427 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.042s.
-2021-03-24 22:20:05,428 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:20:05,431 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
-2021-03-24 22:20:05,485 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:20:05,557 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.072s.
-2021-03-24 22:20:05,559 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:20:05,564 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
-2021-03-24 22:20:05,592 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:20:05,653 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.061s.
-2021-03-24 22:20:05,654 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:20:05,657 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
-2021-03-24 22:20:05,660 [nlb_agent_wrapper] DEBUG: Calling end_of_round on callback.
-2021-03-24 22:20:05,711 [nlb_agent_wrapper] DEBUG: Got result from callback#end_of_round in 0.051s.
-2021-03-24 22:21:27,089 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:21:27,090 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
-2021-03-24 22:21:27,090 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:21:27,094 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
-2021-03-24 22:21:27,190 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:21:27,310 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.119s.
-2021-03-24 22:21:27,310 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:21:27,313 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
-2021-03-24 22:21:27,316 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:21:27,360 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.044s.
-2021-03-24 22:21:27,360 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:21:27,364 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
-2021-03-24 22:21:27,425 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:21:27,551 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.126s.
-2021-03-24 22:21:27,552 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:21:27,556 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
-2021-03-24 22:21:27,559 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:21:27,606 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.048s.
-2021-03-24 22:21:27,607 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:21:27,609 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
-2021-03-24 22:21:27,659 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:21:27,705 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.046s.
-2021-03-24 22:21:27,706 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:21:27,709 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
-2021-03-24 22:21:27,760 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:21:27,912 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.151s.
-2021-03-24 22:21:27,912 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:21:27,916 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
-2021-03-24 22:21:27,921 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:21:27,972 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.051s.
-2021-03-24 22:21:27,972 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:21:27,975 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
-2021-03-24 22:21:28,021 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:21:28,066 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.045s.
-2021-03-24 22:21:28,067 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:21:28,071 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
-2021-03-24 22:21:28,121 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:21:28,185 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.064s.
-2021-03-24 22:21:28,186 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:21:28,191 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
-2021-03-24 22:21:28,221 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:21:28,290 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.068s.
-2021-03-24 22:21:28,290 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:21:28,294 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
-2021-03-24 22:21:28,321 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:21:28,382 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.061s.
-2021-03-24 22:21:28,383 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:21:28,388 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
-2021-03-24 22:21:28,421 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:21:28,489 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.067s.
-2021-03-24 22:21:28,490 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:21:28,494 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
-2021-03-24 22:21:28,522 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:21:28,626 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.104s.
-2021-03-24 22:21:28,629 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:21:28,635 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
-2021-03-24 22:21:28,638 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:21:28,717 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.079s.
-2021-03-24 22:21:28,717 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:21:28,721 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
-2021-03-24 22:21:28,738 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:21:28,795 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.057s.
-2021-03-24 22:21:28,795 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:21:28,798 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
-2021-03-24 22:21:28,838 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:21:28,890 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.052s.
-2021-03-24 22:21:28,891 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:21:28,894 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
-2021-03-24 22:21:28,956 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:21:29,048 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.091s.
-2021-03-24 22:21:29,049 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:21:29,052 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
-2021-03-24 22:21:29,055 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:21:29,095 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.040s.
-2021-03-24 22:21:29,096 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:21:29,098 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
-2021-03-24 22:21:29,156 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:21:29,280 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.123s.
-2021-03-24 22:21:29,280 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:21:29,284 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
-2021-03-24 22:21:29,288 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-24 22:21:29,333 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.045s.
-2021-03-24 22:21:29,333 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 22:21:29,337 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
-2021-03-24 22:21:29,340 [nlb_agent_wrapper] DEBUG: Calling end_of_round on callback.
-2021-03-24 22:21:29,380 [nlb_agent_wrapper] DEBUG: Got result from callback#end_of_round in 0.040s.
+2021-03-24 22:26:03,551 [nlb_agent_wrapper] DEBUG: Calling setup on callback.
+2021-03-24 22:26:03,552 [nlb_agent_code] INFO: Setting up model from scratch.
+2021-03-24 22:26:03,552 [nlb_agent_wrapper] DEBUG: Got result from callback#setup in 0.000s.
+2021-03-24 22:26:03,552 [nlb_agent_wrapper] DEBUG: Calling setup_training on callback.
+2021-03-24 22:26:03,552 [nlb_agent_wrapper] DEBUG: Got result from callback#setup_training in 0.000s.
+2021-03-24 22:26:03,661 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:03,661 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-24 22:26:03,661 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:03,667 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2021-03-24 22:26:03,761 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:03,853 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.092s.
+2021-03-24 22:26:03,854 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:03,864 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-24 22:26:03,877 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:03,974 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.097s.
+2021-03-24 22:26:03,974 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:03,980 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-24 22:26:03,999 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:04,068 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.069s.
+2021-03-24 22:26:04,069 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:04,074 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-24 22:26:04,099 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:04,205 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.105s.
+2021-03-24 22:26:04,206 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:04,211 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2021-03-24 22:26:04,217 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:04,336 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.119s.
+2021-03-24 22:26:04,336 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:04,346 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.009s.
+2021-03-24 22:26:04,376 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:04,486 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.110s.
+2021-03-24 22:26:04,486 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:04,492 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-24 22:26:04,499 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:04,582 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.083s.
+2021-03-24 22:26:04,582 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:04,588 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2021-03-24 22:26:04,600 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:04,693 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.093s.
+2021-03-24 22:26:04,694 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:04,698 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-24 22:26:04,703 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:04,785 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.082s.
+2021-03-24 22:26:04,786 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:04,791 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-24 22:26:04,809 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:04,899 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.090s.
+2021-03-24 22:26:04,900 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:04,906 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2021-03-24 22:26:04,909 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:04,987 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.078s.
+2021-03-24 22:26:04,987 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:04,992 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:05,009 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:05,066 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.057s.
+2021-03-24 22:26:05,066 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:05,071 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-24 22:26:05,109 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:05,165 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.056s.
+2021-03-24 22:26:05,166 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:05,170 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:05,209 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:05,277 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.068s.
+2021-03-24 22:26:05,278 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:05,282 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:05,309 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:05,373 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.063s.
+2021-03-24 22:26:05,374 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:05,378 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:05,409 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:05,481 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.072s.
+2021-03-24 22:26:05,482 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:05,486 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:05,509 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:05,568 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.058s.
+2021-03-24 22:26:05,568 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:05,573 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-24 22:26:05,610 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:05,694 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.084s.
+2021-03-24 22:26:05,694 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:05,699 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:05,710 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:05,785 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.074s.
+2021-03-24 22:26:05,785 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:05,789 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:05,810 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:05,872 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.062s.
+2021-03-24 22:26:05,872 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:05,879 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2021-03-24 22:26:05,910 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:05,957 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.046s.
+2021-03-24 22:26:05,957 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:05,961 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:06,010 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:06,122 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.111s.
+2021-03-24 22:26:06,123 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:06,127 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:06,129 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:06,180 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.051s.
+2021-03-24 22:26:06,180 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:06,184 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:06,230 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:06,275 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.045s.
+2021-03-24 22:26:06,275 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:06,278 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:06,330 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:06,468 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.137s.
+2021-03-24 22:26:06,469 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:06,473 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:06,475 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:06,531 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.056s.
+2021-03-24 22:26:06,532 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:06,535 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:06,575 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:06,622 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.046s.
+2021-03-24 22:26:06,622 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:06,626 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:06,676 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:06,734 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.058s.
+2021-03-24 22:26:06,734 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:06,739 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:06,776 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:06,906 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.129s.
+2021-03-24 22:26:06,906 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:06,910 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:06,913 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:06,961 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.047s.
+2021-03-24 22:26:06,961 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:06,964 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:07,014 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:07,176 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.161s.
+2021-03-24 22:26:07,177 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:07,180 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:07,183 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:07,220 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.037s.
+2021-03-24 22:26:07,220 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:07,224 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:07,284 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:07,337 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.053s.
+2021-03-24 22:26:07,338 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:07,342 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:07,384 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:07,457 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.073s.
+2021-03-24 22:26:07,458 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:07,463 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-24 22:26:07,484 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:07,537 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.053s.
+2021-03-24 22:26:07,538 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:07,541 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:07,584 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:07,684 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.099s.
+2021-03-24 22:26:07,684 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:07,690 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-24 22:26:07,696 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:07,746 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.050s.
+2021-03-24 22:26:07,746 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:07,750 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:07,801 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:07,923 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.121s.
+2021-03-24 22:26:07,923 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:07,928 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-24 22:26:07,931 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:07,981 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.049s.
+2021-03-24 22:26:07,981 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:07,985 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:08,049 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:08,166 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.112s.
+2021-03-24 22:26:08,166 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:08,169 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:08,174 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:08,220 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.046s.
+2021-03-24 22:26:08,221 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:08,225 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:08,274 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:08,334 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.060s.
+2021-03-24 22:26:08,335 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:08,339 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:08,385 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:08,468 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.080s.
+2021-03-24 22:26:08,468 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:08,471 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:08,481 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:08,523 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.042s.
+2021-03-24 22:26:08,523 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:08,527 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:08,581 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:08,715 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.133s.
+2021-03-24 22:26:08,715 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:08,718 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:08,720 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:08,774 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.053s.
+2021-03-24 22:26:08,774 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:08,778 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:08,784 [nlb_agent_wrapper] DEBUG: Calling end_of_round on callback.
+2021-03-24 22:26:08,849 [nlb_agent_wrapper] DEBUG: Got result from callback#end_of_round in 0.064s.
+2021-03-24 22:26:09,762 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:09,763 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-24 22:26:09,764 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:09,780 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.016s.
+2021-03-24 22:26:09,862 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:09,979 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.116s.
+2021-03-24 22:26:09,979 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:09,983 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:09,986 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:10,033 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.047s.
+2021-03-24 22:26:10,033 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:10,036 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:10,097 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:10,241 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.137s.
+2021-03-24 22:26:10,241 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:10,244 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:10,247 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:10,291 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.044s.
+2021-03-24 22:26:10,293 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:10,296 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:10,348 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:10,507 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.159s.
+2021-03-24 22:26:10,507 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:10,513 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-24 22:26:10,517 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:10,565 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.048s.
+2021-03-24 22:26:10,566 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:10,568 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:10,617 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:10,662 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.045s.
+2021-03-24 22:26:10,662 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:10,665 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:10,717 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:10,856 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.138s.
+2021-03-24 22:26:10,858 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:10,863 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:10,868 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:10,916 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.048s.
+2021-03-24 22:26:10,916 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:10,919 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:10,969 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:11,025 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.056s.
+2021-03-24 22:26:11,025 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:11,029 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:11,069 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:11,118 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.049s.
+2021-03-24 22:26:11,119 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:11,128 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.009s.
+2021-03-24 22:26:11,169 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:11,314 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.145s.
+2021-03-24 22:26:11,315 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:11,318 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:11,320 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:11,366 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.046s.
+2021-03-24 22:26:11,366 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:11,369 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:11,420 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:11,470 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.050s.
+2021-03-24 22:26:11,471 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:11,476 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:11,522 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:11,601 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.079s.
+2021-03-24 22:26:11,601 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:11,606 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:11,621 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:11,667 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.046s.
+2021-03-24 22:26:11,668 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:11,670 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-24 22:26:11,722 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:11,764 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.042s.
+2021-03-24 22:26:11,764 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:11,768 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:11,822 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:11,919 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.097s.
+2021-03-24 22:26:11,920 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:11,926 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2021-03-24 22:26:11,933 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:11,987 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.054s.
+2021-03-24 22:26:11,987 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:11,990 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:12,049 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:12,172 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.119s.
+2021-03-24 22:26:12,172 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:12,176 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:12,179 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:12,217 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.039s.
+2021-03-24 22:26:12,218 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:12,227 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.009s.
+2021-03-24 22:26:12,279 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:12,345 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.066s.
+2021-03-24 22:26:12,345 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:12,351 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-24 22:26:12,380 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:12,437 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.058s.
+2021-03-24 22:26:12,438 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:12,442 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:12,480 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:12,534 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.054s.
+2021-03-24 22:26:12,535 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:12,539 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:12,580 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:12,711 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.130s.
+2021-03-24 22:26:12,712 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:12,716 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:12,720 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:12,765 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.045s.
+2021-03-24 22:26:12,766 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:12,769 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:12,827 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:12,971 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.139s.
+2021-03-24 22:26:12,972 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:12,975 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:12,978 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:13,034 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.055s.
+2021-03-24 22:26:13,034 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:13,043 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.009s.
+2021-03-24 22:26:13,079 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:13,131 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.053s.
+2021-03-24 22:26:13,132 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:13,135 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:13,179 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:13,219 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.041s.
+2021-03-24 22:26:13,220 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:13,223 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:13,279 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:13,337 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.058s.
+2021-03-24 22:26:13,338 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:13,341 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:13,380 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:13,522 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.142s.
+2021-03-24 22:26:13,528 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:13,533 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:13,538 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:13,588 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.050s.
+2021-03-24 22:26:13,589 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:13,592 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:13,639 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:13,774 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.133s.
+2021-03-24 22:26:13,774 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:13,778 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:13,782 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:13,832 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.049s.
+2021-03-24 22:26:13,832 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:13,835 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:13,884 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:13,922 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.038s.
+2021-03-24 22:26:13,922 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:13,925 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:13,984 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:14,089 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.104s.
+2021-03-24 22:26:14,089 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:14,093 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:14,097 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:14,148 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.051s.
+2021-03-24 22:26:14,148 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:14,152 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:14,198 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:14,325 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.127s.
+2021-03-24 22:26:14,326 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:14,329 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:14,332 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:14,373 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.041s.
+2021-03-24 22:26:14,373 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:14,376 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:14,433 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:14,476 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.044s.
+2021-03-24 22:26:14,478 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:14,482 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:14,533 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:14,586 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.053s.
+2021-03-24 22:26:14,586 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:14,590 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:14,633 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:14,670 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.037s.
+2021-03-24 22:26:14,670 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:14,673 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:14,733 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:14,785 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.051s.
+2021-03-24 22:26:14,785 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:14,788 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:14,833 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:14,886 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.053s.
+2021-03-24 22:26:14,887 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:14,891 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:14,934 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:14,997 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.063s.
+2021-03-24 22:26:14,998 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:15,003 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:15,034 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:15,100 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.066s.
+2021-03-24 22:26:15,101 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:15,106 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-24 22:26:15,140 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:15,194 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.054s.
+2021-03-24 22:26:15,195 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:15,200 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-24 22:26:15,239 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:15,305 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.065s.
+2021-03-24 22:26:15,305 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:15,309 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:15,340 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:15,406 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.066s.
+2021-03-24 22:26:15,406 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:15,410 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:15,440 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:15,557 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.116s.
+2021-03-24 22:26:15,558 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:15,561 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:15,563 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:15,610 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.047s.
+2021-03-24 22:26:15,610 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:15,614 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:15,681 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:15,776 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.094s.
+2021-03-24 22:26:15,776 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:15,780 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:15,783 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:15,823 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.040s.
+2021-03-24 22:26:15,823 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:15,826 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-24 22:26:15,884 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:15,953 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.069s.
+2021-03-24 22:26:15,954 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:15,959 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-24 22:26:15,964 [nlb_agent_wrapper] DEBUG: Calling end_of_round on callback.
+2021-03-24 22:26:16,049 [nlb_agent_wrapper] DEBUG: Got result from callback#end_of_round in 0.086s.
+2021-03-24 22:26:17,768 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:17,768 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-24 22:26:17,768 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:17,771 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:17,868 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:17,939 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.070s.
+2021-03-24 22:26:17,939 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:17,942 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:17,968 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:18,022 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.053s.
+2021-03-24 22:26:18,022 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:18,025 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:18,072 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:18,118 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.046s.
+2021-03-24 22:26:18,119 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:18,122 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:18,172 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:18,233 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.060s.
+2021-03-24 22:26:18,233 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:18,243 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.009s.
+2021-03-24 22:26:18,272 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:18,325 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.052s.
+2021-03-24 22:26:18,325 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:18,328 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:18,373 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:18,438 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.065s.
+2021-03-24 22:26:18,438 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:18,442 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:18,473 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:18,531 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.058s.
+2021-03-24 22:26:18,532 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:18,544 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.012s.
+2021-03-24 22:26:18,573 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:18,633 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.060s.
+2021-03-24 22:26:18,633 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:18,638 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-24 22:26:18,673 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:18,734 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.061s.
+2021-03-24 22:26:18,734 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:18,739 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-24 22:26:18,791 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:18,908 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.116s.
+2021-03-24 22:26:18,908 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:18,912 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:18,916 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:18,964 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.048s.
+2021-03-24 22:26:18,965 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:18,969 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:19,016 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:19,139 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.122s.
+2021-03-24 22:26:19,139 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:19,144 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-24 22:26:19,148 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:19,214 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.066s.
+2021-03-24 22:26:19,215 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:19,219 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:19,248 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:19,308 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.060s.
+2021-03-24 22:26:19,309 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:19,311 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-24 22:26:19,349 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:19,479 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.130s.
+2021-03-24 22:26:19,480 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:19,483 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:19,486 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:19,523 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.037s.
+2021-03-24 22:26:19,524 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:19,526 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-24 22:26:19,529 [nlb_agent_wrapper] DEBUG: Calling end_of_round on callback.
+2021-03-24 22:26:19,571 [nlb_agent_wrapper] DEBUG: Got result from callback#end_of_round in 0.042s.
+2021-03-24 22:26:20,996 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:20,997 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-24 22:26:20,997 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:21,008 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.011s.
+2021-03-24 22:26:21,097 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:21,185 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.082s.
+2021-03-24 22:26:21,186 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:21,190 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:21,197 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:21,263 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.066s.
+2021-03-24 22:26:21,264 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:21,267 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:21,297 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:21,346 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.050s.
+2021-03-24 22:26:21,346 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:21,350 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:21,397 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:21,538 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.140s.
+2021-03-24 22:26:21,538 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:21,543 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-24 22:26:21,546 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:21,599 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.053s.
+2021-03-24 22:26:21,599 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:21,603 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:21,646 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:21,693 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.047s.
+2021-03-24 22:26:21,693 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:21,696 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:21,746 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:21,808 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.061s.
+2021-03-24 22:26:21,808 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:21,812 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:21,847 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:21,998 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.150s.
+2021-03-24 22:26:21,998 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:22,010 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.012s.
+2021-03-24 22:26:22,015 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:22,060 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.045s.
+2021-03-24 22:26:22,060 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:22,064 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:22,115 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:22,178 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.063s.
+2021-03-24 22:26:22,179 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:22,185 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2021-03-24 22:26:22,215 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:22,300 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.085s.
+2021-03-24 22:26:22,300 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:22,314 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.014s.
+2021-03-24 22:26:22,318 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:22,379 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.061s.
+2021-03-24 22:26:22,380 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:22,389 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-24 22:26:22,419 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:22,572 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.151s.
+2021-03-24 22:26:22,579 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:22,582 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:22,585 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:22,632 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.047s.
+2021-03-24 22:26:22,632 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:22,635 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:22,685 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:22,759 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.074s.
+2021-03-24 22:26:22,760 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:22,765 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-24 22:26:22,786 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:22,940 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.153s.
+2021-03-24 22:26:22,941 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:22,944 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:22,946 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:22,998 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.052s.
+2021-03-24 22:26:22,999 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:23,002 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:23,047 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:23,193 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.145s.
+2021-03-24 22:26:23,193 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:23,197 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:23,199 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:23,252 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.052s.
+2021-03-24 22:26:23,252 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:23,256 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:23,300 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:23,463 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.162s.
+2021-03-24 22:26:23,463 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:23,466 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:23,469 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:23,521 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.053s.
+2021-03-24 22:26:23,522 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:23,526 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:23,569 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:23,616 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.047s.
+2021-03-24 22:26:23,617 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:23,620 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:23,669 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:23,731 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.062s.
+2021-03-24 22:26:23,732 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:23,735 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:23,770 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:23,858 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.087s.
+2021-03-24 22:26:23,859 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:23,881 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.023s.
+2021-03-24 22:26:23,884 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:23,958 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.073s.
+2021-03-24 22:26:23,960 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:23,964 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:23,985 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:24,050 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.065s.
+2021-03-24 22:26:24,050 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:24,053 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:24,085 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:24,136 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.051s.
+2021-03-24 22:26:24,136 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:24,140 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:24,205 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:24,336 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.130s.
+2021-03-24 22:26:24,337 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:24,341 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:24,345 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:24,396 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.051s.
+2021-03-24 22:26:24,396 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:24,399 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:24,445 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:24,505 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.060s.
+2021-03-24 22:26:24,506 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:24,510 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-24 22:26:24,545 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:24,598 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.053s.
+2021-03-24 22:26:24,599 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:24,611 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.012s.
+2021-03-24 22:26:24,645 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:24,702 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.057s.
+2021-03-24 22:26:24,703 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:24,707 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:24,746 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:24,808 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.062s.
+2021-03-24 22:26:24,809 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:24,814 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-24 22:26:24,846 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:24,906 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.060s.
+2021-03-24 22:26:24,906 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:24,917 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-24 22:26:24,946 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:25,071 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.124s.
+2021-03-24 22:26:25,072 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:25,076 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:25,080 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:25,129 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.048s.
+2021-03-24 22:26:25,129 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:25,132 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:25,189 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:25,295 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.106s.
+2021-03-24 22:26:25,295 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:25,301 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-24 22:26:25,306 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:25,382 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.076s.
+2021-03-24 22:26:25,382 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:25,387 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:25,406 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:25,468 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.062s.
+2021-03-24 22:26:25,469 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:25,472 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:25,506 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:25,559 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.053s.
+2021-03-24 22:26:25,560 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:25,564 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:25,606 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:25,648 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.041s.
+2021-03-24 22:26:25,648 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:25,651 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:25,706 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:25,784 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.077s.
+2021-03-24 22:26:25,785 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:25,790 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-24 22:26:25,807 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:25,878 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.071s.
+2021-03-24 22:26:25,878 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:25,882 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:25,907 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:25,952 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.045s.
+2021-03-24 22:26:25,952 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:25,955 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:26,008 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:26,150 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.142s.
+2021-03-24 22:26:26,151 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:26,154 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:26,158 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:26,208 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.050s.
+2021-03-24 22:26:26,208 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:26,212 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:26,275 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:26,414 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.139s.
+2021-03-24 22:26:26,414 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:26,418 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:26,420 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:26,471 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.051s.
+2021-03-24 22:26:26,471 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:26,475 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:26,533 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:26,650 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.117s.
+2021-03-24 22:26:26,651 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:26,654 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:26,662 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:26,712 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.049s.
+2021-03-24 22:26:26,712 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:26,717 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-24 22:26:26,762 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:26,833 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.071s.
+2021-03-24 22:26:26,834 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:26,837 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:26,863 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:26,915 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.052s.
+2021-03-24 22:26:26,916 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:26,918 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:26,963 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:27,009 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.046s.
+2021-03-24 22:26:27,009 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:27,012 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:27,063 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:27,126 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.062s.
+2021-03-24 22:26:27,126 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:27,132 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-24 22:26:27,180 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:27,291 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.106s.
+2021-03-24 22:26:27,291 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:27,296 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-24 22:26:27,299 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:27,348 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.049s.
+2021-03-24 22:26:27,349 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:27,352 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:27,400 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:27,521 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.121s.
+2021-03-24 22:26:27,521 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:27,524 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:27,530 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:27,582 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.051s.
+2021-03-24 22:26:27,582 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:27,585 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:27,631 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:27,690 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.059s.
+2021-03-24 22:26:27,691 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:27,695 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-24 22:26:27,742 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:27,864 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.116s.
+2021-03-24 22:26:27,865 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:27,868 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:27,873 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:27,924 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.050s.
+2021-03-24 22:26:27,924 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:27,929 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:27,973 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:28,021 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.047s.
+2021-03-24 22:26:28,021 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:28,024 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:28,085 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:28,185 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.099s.
+2021-03-24 22:26:28,185 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:28,188 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:28,193 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:28,243 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.050s.
+2021-03-24 22:26:28,243 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:28,248 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:28,293 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:28,341 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.049s.
+2021-03-24 22:26:28,342 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:28,346 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:28,393 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:28,472 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.079s.
+2021-03-24 22:26:28,472 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:28,478 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-24 22:26:28,493 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:28,555 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.062s.
+2021-03-24 22:26:28,555 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:28,559 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:28,593 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:28,641 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.047s.
+2021-03-24 22:26:28,641 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:28,644 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:28,705 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:28,858 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.148s.
+2021-03-24 22:26:28,858 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:28,864 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-24 22:26:28,867 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:28,917 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.050s.
+2021-03-24 22:26:28,918 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:28,921 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:28,967 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:29,014 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.046s.
+2021-03-24 22:26:29,014 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:29,018 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:29,071 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:29,215 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.143s.
+2021-03-24 22:26:29,215 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:29,218 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:29,221 [nlb_agent_wrapper] DEBUG: Calling end_of_round on callback.
+2021-03-24 22:26:29,267 [nlb_agent_wrapper] DEBUG: Got result from callback#end_of_round in 0.045s.
+2021-03-24 22:26:30,581 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:30,581 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-24 22:26:30,581 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:30,584 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:30,681 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:30,753 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.071s.
+2021-03-24 22:26:30,753 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:30,756 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:30,781 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:30,827 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.045s.
+2021-03-24 22:26:30,827 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:30,830 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:30,903 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:31,031 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.124s.
+2021-03-24 22:26:31,033 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:31,036 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:31,041 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:31,086 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.045s.
+2021-03-24 22:26:31,086 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:31,088 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-24 22:26:31,141 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:31,250 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.109s.
+2021-03-24 22:26:31,251 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:31,257 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2021-03-24 22:26:31,265 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:31,334 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.069s.
+2021-03-24 22:26:31,334 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:31,338 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:31,365 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:31,407 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.041s.
+2021-03-24 22:26:31,407 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:31,410 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-24 22:26:31,475 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:31,578 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.103s.
+2021-03-24 22:26:31,578 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:31,582 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:31,586 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:31,637 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.051s.
+2021-03-24 22:26:31,638 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:31,641 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:31,686 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:31,738 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.051s.
+2021-03-24 22:26:31,738 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:31,742 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:31,786 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:31,836 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.049s.
+2021-03-24 22:26:31,836 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:31,841 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:31,887 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:31,956 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.069s.
+2021-03-24 22:26:31,956 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:31,960 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:31,987 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:32,055 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.068s.
+2021-03-24 22:26:32,055 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:32,060 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:32,098 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:32,226 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.122s.
+2021-03-24 22:26:32,226 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:32,230 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:32,235 [nlb_agent_wrapper] DEBUG: Calling end_of_round on callback.
+2021-03-24 22:26:32,270 [nlb_agent_wrapper] DEBUG: Got result from callback#end_of_round in 0.035s.
+2021-03-24 22:26:33,376 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:33,376 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-24 22:26:33,377 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:33,380 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:33,477 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:33,605 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.127s.
+2021-03-24 22:26:33,605 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:33,608 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:33,611 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:33,658 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.047s.
+2021-03-24 22:26:33,658 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:33,661 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:33,715 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:33,818 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.102s.
+2021-03-24 22:26:33,819 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:33,826 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.008s.
+2021-03-24 22:26:33,831 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:33,892 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.060s.
+2021-03-24 22:26:33,892 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:33,896 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:33,932 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:33,995 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.063s.
+2021-03-24 22:26:33,996 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:34,001 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-24 22:26:34,053 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:34,163 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.104s.
+2021-03-24 22:26:34,163 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:34,166 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:34,170 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:34,212 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.041s.
+2021-03-24 22:26:34,212 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:34,221 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.009s.
+2021-03-24 22:26:34,271 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:34,444 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.172s.
+2021-03-24 22:26:34,445 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:34,448 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:34,450 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:34,493 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.042s.
+2021-03-24 22:26:34,493 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:34,496 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:34,551 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:34,609 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.058s.
+2021-03-24 22:26:34,609 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:34,613 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:34,651 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:34,723 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.072s.
+2021-03-24 22:26:34,724 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:34,729 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-24 22:26:34,754 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:34,819 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.065s.
+2021-03-24 22:26:34,819 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:34,831 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.011s.
+2021-03-24 22:26:34,854 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:34,912 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.059s.
+2021-03-24 22:26:34,913 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:34,916 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:34,954 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:35,005 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.051s.
+2021-03-24 22:26:35,006 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:35,009 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:35,070 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:35,217 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.142s.
+2021-03-24 22:26:35,217 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:35,220 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:35,224 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:35,270 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.046s.
+2021-03-24 22:26:35,270 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:35,274 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:35,325 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:35,389 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.064s.
+2021-03-24 22:26:35,389 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:35,395 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-24 22:26:35,425 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:35,509 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.084s.
+2021-03-24 22:26:35,510 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:35,517 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.007s.
+2021-03-24 22:26:35,526 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:35,594 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.068s.
+2021-03-24 22:26:35,594 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:35,598 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:35,627 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:35,705 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.077s.
+2021-03-24 22:26:35,705 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:35,709 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:35,732 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:35,778 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.045s.
+2021-03-24 22:26:35,778 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:35,781 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:35,827 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:35,871 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.043s.
+2021-03-24 22:26:35,871 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:35,879 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.008s.
+2021-03-24 22:26:35,927 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:36,004 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.076s.
+2021-03-24 22:26:36,004 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:36,010 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-24 22:26:36,036 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:36,111 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.075s.
+2021-03-24 22:26:36,113 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:36,118 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:36,133 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:36,194 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.061s.
+2021-03-24 22:26:36,194 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:36,197 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:36,233 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:36,284 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.050s.
+2021-03-24 22:26:36,284 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:36,289 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:36,337 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:36,386 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.049s.
+2021-03-24 22:26:36,387 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:36,391 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:36,437 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:36,516 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.079s.
+2021-03-24 22:26:36,517 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:36,521 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:36,538 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:36,586 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.048s.
+2021-03-24 22:26:36,586 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:36,591 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:36,638 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:36,769 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.130s.
+2021-03-24 22:26:36,769 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:36,773 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:36,776 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:36,828 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.052s.
+2021-03-24 22:26:36,828 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:36,831 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:36,876 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:36,919 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.043s.
+2021-03-24 22:26:36,919 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:36,923 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:36,976 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:37,046 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.069s.
+2021-03-24 22:26:37,046 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:37,050 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:37,098 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:37,250 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.149s.
+2021-03-24 22:26:37,250 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:37,255 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-24 22:26:37,258 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:37,348 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.090s.
+2021-03-24 22:26:37,348 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:37,361 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.007s.
+2021-03-24 22:26:37,364 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:37,424 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.060s.
+2021-03-24 22:26:37,425 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:37,429 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:37,465 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:37,555 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.089s.
+2021-03-24 22:26:37,556 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:37,560 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:37,565 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:37,615 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.050s.
+2021-03-24 22:26:37,615 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:37,618 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:37,679 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:37,833 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.154s.
+2021-03-24 22:26:37,833 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:37,837 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:37,841 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:37,891 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.050s.
+2021-03-24 22:26:37,892 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:37,896 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:37,899 [nlb_agent_wrapper] DEBUG: Calling end_of_round on callback.
+2021-03-24 22:26:37,939 [nlb_agent_wrapper] DEBUG: Got result from callback#end_of_round in 0.040s.
+2021-03-24 22:26:38,643 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:38,643 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-24 22:26:38,644 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:38,664 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.019s.
+2021-03-24 22:26:38,743 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:38,829 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.086s.
+2021-03-24 22:26:38,829 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:38,835 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-24 22:26:38,843 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:38,894 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.051s.
+2021-03-24 22:26:38,895 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:38,898 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:38,954 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:39,081 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.126s.
+2021-03-24 22:26:39,082 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:39,085 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:39,088 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:39,133 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.045s.
+2021-03-24 22:26:39,134 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:39,136 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-24 22:26:39,189 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:39,251 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.062s.
+2021-03-24 22:26:39,252 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:39,257 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:39,306 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:39,439 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.129s.
+2021-03-24 22:26:39,440 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:39,445 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:39,448 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:39,493 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.045s.
+2021-03-24 22:26:39,493 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:39,495 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:39,559 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:39,699 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.134s.
+2021-03-24 22:26:39,700 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:39,705 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-24 22:26:39,710 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:39,778 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.068s.
+2021-03-24 22:26:39,779 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:39,783 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:39,810 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:39,868 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.058s.
+2021-03-24 22:26:39,868 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:39,871 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:39,910 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:39,965 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.054s.
+2021-03-24 22:26:39,965 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:39,968 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:40,011 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:40,047 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.036s.
+2021-03-24 22:26:40,047 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:40,055 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.007s.
+2021-03-24 22:26:40,111 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:40,245 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.134s.
+2021-03-24 22:26:40,246 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:40,252 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2021-03-24 22:26:40,260 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:40,311 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.051s.
+2021-03-24 22:26:40,311 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:40,315 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:40,319 [nlb_agent_wrapper] DEBUG: Calling end_of_round on callback.
+2021-03-24 22:26:40,354 [nlb_agent_wrapper] DEBUG: Got result from callback#end_of_round in 0.035s.
+2021-03-24 22:26:44,295 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:44,295 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-24 22:26:44,295 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:44,298 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:44,396 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:44,475 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.079s.
+2021-03-24 22:26:44,475 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:44,479 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:44,495 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:44,552 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.057s.
+2021-03-24 22:26:44,553 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:44,555 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:44,595 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:44,636 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.040s.
+2021-03-24 22:26:44,636 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:44,639 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:44,695 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:44,763 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.067s.
+2021-03-24 22:26:44,788 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:44,793 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:44,798 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:44,868 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.069s.
+2021-03-24 22:26:44,868 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:44,872 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:44,899 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:44,951 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.052s.
+2021-03-24 22:26:44,951 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:44,956 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:44,999 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:45,069 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.070s.
+2021-03-24 22:26:45,069 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:45,073 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:45,099 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:45,148 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.049s.
+2021-03-24 22:26:45,149 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:45,153 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:45,199 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:45,236 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.037s.
+2021-03-24 22:26:45,236 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:45,239 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:45,299 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:45,413 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.113s.
+2021-03-24 22:26:45,414 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:45,421 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.007s.
+2021-03-24 22:26:45,439 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:45,490 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.051s.
+2021-03-24 22:26:45,491 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:45,494 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:45,539 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:45,599 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.059s.
+2021-03-24 22:26:45,599 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:45,604 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:45,640 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:45,696 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.055s.
+2021-03-24 22:26:45,696 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:45,701 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-24 22:26:45,740 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:45,790 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.050s.
+2021-03-24 22:26:45,791 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:45,795 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:45,840 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:45,899 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.059s.
+2021-03-24 22:26:45,900 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:45,904 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:45,940 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:46,007 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.066s.
+2021-03-24 22:26:46,007 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:46,011 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:46,055 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:46,178 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.123s.
+2021-03-24 22:26:46,179 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:46,183 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:46,186 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:46,233 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.047s.
+2021-03-24 22:26:46,234 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:46,238 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:46,309 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:46,449 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.136s.
+2021-03-24 22:26:46,449 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:46,453 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:46,456 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:46,502 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.046s.
+2021-03-24 22:26:46,502 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:46,505 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-24 22:26:46,509 [nlb_agent_wrapper] DEBUG: Calling end_of_round on callback.
+2021-03-24 22:26:46,546 [nlb_agent_wrapper] DEBUG: Got result from callback#end_of_round in 0.037s.
+2021-03-24 22:26:48,586 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:48,587 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-24 22:26:48,587 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:48,601 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.013s.
+2021-03-24 22:26:48,686 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:48,797 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.111s.
+2021-03-24 22:26:48,797 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:48,801 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:48,806 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:48,845 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.039s.
+2021-03-24 22:26:48,845 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:48,849 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:48,906 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:48,954 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.048s.
+2021-03-24 22:26:48,955 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:48,958 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:49,011 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:49,068 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.057s.
+2021-03-24 22:26:49,069 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:49,074 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-24 22:26:49,112 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:49,175 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.064s.
+2021-03-24 22:26:49,176 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:49,180 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:49,212 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:49,276 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.064s.
+2021-03-24 22:26:49,277 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:49,280 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:49,312 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:49,448 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.135s.
+2021-03-24 22:26:49,448 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:49,452 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:49,457 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:49,503 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.046s.
+2021-03-24 22:26:49,503 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:49,516 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.012s.
+2021-03-24 22:26:49,557 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:49,623 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.066s.
+2021-03-24 22:26:49,624 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:49,626 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:49,658 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:49,707 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.050s.
+2021-03-24 22:26:49,708 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:49,711 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:49,768 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:49,925 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.136s.
+2021-03-24 22:26:49,925 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:49,929 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:49,932 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:49,981 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.049s.
+2021-03-24 22:26:49,982 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:49,985 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:50,034 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:50,175 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.140s.
+2021-03-24 22:26:50,175 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:50,178 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:50,181 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:50,227 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.046s.
+2021-03-24 22:26:50,227 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:50,230 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:50,291 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:50,412 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.121s.
+2021-03-24 22:26:50,412 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:50,418 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-24 22:26:50,422 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:50,475 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.052s.
+2021-03-24 22:26:50,475 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:50,478 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:50,523 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:50,576 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.053s.
+2021-03-24 22:26:50,577 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:50,580 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:50,631 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:50,761 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.129s.
+2021-03-24 22:26:50,761 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:50,764 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:50,766 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:50,817 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.050s.
+2021-03-24 22:26:50,818 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:50,822 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:50,867 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:50,912 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.045s.
+2021-03-24 22:26:50,913 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:50,916 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:50,967 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:51,109 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.141s.
+2021-03-24 22:26:51,109 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:51,113 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:51,118 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:51,188 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.069s.
+2021-03-24 22:26:51,188 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:51,191 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:51,223 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:51,274 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.050s.
+2021-03-24 22:26:51,274 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:51,278 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:51,324 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:51,367 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.043s.
+2021-03-24 22:26:51,368 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:51,372 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:51,424 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:51,489 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.065s.
+2021-03-24 22:26:51,490 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:51,495 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-24 22:26:51,524 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:51,682 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.158s.
+2021-03-24 22:26:51,683 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:51,687 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:51,692 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:51,736 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.044s.
+2021-03-24 22:26:51,736 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:51,741 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:51,792 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:51,857 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.065s.
+2021-03-24 22:26:51,858 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:51,862 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:51,903 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:52,051 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.142s.
+2021-03-24 22:26:52,051 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:52,056 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:52,059 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:52,107 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.048s.
+2021-03-24 22:26:52,108 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:52,111 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:52,159 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:52,215 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.056s.
+2021-03-24 22:26:52,215 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:52,219 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:52,259 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:52,315 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.055s.
+2021-03-24 22:26:52,315 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:52,320 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:52,360 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:52,537 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.177s.
+2021-03-24 22:26:52,539 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:52,548 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.009s.
+2021-03-24 22:26:52,554 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:52,600 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.046s.
+2021-03-24 22:26:52,600 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:52,604 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:52,655 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:52,787 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.131s.
+2021-03-24 22:26:52,787 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:52,791 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:52,796 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:52,875 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.079s.
+2021-03-24 22:26:52,875 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:52,880 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:52,896 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:52,957 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.061s.
+2021-03-24 22:26:52,957 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:52,962 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:52,997 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:53,072 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.075s.
+2021-03-24 22:26:53,072 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:53,076 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:53,096 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:53,142 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.046s.
+2021-03-24 22:26:53,143 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:53,147 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:53,196 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:53,301 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.104s.
+2021-03-24 22:26:53,301 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:53,309 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.007s.
+2021-03-24 22:26:53,314 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:53,402 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.088s.
+2021-03-24 22:26:53,402 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:53,407 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-24 22:26:53,414 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:53,464 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.050s.
+2021-03-24 22:26:53,464 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:53,467 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:53,514 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:53,574 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.060s.
+2021-03-24 22:26:53,574 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:53,579 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-24 22:26:53,614 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:53,670 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.056s.
+2021-03-24 22:26:53,671 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:53,680 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.009s.
+2021-03-24 22:26:53,714 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:53,764 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.050s.
+2021-03-24 22:26:53,764 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:53,767 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:53,815 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:53,964 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.148s.
+2021-03-24 22:26:53,964 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:53,966 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-24 22:26:53,977 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:54,016 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.038s.
+2021-03-24 22:26:54,016 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:54,019 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:54,071 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:54,132 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.061s.
+2021-03-24 22:26:54,133 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:54,137 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:54,171 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:54,228 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.056s.
+2021-03-24 22:26:54,228 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:54,232 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:54,275 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:54,324 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.049s.
+2021-03-24 22:26:54,325 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:54,329 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:54,376 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:54,528 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.151s.
+2021-03-24 22:26:54,528 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:54,534 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-24 22:26:54,559 [nlb_agent_wrapper] DEBUG: Calling end_of_round on callback.
+2021-03-24 22:26:54,639 [nlb_agent_wrapper] DEBUG: Got result from callback#end_of_round in 0.080s.
+2021-03-24 22:26:55,953 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:55,954 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-24 22:26:55,954 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:55,961 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2021-03-24 22:26:56,054 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:56,114 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.060s.
+2021-03-24 22:26:56,114 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:56,117 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:56,154 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:56,237 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.083s.
+2021-03-24 22:26:56,237 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:56,241 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:56,255 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:56,298 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.043s.
+2021-03-24 22:26:56,299 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:56,301 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:56,355 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:56,403 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.048s.
+2021-03-24 22:26:56,404 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:56,407 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:56,456 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:56,601 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.144s.
+2021-03-24 22:26:56,601 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:56,604 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:56,608 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:56,653 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.045s.
+2021-03-24 22:26:56,654 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:56,656 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:56,710 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:56,748 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.038s.
+2021-03-24 22:26:56,749 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:56,751 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:56,811 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:56,938 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.127s.
+2021-03-24 22:26:56,939 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:56,942 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:56,946 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:56,990 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.044s.
+2021-03-24 22:26:56,990 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:56,994 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:57,047 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:57,097 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.049s.
+2021-03-24 22:26:57,097 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:57,102 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:57,147 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:57,217 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.070s.
+2021-03-24 22:26:57,217 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:57,222 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:57,247 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:57,332 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.085s.
+2021-03-24 22:26:57,333 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:57,338 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-24 22:26:57,360 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:57,437 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.077s.
+2021-03-24 22:26:57,438 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:57,442 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:57,460 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:57,517 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.056s.
+2021-03-24 22:26:57,517 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:57,520 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:57,560 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:57,607 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.046s.
+2021-03-24 22:26:57,607 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:57,611 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:57,663 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:57,721 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.058s.
+2021-03-24 22:26:57,721 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:57,726 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:57,762 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:57,835 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.073s.
+2021-03-24 22:26:57,836 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:57,840 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:57,862 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:57,938 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.076s.
+2021-03-24 22:26:57,939 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:57,944 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-24 22:26:57,963 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:58,064 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.100s.
+2021-03-24 22:26:58,064 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:58,068 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:58,070 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:58,116 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.046s.
+2021-03-24 22:26:58,116 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:58,119 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:58,187 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:58,322 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.130s.
+2021-03-24 22:26:58,323 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:58,326 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:58,330 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:58,379 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.049s.
+2021-03-24 22:26:58,380 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:58,384 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:58,433 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:58,483 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.050s.
+2021-03-24 22:26:58,484 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:58,487 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:58,533 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:58,611 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.078s.
+2021-03-24 22:26:58,611 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:58,617 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-24 22:26:58,633 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:58,708 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.075s.
+2021-03-24 22:26:58,708 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:58,712 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:58,733 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:58,789 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.055s.
+2021-03-24 22:26:58,789 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:58,793 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:58,833 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:58,901 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.067s.
+2021-03-24 22:26:58,901 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:58,906 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-24 22:26:58,934 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:59,003 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.069s.
+2021-03-24 22:26:59,003 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:59,007 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:59,034 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:59,083 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.049s.
+2021-03-24 22:26:59,084 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:59,086 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:59,134 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:59,172 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.038s.
+2021-03-24 22:26:59,173 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:59,176 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:59,234 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:59,292 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.058s.
+2021-03-24 22:26:59,293 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:59,298 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-24 22:26:59,334 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:59,407 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.073s.
+2021-03-24 22:26:59,408 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:59,413 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-24 22:26:59,436 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:59,497 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.061s.
+2021-03-24 22:26:59,497 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:59,501 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:59,536 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:59,588 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.052s.
+2021-03-24 22:26:59,588 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:59,592 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:59,637 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:59,778 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.141s.
+2021-03-24 22:26:59,779 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:59,782 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:26:59,786 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:26:59,832 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.046s.
+2021-03-24 22:26:59,832 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:26:59,835 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:26:59,897 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:27:00,018 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.120s.
+2021-03-24 22:27:00,018 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:27:00,021 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:27:00,088 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:27:00,211 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.122s.
+2021-03-24 22:27:00,211 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:27:00,214 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:27:00,217 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:27:00,267 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.050s.
+2021-03-24 22:27:00,268 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:27:00,272 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:27:00,317 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:27:00,362 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.045s.
+2021-03-24 22:27:00,362 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:27:00,367 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:27:00,417 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:27:00,477 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.059s.
+2021-03-24 22:27:00,477 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:27:00,482 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-24 22:27:00,517 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:27:00,603 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.086s.
+2021-03-24 22:27:00,604 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:27:00,608 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:27:00,622 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:27:00,686 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.064s.
+2021-03-24 22:27:00,687 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:27:00,691 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-24 22:27:00,722 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:27:00,784 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.063s.
+2021-03-24 22:27:00,785 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:27:00,788 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:27:00,822 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:27:00,871 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.049s.
+2021-03-24 22:27:00,871 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:27:00,874 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:27:00,944 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:27:01,065 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.121s.
+2021-03-24 22:27:01,066 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:27:01,070 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:27:01,072 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:27:01,121 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.049s.
+2021-03-24 22:27:01,121 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:27:01,125 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:27:01,183 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:27:01,313 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.124s.
+2021-03-24 22:27:01,314 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:27:01,318 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 22:27:01,320 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:27:01,371 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.050s.
+2021-03-24 22:27:01,371 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:27:01,374 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:27:01,421 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:27:01,574 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.153s.
+2021-03-24 22:27:01,575 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:27:01,578 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:27:01,581 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 22:27:01,634 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.053s.
+2021-03-24 22:27:01,635 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 22:27:01,638 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 22:27:01,641 [nlb_agent_wrapper] DEBUG: Calling end_of_round on callback.
+2021-03-24 22:27:01,687 [nlb_agent_wrapper] DEBUG: Got result from callback#end_of_round in 0.045s.

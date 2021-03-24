@@ -1,7 +1,7 @@
 import numpy as np
 from operator import itemgetter
 
-def taxi(a,b):
+def norm(a,b):
     return abs(a[0]-b[0])+abs(a[1]-b[1])
 
 #returns all the possible actions the agent could make
@@ -136,7 +136,7 @@ def safe_spot(game_state):
 
     safe_spots = []
     for i in temp:
-        dist=taxi(i, game_state['self'][3])
+        dist=norm(i, game_state['self'][3])
         safe_spots.append((dist,tuple(i)))
     
     safe_spots.sort(key=lambda x: x[0::])
