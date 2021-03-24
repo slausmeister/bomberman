@@ -1,11 +1,111 @@
-2021-03-23 15:30:25,544 [beatdropper_wrapper] DEBUG: Calling setup on callback.
-2021-03-23 15:30:25,544 [beatdropper_code] INFO: Setting up model from scratch.
-2021-03-23 15:30:25,545 [beatdropper_wrapper] DEBUG: Got result from callback#setup in 0.000s.
-2021-03-23 15:30:25,546 [beatdropper_wrapper] DEBUG: Calling setup_training on callback.
-2021-03-23 15:30:25,546 [beatdropper_wrapper] DEBUG: Got result from callback#setup_training in 0.000s.
-2021-03-23 15:30:25,554 [beatdropper_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-23 15:30:25,555 [beatdropper_code] DEBUG: Encountered game event(s)  in step 1
-2021-03-23 15:30:25,557 [beatdropper_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.002s.
-2021-03-23 15:30:25,559 [beatdropper_wrapper] DEBUG: Calling act on callback.
-2021-03-23 15:30:25,560 [beatdropper_code] DEBUG: Querying model for action.
-2021-03-23 15:30:25,561 [beatdropper_wrapper] ERROR: An exception occurred while calling act: 'a' and 'p' must have same size
+2021-03-24 16:32:29,682 [beatdropper_wrapper] DEBUG: Calling setup on callback.
+2021-03-24 16:32:29,682 [beatdropper_code] INFO: Loading model from saved state.
+2021-03-24 16:32:29,682 [beatdropper_wrapper] DEBUG: Got result from callback#setup in 0.000s.
+2021-03-24 16:32:29,784 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-24 16:32:29,786 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-24 16:32:29,884 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-24 16:32:29,887 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-24 16:32:29,985 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-24 16:32:29,988 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 16:32:30,085 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-24 16:32:30,088 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 16:32:30,185 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-24 16:32:30,190 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 16:32:30,285 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-24 16:32:30,289 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 16:32:30,386 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-24 16:32:30,390 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 16:32:30,486 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-24 16:32:30,491 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-24 16:32:30,586 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-24 16:32:30,588 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-24 16:32:30,686 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-24 16:32:30,691 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-24 16:32:30,786 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-24 16:32:30,791 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 16:32:30,886 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-24 16:32:30,891 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 16:32:30,987 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-24 16:32:30,991 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 16:32:31,087 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-24 16:32:31,092 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-24 16:32:31,187 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-24 16:32:31,192 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 16:32:31,287 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-24 16:32:31,297 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.009s.
+2021-03-24 16:32:31,387 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-24 16:32:31,389 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-24 16:32:31,507 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-24 16:32:31,513 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2021-03-24 16:32:31,604 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-24 16:32:31,627 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-24 16:32:31,698 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-24 16:32:31,699 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-24 16:32:31,798 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-24 16:32:31,799 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-24 16:32:31,898 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-24 16:32:31,899 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-24 16:32:31,999 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-24 16:32:32,002 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 16:32:32,115 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-24 16:32:32,118 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 16:32:32,205 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-24 16:32:32,208 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 16:32:32,305 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-24 16:32:32,307 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-24 16:32:32,405 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-24 16:32:32,410 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 16:32:32,506 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-24 16:32:32,510 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 16:32:32,606 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-24 16:32:32,609 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 16:32:32,706 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-24 16:32:32,708 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-24 16:32:32,806 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-24 16:32:32,807 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-24 16:32:32,907 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-24 16:32:32,911 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 16:32:33,018 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-24 16:32:33,028 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-24 16:32:33,111 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-24 16:32:33,112 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-24 16:32:33,212 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-24 16:32:33,218 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-24 16:32:33,313 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-24 16:32:33,319 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-24 16:32:33,413 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-24 16:32:33,415 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-24 16:32:33,513 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-24 16:32:33,517 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 16:32:33,613 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-24 16:32:33,618 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 16:32:33,714 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-24 16:32:33,718 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 16:32:33,815 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-24 16:32:33,819 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 16:32:33,915 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-24 16:32:33,920 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 16:32:34,015 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-24 16:32:34,019 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 16:32:34,114 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-24 16:32:34,116 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-24 16:32:34,215 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-24 16:32:34,220 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-24 16:32:34,315 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-24 16:32:34,319 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 16:32:34,415 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-24 16:32:34,419 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 16:32:34,525 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-24 16:32:34,526 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-24 16:32:34,623 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-24 16:32:34,628 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 16:32:34,724 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-24 16:32:34,727 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 16:32:34,824 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-24 16:32:34,828 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 16:32:34,924 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-24 16:32:34,929 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 16:32:35,024 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-24 16:32:35,052 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 16:32:35,125 [beatdropper_wrapper] DEBUG: Calling act on callback.
+2021-03-24 16:32:35,129 [beatdropper_wrapper] DEBUG: Got result from callback#act in 0.004s.
