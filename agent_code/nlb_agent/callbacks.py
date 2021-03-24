@@ -1,4 +1,4 @@
-from agent_code.nlb_agent.func import destroyable_crates, nearest_coin, possible_actions, safe_spot, state_to_features
+from agent_code.nlb_agent.func import *
 import os
 import pickle
 import random

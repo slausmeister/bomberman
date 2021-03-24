@@ -1,4 +1,8 @@
 import numpy as np
+from operator import itemgetter
+
+def taxi(a,b):
+    return abs(a[0]-b[0])+abs(a[1]-b[1])
 
 #returns all the possible actions the agent could make
 def possible_actions(game_state):
@@ -97,24 +101,49 @@ def destroyable_crates(game_state):
 
 #it should return a tuple (d,(x,y)). d is the distance to the next safe spot, (x,y) are the coordinates
 def safe_spot(game_state): 
-    print('Debug: def safe_spot called succesfully')
+    #print('Debug: def safe_spot called succesfully')
     """Plan: make an array with all the possible threats and safe spots. 0=safe_spot, not0=possible threat"""
     S=game_state['self']        
     field = game_state['field']
     bombs = game_state['bombs']
 
-    new_field=np.zeros((17,17),dtype=int)          
-    new_field=new_field+game_state['explosion_map']
-    new_field=new_field+field
+    new_field=np.zeros((17,17),dtype=float)          
+    new_field+=0.3*game_state['explosion_map']
+    new_field+=0.5*field # Adding half, to prevent bombs canceling crates, thus making the cell appear free
+    # Initialising a larger array containing future explosions. The array will be cut to (15,15), as that is the relevant grid for explosions
+    temp = np.zeros((21,21))
+    for bomb in bombs :
+        x=bomb[0][0]+2
+        y=bomb[0][1]+2
+        temp[(x,y)]=5
+        #Checking wether a wall will block the explosion
+        if x%2!=0:
+            for i in [-3,-2,-1,1,2,3]:
+                temp[(x,y+i)]=5
+        if y%2!=0:
+            for i in [-3,-2,-1,1,2,3]:
+                temp[(x+i,y)]=5
+    # slicing the array to size
+    temp = temp[2:19,2:19]
+    new_field += temp
+
+
+    # We will now itterate through the array to find the closest safe spot
+    temp = []
+    for i in np.argwhere(new_field == 0):
+        temp.append(i)
+
+
+    safe_spots = []
+    for i in temp:
+        dist=taxi(i, game_state['self'][3])
+        safe_spots.append((dist,tuple(i)))
     
-    for bomb in bombs:
-        x=bomb[0][0]
-        y=bomb[0][1]
-        value = bomb[1]
-        new_field[bomb[0]]=value
-        if new_field[x,y-1]==-1 and new_field[x-1,y] != -1 and new_field[x+1,y]!=-1 and new_field[x,y+1]!=-1:
-            for i in range(1,4):
-                new_field[x-i,y]
+    safe_spots.sort(key=lambda x: x[0::])
+    print(safe_spots[0])
+    return safe_spots[0]
+
+
 
    
 def state_to_features(game_state: dict) -> np.array:
@@ -162,6 +191,7 @@ def state_to_features(game_state: dict) -> np.array:
 
     #feature 7: vertical distance to closest safe spot
     safecoordinates = safe_spot(game_state)[1]
+    #print(safecoordinates)
     vertisafe = safecoordinates[1]-state[3][1]
     features.append(vertisafe)
 
