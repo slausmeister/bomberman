@@ -1,121 +1,35 @@
-2021-03-24 00:45:32,050 [nlb_agent_wrapper] DEBUG: Calling setup on callback.
-2021-03-24 00:45:32,050 [nlb_agent_code] INFO: Loading model from saved state.
-2021-03-24 00:45:32,051 [nlb_agent_wrapper] DEBUG: Got result from callback#setup in 0.001s.
-2021-03-24 00:45:32,155 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 00:45:32,161 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.006s.
-2021-03-24 00:45:32,256 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 00:45:32,260 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
-2021-03-24 00:45:32,358 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 00:45:32,364 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.007s.
-2021-03-24 00:45:32,465 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 00:45:32,472 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.006s.
-2021-03-24 00:45:32,567 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 00:45:32,574 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.007s.
-2021-03-24 00:45:32,667 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 00:45:32,673 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.006s.
-2021-03-24 00:45:32,770 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 00:45:32,775 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.006s.
-2021-03-24 00:45:32,873 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 00:45:32,880 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.006s.
-2021-03-24 00:45:32,974 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 00:45:32,980 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
-2021-03-24 00:45:33,076 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 00:45:33,082 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.006s.
-2021-03-24 00:45:33,177 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 00:45:33,194 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.017s.
-2021-03-24 00:45:33,278 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 00:45:33,284 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.006s.
-2021-03-24 00:45:33,379 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 00:45:33,386 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.006s.
-2021-03-24 00:45:33,482 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 00:45:33,503 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.020s.
-2021-03-24 00:45:33,583 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 00:45:33,590 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.006s.
-2021-03-24 00:45:33,684 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 00:45:33,690 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.006s.
-2021-03-24 00:45:33,791 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 00:45:33,802 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.011s.
-2021-03-24 00:45:33,886 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 00:45:33,892 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.006s.
-2021-03-24 00:45:33,988 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 00:45:33,994 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.006s.
-2021-03-24 00:45:34,089 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 00:45:34,095 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.006s.
-2021-03-24 00:45:34,190 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 00:45:34,207 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.017s.
-2021-03-24 00:45:34,291 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 00:45:34,298 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.007s.
-2021-03-24 00:45:34,393 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 00:45:34,399 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.006s.
-2021-03-24 00:45:34,495 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 00:45:34,501 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.006s.
-2021-03-24 00:45:34,596 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 00:45:34,613 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.016s.
-2021-03-24 00:45:34,698 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 00:45:34,704 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.006s.
-2021-03-24 00:45:34,799 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 00:45:34,806 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.007s.
-2021-03-24 00:45:34,900 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 00:45:34,907 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.006s.
-2021-03-24 00:45:35,001 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 00:45:35,007 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.006s.
-2021-03-24 00:45:35,102 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 00:45:35,119 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.017s.
-2021-03-24 00:45:35,210 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 00:45:35,216 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.006s.
-2021-03-24 00:45:35,310 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 00:45:35,316 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.006s.
-2021-03-24 00:45:35,410 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 00:45:35,417 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.006s.
-2021-03-24 00:45:35,513 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 00:45:35,519 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.006s.
-2021-03-24 00:45:35,620 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 00:45:35,626 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.006s.
-2021-03-24 00:45:35,722 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 00:45:35,728 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
-2021-03-24 00:45:35,825 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 00:45:35,830 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
-2021-03-24 00:45:35,926 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 00:45:35,932 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.006s.
-2021-03-24 00:45:36,032 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 00:45:36,040 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.007s.
-2021-03-24 00:45:36,134 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 00:45:36,141 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.006s.
-2021-03-24 00:45:36,236 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 00:45:36,243 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.006s.
-2021-03-24 00:45:36,338 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 00:45:36,354 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.016s.
-2021-03-24 00:45:36,439 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 00:45:36,444 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
-2021-03-24 00:45:36,541 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 00:45:36,547 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.006s.
-2021-03-24 00:45:36,643 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 00:45:36,650 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.007s.
-2021-03-24 00:45:36,745 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 00:45:36,761 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.016s.
-2021-03-24 00:45:36,846 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 00:45:36,852 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.006s.
-2021-03-24 00:45:36,948 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 00:45:36,954 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.007s.
-2021-03-24 00:45:37,048 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 00:45:37,054 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.006s.
-2021-03-24 00:45:37,151 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 00:45:37,167 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.016s.
-2021-03-24 00:45:37,252 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 00:45:37,257 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
-2021-03-24 00:45:37,354 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 00:45:37,359 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
-2021-03-24 00:45:37,456 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 00:45:37,462 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.006s.
-2021-03-24 00:45:37,557 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 00:45:37,573 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.016s.
-2021-03-24 00:45:37,659 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 00:45:37,665 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.006s.
-2021-03-24 00:45:37,760 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 00:45:37,767 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
-2021-03-24 00:45:37,862 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 00:45:37,868 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
-2021-03-24 00:45:37,973 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 00:45:37,979 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
-2021-03-24 00:45:38,072 [nlb_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-24 00:45:38,078 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-24 16:33:43,642 [nlb_agent_wrapper] DEBUG: Calling setup on callback.
+2021-03-24 16:33:43,643 [nlb_agent_code] INFO: Setting up model from scratch.
+2021-03-24 16:33:43,643 [nlb_agent_wrapper] DEBUG: Got result from callback#setup in 0.000s.
+2021-03-24 16:33:43,644 [nlb_agent_wrapper] DEBUG: Calling setup_training on callback.
+2021-03-24 16:33:43,644 [nlb_agent_wrapper] DEBUG: Got result from callback#setup_training in 0.000s.
+2021-03-24 16:33:44,652 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 16:33:44,652 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-24 16:33:44,653 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 16:33:44,674 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-24 16:33:47,633 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 16:33:47,936 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.303s.
+2021-03-24 16:33:47,936 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 16:33:47,958 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.022s.
+2021-03-24 16:33:49,783 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 16:33:50,092 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.307s.
+2021-03-24 16:33:50,093 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 16:33:50,110 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-24 16:33:52,957 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 16:33:53,252 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.295s.
+2021-03-24 16:33:53,253 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 16:33:53,281 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.028s.
+2021-03-24 16:33:55,204 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 16:33:55,519 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.314s.
+2021-03-24 16:33:55,519 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 16:33:55,535 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.015s.
+2021-03-24 16:34:00,798 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 16:34:01,118 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.321s.
+2021-03-24 16:34:01,119 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 16:34:01,134 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.015s.
+2021-03-24 16:34:05,083 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 16:34:05,391 [nlb_agent_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.308s.
+2021-03-24 16:34:05,391 [nlb_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-24 16:34:05,407 [nlb_agent_wrapper] DEBUG: Got result from callback#act in 0.016s.
+2021-03-24 16:34:09,869 [nlb_agent_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-24 16:34:09,894 [nlb_agent_wrapper] ERROR: An exception occurred while calling game_events_occurred: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
