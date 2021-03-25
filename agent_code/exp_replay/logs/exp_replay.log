@@ -1,0 +1,1431 @@
+2021-03-25 19:36:59,196 [exp_replay_wrapper] DEBUG: Calling setup on callback.
+2021-03-25 19:36:59,196 [exp_replay_code] INFO: Setting up model from scratch.
+2021-03-25 19:36:59,196 [exp_replay_wrapper] DEBUG: Got result from callback#setup in 0.000s.
+2021-03-25 19:36:59,196 [exp_replay_wrapper] DEBUG: Calling setup_training on callback.
+2021-03-25 19:36:59,196 [exp_replay_wrapper] DEBUG: Got result from callback#setup_training in 0.000s.
+2021-03-25 19:36:59,299 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:36:59,299 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-25 19:36:59,299 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:36:59,303 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:36:59,399 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:36:59,411 [exp_replay_code] INFO: Reward: 0.9 from move ['LEFT']
+2021-03-25 19:36:59,411 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.012s.
+2021-03-25 19:36:59,412 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:36:59,417 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2021-03-25 19:36:59,499 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:36:59,510 [exp_replay_code] INFO: Reward: 3.9000000000000004 from move ['LEFT']
+2021-03-25 19:36:59,510 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.011s.
+2021-03-25 19:36:59,511 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:36:59,516 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-25 19:36:59,599 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:36:59,617 [exp_replay_code] INFO: Reward: -0.1 from move [array(['LEFT'], dtype='<U5')]
+2021-03-25 19:36:59,617 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.017s.
+2021-03-25 19:36:59,617 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:36:59,621 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:36:59,706 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:36:59,784 [exp_replay_code] INFO: Reward: 0.9 from move ['LEFT']
+2021-03-25 19:36:59,786 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.080s.
+2021-03-25 19:36:59,787 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:36:59,791 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:36:59,805 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:36:59,815 [exp_replay_code] INFO: Reward: -1.1 from move ['RIGHT']
+2021-03-25 19:36:59,816 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.011s.
+2021-03-25 19:36:59,816 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:36:59,819 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:36:59,906 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:36:59,966 [exp_replay_code] INFO: Reward: -0.1 from move ['RIGHT']
+2021-03-25 19:36:59,972 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.065s.
+2021-03-25 19:36:59,980 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:36:59,995 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.015s.
+2021-03-25 19:37:00,007 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:00,043 [exp_replay_code] INFO: Reward: -0.1 from move ['LEFT']
+2021-03-25 19:37:00,043 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.036s.
+2021-03-25 19:37:00,044 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:00,049 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-25 19:37:00,106 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:00,159 [exp_replay_code] INFO: Reward: -2 from move ['UP']
+2021-03-25 19:37:00,160 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.054s.
+2021-03-25 19:37:00,161 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:00,182 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.020s.
+2021-03-25 19:37:00,206 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:00,236 [exp_replay_code] INFO: Reward: -2 from move ['UP']
+2021-03-25 19:37:00,236 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.029s.
+2021-03-25 19:37:00,237 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:00,247 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-25 19:37:00,307 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:00,335 [exp_replay_code] INFO: Reward: -2 from move ['UP']
+2021-03-25 19:37:00,336 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.029s.
+2021-03-25 19:37:00,337 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:00,353 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.016s.
+2021-03-25 19:37:00,407 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:00,434 [exp_replay_code] INFO: Reward: -2 from move ['DOWN']
+2021-03-25 19:37:00,440 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.033s.
+2021-03-25 19:37:00,451 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:00,464 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-25 19:37:00,507 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:00,580 [exp_replay_code] INFO: Reward: -0.1 from move ['RIGHT']
+2021-03-25 19:37:00,581 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.073s.
+2021-03-25 19:37:00,582 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:00,593 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.011s.
+2021-03-25 19:37:00,607 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:00,619 [exp_replay_code] INFO: Reward: 0.9 from move ['UP']
+2021-03-25 19:37:00,620 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.013s.
+2021-03-25 19:37:00,620 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:00,623 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:00,708 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:00,758 [exp_replay_code] INFO: Reward: 0.9 from move [array(['UP'], dtype='<U4')]
+2021-03-25 19:37:00,764 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.056s.
+2021-03-25 19:37:00,766 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:00,771 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:00,808 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:00,835 [exp_replay_code] INFO: Reward: 0.9 from move ['UP']
+2021-03-25 19:37:00,835 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.027s.
+2021-03-25 19:37:00,835 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:00,840 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:00,908 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:00,968 [exp_replay_code] INFO: Reward: 0.9 from move ['UP']
+2021-03-25 19:37:00,968 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.060s.
+2021-03-25 19:37:00,969 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:00,975 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2021-03-25 19:37:01,008 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:01,025 [exp_replay_code] INFO: Reward: -1.1 from move ['LEFT']
+2021-03-25 19:37:01,026 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.018s.
+2021-03-25 19:37:01,026 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:01,030 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:01,124 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:01,157 [exp_replay_code] INFO: Reward: -1.1 from move [array(['LEFT'], dtype='<U5')]
+2021-03-25 19:37:01,157 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.027s.
+2021-03-25 19:37:01,157 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:01,161 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:01,213 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:01,224 [exp_replay_code] INFO: Reward: -1.1 from move [array(['DOWN'], dtype='<U5')]
+2021-03-25 19:37:01,229 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.016s.
+2021-03-25 19:37:01,229 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:01,232 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:01,313 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:01,321 [exp_replay_code] INFO: Reward: -1.1 from move ['DOWN']
+2021-03-25 19:37:01,322 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.009s.
+2021-03-25 19:37:01,322 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:01,325 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-25 19:37:01,413 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:01,422 [exp_replay_code] INFO: Reward: 0.9 from move ['LEFT']
+2021-03-25 19:37:01,423 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.009s.
+2021-03-25 19:37:01,423 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:01,426 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:01,519 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:01,531 [exp_replay_code] INFO: Reward: -0.1 from move ['LEFT']
+2021-03-25 19:37:01,531 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.012s.
+2021-03-25 19:37:01,532 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:01,536 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:01,619 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:01,635 [exp_replay_code] INFO: Reward: -0.1 from move ['UP']
+2021-03-25 19:37:01,636 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.016s.
+2021-03-25 19:37:01,636 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:01,639 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:01,719 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:01,746 [exp_replay_code] INFO: Reward: -0.1 from move [array(['DOWN'], dtype='<U4')]
+2021-03-25 19:37:01,747 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.027s.
+2021-03-25 19:37:01,747 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:01,752 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-25 19:37:01,819 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:01,834 [exp_replay_code] INFO: Reward: -0.1 from move ['RIGHT']
+2021-03-25 19:37:01,835 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.015s.
+2021-03-25 19:37:01,835 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:01,837 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-25 19:37:01,920 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:01,958 [exp_replay_code] INFO: Reward: -1.1 from move ['RIGHT']
+2021-03-25 19:37:01,964 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.043s.
+2021-03-25 19:37:01,966 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:01,969 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:02,020 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:02,038 [exp_replay_code] INFO: Reward: 0.9 from move ['RIGHT']
+2021-03-25 19:37:02,044 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.024s.
+2021-03-25 19:37:02,049 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:02,055 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2021-03-25 19:37:02,131 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:02,168 [exp_replay_code] INFO: Reward: 0.9 from move ['RIGHT']
+2021-03-25 19:37:02,170 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.033s.
+2021-03-25 19:37:02,170 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:02,175 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:02,225 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:02,236 [exp_replay_code] INFO: Reward: -1.1 from move ['DOWN']
+2021-03-25 19:37:02,236 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.011s.
+2021-03-25 19:37:02,237 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:02,244 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.007s.
+2021-03-25 19:37:02,326 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:02,333 [exp_replay_code] INFO: Reward: -1.1 from move ['DOWN']
+2021-03-25 19:37:02,334 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.008s.
+2021-03-25 19:37:02,334 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:02,336 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-25 19:37:02,426 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:02,458 [exp_replay_code] INFO: Reward: 0.9 from move ['UP']
+2021-03-25 19:37:02,459 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.032s.
+2021-03-25 19:37:02,459 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:02,463 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:02,526 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:02,548 [exp_replay_code] INFO: Reward: -1.1 from move ['DOWN']
+2021-03-25 19:37:02,563 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.036s.
+2021-03-25 19:37:02,563 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:02,571 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.007s.
+2021-03-25 19:37:02,626 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:02,641 [exp_replay_code] INFO: Reward: 0.9 from move [array(['UP'], dtype='<U5')]
+2021-03-25 19:37:02,641 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.015s.
+2021-03-25 19:37:02,641 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:02,644 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-25 19:37:02,727 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:02,751 [exp_replay_code] INFO: Reward: -2 from move ['LEFT']
+2021-03-25 19:37:02,752 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.024s.
+2021-03-25 19:37:02,752 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:02,757 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-25 19:37:02,827 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:02,843 [exp_replay_code] INFO: Reward: -2 from move ['RIGHT']
+2021-03-25 19:37:02,843 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.016s.
+2021-03-25 19:37:02,844 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:02,848 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:02,927 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:02,954 [exp_replay_code] INFO: Reward: -1.1 from move [array(['DOWN'], dtype='<U5')]
+2021-03-25 19:37:02,955 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.027s.
+2021-03-25 19:37:02,955 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:02,959 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:03,027 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:03,047 [exp_replay_code] INFO: Reward: 0.9 from move [array(['UP'], dtype='<U5')]
+2021-03-25 19:37:03,048 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.021s.
+2021-03-25 19:37:03,048 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:03,059 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.011s.
+2021-03-25 19:37:03,128 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:03,184 [exp_replay_code] INFO: Reward: -2 from move ['LEFT']
+2021-03-25 19:37:03,184 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.056s.
+2021-03-25 19:37:03,185 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:03,188 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:03,227 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:03,237 [exp_replay_code] INFO: Reward: -2 from move [array(['LEFT'], dtype='<U5')]
+2021-03-25 19:37:03,238 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.010s.
+2021-03-25 19:37:03,238 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:03,241 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:03,328 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:03,386 [exp_replay_code] INFO: Reward: 0.9 from move ['UP']
+2021-03-25 19:37:03,390 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.062s.
+2021-03-25 19:37:03,391 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:03,394 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:03,428 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:03,437 [exp_replay_code] INFO: Reward: -1.1 from move ['LEFT']
+2021-03-25 19:37:03,437 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.010s.
+2021-03-25 19:37:03,438 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:03,440 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:03,529 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:03,586 [exp_replay_code] INFO: Reward: -1.1 from move ['LEFT']
+2021-03-25 19:37:03,589 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.060s.
+2021-03-25 19:37:03,590 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:03,593 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:03,628 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:03,637 [exp_replay_code] INFO: Reward: 0.9 from move ['UP']
+2021-03-25 19:37:03,637 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.008s.
+2021-03-25 19:37:03,637 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:03,640 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-25 19:37:03,729 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:03,772 [exp_replay_code] INFO: Reward: 0.9 from move ['UP']
+2021-03-25 19:37:03,780 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.050s.
+2021-03-25 19:37:03,780 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:03,785 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-25 19:37:03,830 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:03,868 [exp_replay_code] INFO: Reward: 0.9 from move ['UP']
+2021-03-25 19:37:03,872 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.042s.
+2021-03-25 19:37:03,873 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:03,876 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:03,930 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:03,967 [exp_replay_code] INFO: Reward: 0.9 from move [array(['UP'], dtype='<U4')]
+2021-03-25 19:37:03,970 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.039s.
+2021-03-25 19:37:03,970 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:03,973 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:04,030 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:04,091 [exp_replay_code] INFO: Reward: -1.1 from move ['DOWN']
+2021-03-25 19:37:04,092 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.062s.
+2021-03-25 19:37:04,093 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:04,098 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2021-03-25 19:37:04,130 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:04,138 [exp_replay_code] INFO: Reward: -1.1 from move ['DOWN']
+2021-03-25 19:37:04,138 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.008s.
+2021-03-25 19:37:04,139 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:04,141 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-25 19:37:04,242 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:04,279 [exp_replay_code] INFO: Reward: 0.9 from move ['UP']
+2021-03-25 19:37:04,283 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.035s.
+2021-03-25 19:37:04,283 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:04,287 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:04,330 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:04,353 [exp_replay_code] INFO: Reward: -2 from move ['RIGHT']
+2021-03-25 19:37:04,367 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.036s.
+2021-03-25 19:37:04,368 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:04,374 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2021-03-25 19:37:04,431 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:04,472 [exp_replay_code] INFO: Reward: -2 from move ['RIGHT']
+2021-03-25 19:37:04,473 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.042s.
+2021-03-25 19:37:04,473 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:04,476 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:04,530 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:04,561 [exp_replay_code] INFO: Reward: -2 from move ['LEFT']
+2021-03-25 19:37:04,562 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.031s.
+2021-03-25 19:37:04,563 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:04,569 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2021-03-25 19:37:04,650 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:04,680 [exp_replay_code] INFO: Reward: -1.1 from move ['DOWN']
+2021-03-25 19:37:04,681 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.030s.
+2021-03-25 19:37:04,681 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:04,685 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:04,738 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:04,756 [exp_replay_code] INFO: Reward: -1.1 from move [array(['DOWN'], dtype='<U5')]
+2021-03-25 19:37:04,756 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.018s.
+2021-03-25 19:37:04,756 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:04,759 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:04,843 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:04,877 [exp_replay_code] INFO: Reward: -1.1 from move ['DOWN']
+2021-03-25 19:37:04,878 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.034s.
+2021-03-25 19:37:04,878 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:04,882 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:04,942 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:04,954 [exp_replay_code] INFO: Reward: 0.9 from move ['LEFT']
+2021-03-25 19:37:04,954 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.012s.
+2021-03-25 19:37:04,954 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:04,958 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:05,043 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:05,079 [exp_replay_code] INFO: Reward: -1.1 from move ['RIGHT']
+2021-03-25 19:37:05,085 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.041s.
+2021-03-25 19:37:05,086 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:05,089 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:05,143 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:05,158 [exp_replay_code] INFO: Reward: 0.9 from move [array(['UP'], dtype='<U5')]
+2021-03-25 19:37:05,166 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.023s.
+2021-03-25 19:37:05,167 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:05,171 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:05,255 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:05,277 [exp_replay_code] INFO: Reward: -2 from move ['LEFT']
+2021-03-25 19:37:05,278 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.023s.
+2021-03-25 19:37:05,278 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:05,282 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:05,348 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:05,378 [exp_replay_code] INFO: Reward: -1.1 from move ['DOWN']
+2021-03-25 19:37:05,379 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.030s.
+2021-03-25 19:37:05,379 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:05,385 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-25 19:37:05,449 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:05,506 [exp_replay_code] INFO: Reward: -0.1 from move [array(['DOWN'], dtype='<U5')]
+2021-03-25 19:37:05,507 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.057s.
+2021-03-25 19:37:05,507 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:05,513 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-25 19:37:05,549 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:05,561 [exp_replay_code] INFO: Reward: 0.9 from move ['DOWN']
+2021-03-25 19:37:05,561 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.012s.
+2021-03-25 19:37:05,561 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:05,565 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:05,660 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:05,692 [exp_replay_code] INFO: Reward: -1.1 from move [array(['RIGHT'], dtype='<U5')]
+2021-03-25 19:37:05,692 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.032s.
+2021-03-25 19:37:05,693 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:05,697 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:05,755 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:05,780 [exp_replay_code] INFO: Reward: 0.9 from move ['LEFT']
+2021-03-25 19:37:05,781 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.026s.
+2021-03-25 19:37:05,781 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:05,786 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:05,856 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:05,886 [exp_replay_code] INFO: Reward: 0.9 from move ['LEFT']
+2021-03-25 19:37:05,894 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.037s.
+2021-03-25 19:37:05,894 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:05,898 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:05,955 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:05,995 [exp_replay_code] INFO: Reward: 0.9 from move ['LEFT']
+2021-03-25 19:37:06,000 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.045s.
+2021-03-25 19:37:06,002 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:06,006 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:06,055 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:06,096 [exp_replay_code] INFO: Reward: -1.1 from move ['RIGHT']
+2021-03-25 19:37:06,097 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.041s.
+2021-03-25 19:37:06,097 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:06,105 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.008s.
+2021-03-25 19:37:06,156 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:06,211 [exp_replay_code] INFO: Reward: 0.9 from move [array(['LEFT'], dtype='<U5')]
+2021-03-25 19:37:06,212 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.055s.
+2021-03-25 19:37:06,212 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:06,218 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-25 19:37:06,256 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:06,326 [exp_replay_code] INFO: Reward: -1.1 from move [array(['UP'], dtype='<U5')]
+2021-03-25 19:37:06,327 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.041s.
+2021-03-25 19:37:06,328 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:06,334 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2021-03-25 19:37:06,356 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:06,370 [exp_replay_code] INFO: Reward: 0.9 from move ['DOWN']
+2021-03-25 19:37:06,371 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.014s.
+2021-03-25 19:37:06,371 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:06,376 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:06,457 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:06,496 [exp_replay_code] INFO: Reward: -2 from move ['DOWN']
+2021-03-25 19:37:06,498 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.041s.
+2021-03-25 19:37:06,499 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:06,502 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:06,556 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:06,574 [exp_replay_code] INFO: Reward: -2 from move ['DOWN']
+2021-03-25 19:37:06,580 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.024s.
+2021-03-25 19:37:06,583 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:06,587 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:06,660 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:06,669 [exp_replay_code] INFO: Reward: -1.1 from move ['UP']
+2021-03-25 19:37:06,670 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.010s.
+2021-03-25 19:37:06,670 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:06,673 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:06,761 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:06,791 [exp_replay_code] INFO: Reward: 0.9 from move ['DOWN']
+2021-03-25 19:37:06,792 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.031s.
+2021-03-25 19:37:06,792 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:06,796 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:06,861 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:06,893 [exp_replay_code] INFO: Reward: -1.1 from move [array(['RIGHT'], dtype='<U5')]
+2021-03-25 19:37:06,898 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.037s.
+2021-03-25 19:37:06,901 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:06,905 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:06,961 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:06,998 [exp_replay_code] INFO: Reward: -2 from move ['DOWN']
+2021-03-25 19:37:06,998 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.037s.
+2021-03-25 19:37:06,998 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:07,002 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:07,061 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:07,092 [exp_replay_code] INFO: Reward: -1.1 from move ['RIGHT']
+2021-03-25 19:37:07,104 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.043s.
+2021-03-25 19:37:07,105 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:07,115 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.009s.
+2021-03-25 19:37:07,162 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:07,210 [exp_replay_code] INFO: Reward: 0.9 from move [array(['LEFT'], dtype='<U5')]
+2021-03-25 19:37:07,213 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.051s.
+2021-03-25 19:37:07,214 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:07,218 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:07,261 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:07,286 [exp_replay_code] INFO: Reward: -2 from move [array(['UP'], dtype='<U5')]
+2021-03-25 19:37:07,292 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.030s.
+2021-03-25 19:37:07,300 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:07,308 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.008s.
+2021-03-25 19:37:07,362 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:07,404 [exp_replay_code] INFO: Reward: -1.1 from move ['RIGHT']
+2021-03-25 19:37:07,405 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.043s.
+2021-03-25 19:37:07,405 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:07,410 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-25 19:37:07,462 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:07,495 [exp_replay_code] INFO: Reward: -1.1 from move ['RIGHT']
+2021-03-25 19:37:07,501 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.038s.
+2021-03-25 19:37:07,503 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:07,506 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:07,563 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:07,596 [exp_replay_code] INFO: Reward: 0.9 from move ['LEFT']
+2021-03-25 19:37:07,601 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.038s.
+2021-03-25 19:37:07,602 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:07,606 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:07,662 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:07,689 [exp_replay_code] INFO: Reward: -2 from move ['DOWN']
+2021-03-25 19:37:07,695 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.032s.
+2021-03-25 19:37:07,699 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:07,704 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-25 19:37:07,762 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:07,792 [exp_replay_code] INFO: Reward: 0.9 from move ['LEFT']
+2021-03-25 19:37:07,798 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.035s.
+2021-03-25 19:37:07,802 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:07,807 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-25 19:37:07,863 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:07,906 [exp_replay_code] INFO: Reward: 0.9 from move ['LEFT']
+2021-03-25 19:37:07,911 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.048s.
+2021-03-25 19:37:07,911 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:07,916 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:07,963 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:08,002 [exp_replay_code] INFO: Reward: -1.1 from move [array(['UP'], dtype='<U5')]
+2021-03-25 19:37:08,007 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.044s.
+2021-03-25 19:37:08,009 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:08,013 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:08,063 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:08,107 [exp_replay_code] INFO: Reward: 0.9 from move ['DOWN']
+2021-03-25 19:37:08,114 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.050s.
+2021-03-25 19:37:08,115 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:08,123 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.008s.
+2021-03-25 19:37:08,163 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:08,185 [exp_replay_code] INFO: Reward: 0.9 from move ['LEFT']
+2021-03-25 19:37:08,190 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.027s.
+2021-03-25 19:37:08,195 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:08,200 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-25 19:37:08,274 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:08,306 [exp_replay_code] INFO: Reward: -1.1 from move ['RIGHT']
+2021-03-25 19:37:08,308 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.027s.
+2021-03-25 19:37:08,308 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:08,313 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-25 19:37:08,369 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:08,408 [exp_replay_code] INFO: Reward: -1.1 from move ['UP']
+2021-03-25 19:37:08,414 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.044s.
+2021-03-25 19:37:08,418 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:08,424 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2021-03-25 19:37:08,469 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:08,505 [exp_replay_code] INFO: Reward: -2 from move [array(['LEFT'], dtype='<U5')]
+2021-03-25 19:37:08,510 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.040s.
+2021-03-25 19:37:08,510 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:08,513 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:08,569 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:08,594 [exp_replay_code] INFO: Reward: -2 from move ['RIGHT']
+2021-03-25 19:37:08,604 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.035s.
+2021-03-25 19:37:08,605 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:08,610 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-25 19:37:08,670 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:08,716 [exp_replay_code] INFO: Reward: -1.1 from move ['UP']
+2021-03-25 19:37:08,722 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.052s.
+2021-03-25 19:37:08,723 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:08,730 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.007s.
+2021-03-25 19:37:08,770 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:08,792 [exp_replay_code] INFO: Reward: 0.9 from move [array(['DOWN'], dtype='<U5')]
+2021-03-25 19:37:08,804 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.034s.
+2021-03-25 19:37:08,806 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:08,813 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.007s.
+2021-03-25 19:37:08,870 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:08,917 [exp_replay_code] INFO: Reward: -2 from move ['LEFT']
+2021-03-25 19:37:08,919 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.049s.
+2021-03-25 19:37:08,920 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:08,924 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:08,970 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:08,983 [exp_replay_code] INFO: Reward: 0.9 from move [array(['DOWN'], dtype='<U5')]
+2021-03-25 19:37:08,983 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.013s.
+2021-03-25 19:37:08,983 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:08,987 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:09,081 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:09,101 [exp_replay_code] INFO: Reward: -1.1 from move ['UP']
+2021-03-25 19:37:09,101 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.020s.
+2021-03-25 19:37:09,101 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:09,105 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:09,176 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:09,198 [exp_replay_code] INFO: Reward: 0.9 from move ['DOWN']
+2021-03-25 19:37:09,198 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.022s.
+2021-03-25 19:37:09,198 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:09,202 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:09,276 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:09,299 [exp_replay_code] INFO: Reward: 0.9 from move ['LEFT']
+2021-03-25 19:37:09,300 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.023s.
+2021-03-25 19:37:09,300 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:09,307 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2021-03-25 19:37:09,376 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:09,426 [exp_replay_code] INFO: Reward: 3.9000000000000004 from move ['LEFT']
+2021-03-25 19:37:09,427 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.050s.
+2021-03-25 19:37:09,427 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:09,434 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2021-03-25 19:37:09,476 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:09,492 [exp_replay_code] INFO: Reward: -1.1 from move ['RIGHT']
+2021-03-25 19:37:09,493 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.016s.
+2021-03-25 19:37:09,501 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:09,507 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-25 19:37:09,592 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:09,622 [exp_replay_code] INFO: Reward: 0.9 from move [array(['LEFT'], dtype='<U5')]
+2021-03-25 19:37:09,622 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.029s.
+2021-03-25 19:37:09,623 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:09,626 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:09,682 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:09,700 [exp_replay_code] INFO: Reward: -1.1 from move ['RIGHT']
+2021-03-25 19:37:09,701 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.019s.
+2021-03-25 19:37:09,701 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:09,707 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-25 19:37:09,782 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:09,814 [exp_replay_code] INFO: Reward: -2 from move ['DOWN']
+2021-03-25 19:37:09,819 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.037s.
+2021-03-25 19:37:09,822 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:09,825 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:09,882 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:09,901 [exp_replay_code] INFO: Reward: 0.9 from move [array(['LEFT'], dtype='<U5')]
+2021-03-25 19:37:09,911 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.029s.
+2021-03-25 19:37:09,911 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:09,915 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:09,997 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:10,028 [exp_replay_code] INFO: Reward: -1.1 from move ['UP']
+2021-03-25 19:37:10,029 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.032s.
+2021-03-25 19:37:10,030 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:10,035 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-25 19:37:10,088 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:10,097 [exp_replay_code] INFO: Reward: 0.9 from move [array(['DOWN'], dtype='<U4')]
+2021-03-25 19:37:10,097 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.009s.
+2021-03-25 19:37:10,097 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:10,100 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:10,188 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:10,218 [exp_replay_code] INFO: Reward: -1.1 from move ['UP']
+2021-03-25 19:37:10,218 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.029s.
+2021-03-25 19:37:10,218 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:10,223 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:10,288 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:10,316 [exp_replay_code] INFO: Reward: 0.9 from move ['DOWN']
+2021-03-25 19:37:10,323 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.034s.
+2021-03-25 19:37:10,328 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:10,334 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2021-03-25 19:37:10,389 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:10,425 [exp_replay_code] INFO: Reward: -1.1 from move ['RIGHT']
+2021-03-25 19:37:10,431 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.042s.
+2021-03-25 19:37:10,436 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:10,445 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.009s.
+2021-03-25 19:37:10,489 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:10,519 [exp_replay_code] INFO: Reward: -2 from move ['DOWN']
+2021-03-25 19:37:10,525 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.036s.
+2021-03-25 19:37:10,528 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:10,532 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:10,589 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:10,632 [exp_replay_code] INFO: Reward: 0.9 from move ['LEFT']
+2021-03-25 19:37:10,635 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.046s.
+2021-03-25 19:37:10,636 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:10,643 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.008s.
+2021-03-25 19:37:10,689 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:10,727 [exp_replay_code] INFO: Reward: 0.9 from move [array(['LEFT'], dtype='<U5')]
+2021-03-25 19:37:10,732 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.042s.
+2021-03-25 19:37:10,733 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:10,737 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:10,790 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:10,821 [exp_replay_code] INFO: Reward: 3.9000000000000004 from move ['LEFT']
+2021-03-25 19:37:10,827 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.036s.
+2021-03-25 19:37:10,830 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:10,836 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2021-03-25 19:37:10,890 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:10,939 [exp_replay_code] INFO: Reward: 0.9 from move ['UP']
+2021-03-25 19:37:10,940 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.049s.
+2021-03-25 19:37:10,940 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:10,946 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2021-03-25 19:37:10,990 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:11,008 [exp_replay_code] INFO: Reward: -1.1 from move ['DOWN']
+2021-03-25 19:37:11,014 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.024s.
+2021-03-25 19:37:11,019 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:11,025 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-25 19:37:11,090 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:11,137 [exp_replay_code] INFO: Reward: -1.1 from move [array(['RIGHT'], dtype='<U5')]
+2021-03-25 19:37:11,138 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.047s.
+2021-03-25 19:37:11,138 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:11,144 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-25 19:37:11,197 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:11,216 [exp_replay_code] INFO: Reward: 0.9 from move ['LEFT']
+2021-03-25 19:37:11,217 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.020s.
+2021-03-25 19:37:11,217 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:11,222 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-25 19:37:11,300 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:11,328 [exp_replay_code] INFO: Reward: 0.9 from move ['LEFT']
+2021-03-25 19:37:11,329 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.029s.
+2021-03-25 19:37:11,330 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:11,335 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-25 19:37:11,404 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:11,432 [exp_replay_code] INFO: Reward: 0.9 from move [array(['LEFT'], dtype='<U5')]
+2021-03-25 19:37:11,433 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.028s.
+2021-03-25 19:37:11,433 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:11,438 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-25 19:37:11,505 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:11,528 [exp_replay_code] INFO: Reward: -1.1 from move ['LEFT']
+2021-03-25 19:37:11,528 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.023s.
+2021-03-25 19:37:11,529 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:11,532 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:11,605 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:11,627 [exp_replay_code] INFO: Reward: 0.9 from move ['RIGHT']
+2021-03-25 19:37:11,628 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.023s.
+2021-03-25 19:37:11,628 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:11,633 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:11,705 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:11,740 [exp_replay_code] INFO: Reward: -1.1 from move ['LEFT']
+2021-03-25 19:37:11,745 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.040s.
+2021-03-25 19:37:11,746 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:11,752 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2021-03-25 19:37:11,805 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:11,840 [exp_replay_code] INFO: Reward: 0.9 from move ['RIGHT']
+2021-03-25 19:37:11,845 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.040s.
+2021-03-25 19:37:11,846 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:11,851 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2021-03-25 19:37:11,906 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:11,946 [exp_replay_code] INFO: Reward: -2 from move ['DOWN']
+2021-03-25 19:37:11,947 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.041s.
+2021-03-25 19:37:11,947 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:11,950 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:12,006 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:12,054 [exp_replay_code] INFO: Reward: -1.1 from move ['LEFT']
+2021-03-25 19:37:12,056 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.050s.
+2021-03-25 19:37:12,057 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:12,063 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2021-03-25 19:37:12,106 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:12,147 [exp_replay_code] INFO: Reward: -2 from move ['UP']
+2021-03-25 19:37:12,147 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.041s.
+2021-03-25 19:37:12,148 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:12,151 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:12,206 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:12,253 [exp_replay_code] INFO: Reward: -2 from move [array(['UP'], dtype='<U5')]
+2021-03-25 19:37:12,255 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.048s.
+2021-03-25 19:37:12,255 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:12,259 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:12,306 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:12,324 [exp_replay_code] INFO: Reward: -2 from move ['DOWN']
+2021-03-25 19:37:12,330 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.023s.
+2021-03-25 19:37:12,335 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:12,340 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-25 19:37:12,422 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:12,455 [exp_replay_code] INFO: Reward: -2 from move ['UP']
+2021-03-25 19:37:12,456 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.032s.
+2021-03-25 19:37:12,456 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:12,461 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:12,512 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:12,526 [exp_replay_code] INFO: Reward: -2 from move ['UP']
+2021-03-25 19:37:12,527 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.015s.
+2021-03-25 19:37:12,527 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:12,531 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:12,612 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:12,646 [exp_replay_code] INFO: Reward: -2 from move ['DOWN']
+2021-03-25 19:37:12,649 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.036s.
+2021-03-25 19:37:12,649 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:12,651 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-25 19:37:12,712 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:12,738 [exp_replay_code] INFO: Reward: -2 from move ['UP']
+2021-03-25 19:37:12,744 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.032s.
+2021-03-25 19:37:12,754 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:12,763 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.008s.
+2021-03-25 19:37:12,813 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:12,856 [exp_replay_code] INFO: Reward: -1.1 from move [array(['LEFT'], dtype='<U5')]
+2021-03-25 19:37:12,857 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.043s.
+2021-03-25 19:37:12,863 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:12,867 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:12,913 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:12,934 [exp_replay_code] INFO: Reward: 0.9 from move ['RIGHT']
+2021-03-25 19:37:12,935 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.022s.
+2021-03-25 19:37:12,946 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:12,955 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.007s.
+2021-03-25 19:37:13,013 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:13,065 [exp_replay_code] INFO: Reward: -2 from move ['UP']
+2021-03-25 19:37:13,065 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.052s.
+2021-03-25 19:37:13,066 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:13,069 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:13,113 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:13,128 [exp_replay_code] INFO: Reward: -2 from move ['UP']
+2021-03-25 19:37:13,129 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.016s.
+2021-03-25 19:37:13,130 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:13,132 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-25 19:37:13,214 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:13,261 [exp_replay_code] INFO: Reward: -2 from move [array(['UP'], dtype='<U5')]
+2021-03-25 19:37:13,269 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.054s.
+2021-03-25 19:37:13,269 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:13,273 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:13,314 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:13,348 [exp_replay_code] INFO: Reward: 0.9 from move ['RIGHT']
+2021-03-25 19:37:13,354 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.039s.
+2021-03-25 19:37:13,355 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:13,359 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:13,414 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:13,448 [exp_replay_code] INFO: Reward: -1.1 from move ['RIGHT']
+2021-03-25 19:37:13,449 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.035s.
+2021-03-25 19:37:13,449 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:13,452 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:13,514 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:13,555 [exp_replay_code] INFO: Reward: -1.1 from move ['RIGHT']
+2021-03-25 19:37:13,556 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.042s.
+2021-03-25 19:37:13,556 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:13,559 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:13,614 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:13,633 [exp_replay_code] INFO: Reward: -1.1 from move [array(['RIGHT'], dtype='<U5')]
+2021-03-25 19:37:13,634 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.020s.
+2021-03-25 19:37:13,634 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:13,637 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:13,717 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:13,737 [exp_replay_code] INFO: Reward: 0.9 from move ['LEFT']
+2021-03-25 19:37:13,737 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.019s.
+2021-03-25 19:37:13,738 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:13,741 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:13,817 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:13,837 [exp_replay_code] INFO: Reward: -1.1 from move ['RIGHT']
+2021-03-25 19:37:13,837 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.020s.
+2021-03-25 19:37:13,838 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:13,841 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:13,917 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:13,946 [exp_replay_code] INFO: Reward: 0.9 from move ['RIGHT']
+2021-03-25 19:37:13,946 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.029s.
+2021-03-25 19:37:13,947 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:13,952 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-25 19:37:14,018 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:14,037 [exp_replay_code] INFO: Reward: -1.1 from move ['LEFT']
+2021-03-25 19:37:14,047 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.029s.
+2021-03-25 19:37:14,047 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:14,051 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:14,134 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:14,158 [exp_replay_code] INFO: Reward: 0.9 from move ['RIGHT']
+2021-03-25 19:37:14,158 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.019s.
+2021-03-25 19:37:14,158 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:14,161 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:14,223 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:14,237 [exp_replay_code] INFO: Reward: -1.1 from move [array(['LEFT'], dtype='<U5')]
+2021-03-25 19:37:14,237 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.014s.
+2021-03-25 19:37:14,238 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:14,242 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:14,324 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:14,351 [exp_replay_code] INFO: Reward: 0.9 from move [array(['LEFT'], dtype='<U5')]
+2021-03-25 19:37:14,352 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.028s.
+2021-03-25 19:37:14,352 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:14,356 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:14,424 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:14,454 [exp_replay_code] INFO: Reward: -2 from move ['DOWN']
+2021-03-25 19:37:14,466 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.042s.
+2021-03-25 19:37:14,469 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:14,473 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:14,524 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:14,558 [exp_replay_code] INFO: Reward: 0.9 from move [array(['UP'], dtype='<U5')]
+2021-03-25 19:37:14,566 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.042s.
+2021-03-25 19:37:14,567 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:14,570 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:14,624 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:14,668 [exp_replay_code] INFO: Reward: 0.9 from move [array(['UP'], dtype='<U4')]
+2021-03-25 19:37:14,669 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.045s.
+2021-03-25 19:37:14,670 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:14,675 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-25 19:37:14,743 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:14,773 [exp_replay_code] INFO: Reward: 0.9 from move ['LEFT']
+2021-03-25 19:37:14,774 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.030s.
+2021-03-25 19:37:14,774 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:14,778 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:14,829 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:14,843 [exp_replay_code] INFO: Reward: -1.1 from move ['RIGHT']
+2021-03-25 19:37:14,850 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.020s.
+2021-03-25 19:37:14,850 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:14,854 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:14,938 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:14,960 [exp_replay_code] INFO: Reward: -1.1 from move [array(['RIGHT'], dtype='<U5')]
+2021-03-25 19:37:14,961 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.023s.
+2021-03-25 19:37:14,961 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:14,964 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:15,035 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:15,057 [exp_replay_code] INFO: Reward: 0.9 from move ['RIGHT']
+2021-03-25 19:37:15,058 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.022s.
+2021-03-25 19:37:15,058 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:15,064 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2021-03-25 19:37:15,136 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:15,174 [exp_replay_code] INFO: Reward: -1.1 from move ['LEFT']
+2021-03-25 19:37:15,175 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.038s.
+2021-03-25 19:37:15,180 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:15,184 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:15,236 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:15,287 [exp_replay_code] INFO: Reward: 0.9 from move [array(['LEFT'], dtype='<U5')]
+2021-03-25 19:37:15,288 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.051s.
+2021-03-25 19:37:15,288 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:15,294 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-25 19:37:15,336 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:15,350 [exp_replay_code] INFO: Reward: -1.1 from move [array(['RIGHT'], dtype='<U5')]
+2021-03-25 19:37:15,356 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.019s.
+2021-03-25 19:37:15,358 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:15,363 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:15,447 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:15,465 [exp_replay_code] INFO: Reward: 0.9 from move ['RIGHT']
+2021-03-25 19:37:15,466 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.019s.
+2021-03-25 19:37:15,466 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:15,469 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:15,542 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:15,565 [exp_replay_code] INFO: Reward: 0.9 from move ['RIGHT']
+2021-03-25 19:37:15,565 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.023s.
+2021-03-25 19:37:15,566 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:15,571 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-25 19:37:15,643 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:15,673 [exp_replay_code] INFO: Reward: 0.9 from move ['RIGHT']
+2021-03-25 19:37:15,674 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.031s.
+2021-03-25 19:37:15,681 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:15,685 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:15,743 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:15,791 [exp_replay_code] INFO: Reward: 0.9 from move ['RIGHT']
+2021-03-25 19:37:15,792 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.049s.
+2021-03-25 19:37:15,793 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:15,800 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.007s.
+2021-03-25 19:37:15,843 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:15,890 [exp_replay_code] INFO: Reward: -1.1 from move [array(['RIGHT'], dtype='<U5')]
+2021-03-25 19:37:15,891 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.048s.
+2021-03-25 19:37:15,891 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:15,895 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:15,943 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:15,981 [exp_replay_code] INFO: Reward: 0.9 from move ['LEFT']
+2021-03-25 19:37:15,986 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.043s.
+2021-03-25 19:37:15,986 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:15,990 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:16,043 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:16,076 [exp_replay_code] INFO: Reward: -1.1 from move ['LEFT']
+2021-03-25 19:37:16,083 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.039s.
+2021-03-25 19:37:16,083 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:16,087 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:16,143 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:16,171 [exp_replay_code] INFO: Reward: -1.1 from move ['LEFT']
+2021-03-25 19:37:16,172 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.029s.
+2021-03-25 19:37:16,173 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:16,179 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2021-03-25 19:37:16,259 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:16,290 [exp_replay_code] INFO: Reward: -1.1 from move ['LEFT']
+2021-03-25 19:37:16,291 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.029s.
+2021-03-25 19:37:16,291 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:16,297 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-25 19:37:16,351 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:16,378 [exp_replay_code] INFO: Reward: -1.1 from move ['LEFT']
+2021-03-25 19:37:16,379 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.027s.
+2021-03-25 19:37:16,379 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:16,384 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-25 19:37:16,451 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:16,485 [exp_replay_code] INFO: Reward: -2 from move ['UP']
+2021-03-25 19:37:16,485 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.034s.
+2021-03-25 19:37:16,486 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:16,490 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:16,552 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:16,592 [exp_replay_code] INFO: Reward: -2 from move ['DOWN']
+2021-03-25 19:37:16,593 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.041s.
+2021-03-25 19:37:16,593 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:16,596 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:16,652 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:16,701 [exp_replay_code] INFO: Reward: -2 from move ['UP']
+2021-03-25 19:37:16,702 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.025s.
+2021-03-25 19:37:16,702 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:16,705 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:16,752 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:16,772 [exp_replay_code] INFO: Reward: -2 from move [array(['DOWN'], dtype='<U5')]
+2021-03-25 19:37:16,772 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.020s.
+2021-03-25 19:37:16,773 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:16,776 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:16,852 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:16,877 [exp_replay_code] INFO: Reward: 0.9 from move ['LEFT']
+2021-03-25 19:37:16,877 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.024s.
+2021-03-25 19:37:16,877 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:16,881 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:16,952 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:16,982 [exp_replay_code] INFO: Reward: -1.1 from move ['DOWN']
+2021-03-25 19:37:16,991 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.038s.
+2021-03-25 19:37:16,991 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:16,996 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:17,053 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:17,086 [exp_replay_code] INFO: Reward: -1.1 from move ['DOWN']
+2021-03-25 19:37:17,092 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.038s.
+2021-03-25 19:37:17,094 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:17,098 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:17,153 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:17,185 [exp_replay_code] INFO: Reward: 0.9 from move ['LEFT']
+2021-03-25 19:37:17,191 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.037s.
+2021-03-25 19:37:17,193 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:17,196 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:17,253 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:17,309 [exp_replay_code] INFO: Reward: 0.9 from move ['LEFT']
+2021-03-25 19:37:17,310 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.056s.
+2021-03-25 19:37:17,310 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:17,315 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-25 19:37:17,353 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:17,366 [exp_replay_code] INFO: Reward: -1.1 from move ['LEFT']
+2021-03-25 19:37:17,367 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.014s.
+2021-03-25 19:37:17,367 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:17,371 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:17,464 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:17,505 [exp_replay_code] INFO: Reward: -1.1 from move [array(['LEFT'], dtype='<U5')]
+2021-03-25 19:37:17,506 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.036s.
+2021-03-25 19:37:17,506 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:17,510 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:17,559 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:17,570 [exp_replay_code] INFO: Reward: 0.9 from move ['RIGHT']
+2021-03-25 19:37:17,571 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.012s.
+2021-03-25 19:37:17,571 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:17,575 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:17,671 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:17,702 [exp_replay_code] INFO: Reward: -1.1 from move ['LEFT']
+2021-03-25 19:37:17,703 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.032s.
+2021-03-25 19:37:17,703 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:17,707 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:17,764 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:17,783 [exp_replay_code] INFO: Reward: 0.9 from move ['RIGHT']
+2021-03-25 19:37:17,784 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.019s.
+2021-03-25 19:37:17,784 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:17,790 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2021-03-25 19:37:17,865 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:17,902 [exp_replay_code] INFO: Reward: -2 from move ['DOWN']
+2021-03-25 19:37:17,905 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.040s.
+2021-03-25 19:37:17,905 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:17,908 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:17,965 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:17,984 [exp_replay_code] INFO: Reward: 0.9 from move ['RIGHT']
+2021-03-25 19:37:17,990 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.025s.
+2021-03-25 19:37:17,994 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:17,998 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:18,081 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:18,100 [exp_replay_code] INFO: Reward: -1.1 from move ['LEFT']
+2021-03-25 19:37:18,101 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.020s.
+2021-03-25 19:37:18,101 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:18,104 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:18,181 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:18,212 [exp_replay_code] INFO: Reward: 0.9 from move [array(['RIGHT'], dtype='<U5')]
+2021-03-25 19:37:18,212 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.031s.
+2021-03-25 19:37:18,213 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:18,217 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:18,275 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:18,305 [exp_replay_code] INFO: Reward: 0.9 from move ['UP']
+2021-03-25 19:37:18,306 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.030s.
+2021-03-25 19:37:18,306 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:18,311 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:18,376 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:18,428 [exp_replay_code] INFO: Reward: 0.9 from move ['UP']
+2021-03-25 19:37:18,429 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.052s.
+2021-03-25 19:37:18,430 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:18,435 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-25 19:37:18,476 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:18,493 [exp_replay_code] INFO: Reward: -1.1 from move [array(['DOWN'], dtype='<U5')]
+2021-03-25 19:37:18,499 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.023s.
+2021-03-25 19:37:18,503 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:18,507 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:18,592 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:18,620 [exp_replay_code] INFO: Reward: 0.9 from move ['UP']
+2021-03-25 19:37:18,620 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.027s.
+2021-03-25 19:37:18,620 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:18,624 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:18,682 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:18,697 [exp_replay_code] INFO: Reward: 0.9 from move [array(['UP'], dtype='<U5')]
+2021-03-25 19:37:18,698 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.016s.
+2021-03-25 19:37:18,698 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:18,703 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-25 19:37:18,782 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:18,812 [exp_replay_code] INFO: Reward: 0.9 from move ['UP']
+2021-03-25 19:37:18,820 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.037s.
+2021-03-25 19:37:18,820 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:18,824 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:18,883 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:18,922 [exp_replay_code] INFO: Reward: -1.1 from move ['LEFT']
+2021-03-25 19:37:18,928 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.045s.
+2021-03-25 19:37:18,930 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:18,934 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:18,983 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:19,001 [exp_replay_code] INFO: Reward: -1.1 from move ['LEFT']
+2021-03-25 19:37:19,012 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.029s.
+2021-03-25 19:37:19,012 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:19,016 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:19,087 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:19,101 [exp_replay_code] INFO: Reward: 0.9 from move ['RIGHT']
+2021-03-25 19:37:19,102 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.015s.
+2021-03-25 19:37:19,102 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:19,107 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:19,187 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:19,217 [exp_replay_code] INFO: Reward: -1.1 from move ['LEFT']
+2021-03-25 19:37:19,217 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.030s.
+2021-03-25 19:37:19,218 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:19,222 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:19,287 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:19,324 [exp_replay_code] INFO: Reward: 0.9 from move [array(['RIGHT'], dtype='<U5')]
+2021-03-25 19:37:19,325 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.037s.
+2021-03-25 19:37:19,325 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:19,329 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:19,388 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:19,419 [exp_replay_code] INFO: Reward: -2 from move ['DOWN']
+2021-03-25 19:37:19,419 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.032s.
+2021-03-25 19:37:19,420 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:19,423 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:19,498 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:19,519 [exp_replay_code] INFO: Reward: -2 from move [array(['UP'], dtype='<U5')]
+2021-03-25 19:37:19,519 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.019s.
+2021-03-25 19:37:19,520 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:19,523 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:19,593 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:19,605 [exp_replay_code] INFO: Reward: 0.9 from move ['RIGHT']
+2021-03-25 19:37:19,606 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.013s.
+2021-03-25 19:37:19,606 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:19,609 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:19,693 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:19,725 [exp_replay_code] INFO: Reward: -1.1 from move ['DOWN']
+2021-03-25 19:37:19,734 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.041s.
+2021-03-25 19:37:19,734 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:19,738 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:19,793 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:19,841 [exp_replay_code] INFO: Reward: 0.9 from move ['UP']
+2021-03-25 19:37:19,847 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.053s.
+2021-03-25 19:37:19,852 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:19,858 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2021-03-25 19:37:19,894 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:19,940 [exp_replay_code] INFO: Reward: -1.1 from move ['RIGHT']
+2021-03-25 19:37:19,951 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.057s.
+2021-03-25 19:37:19,952 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:19,956 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-25 19:37:19,994 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:20,041 [exp_replay_code] INFO: Reward: 0.9 from move ['LEFT']
+2021-03-25 19:37:20,044 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.050s.
+2021-03-25 19:37:20,045 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:20,050 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-25 19:37:20,093 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:20,107 [exp_replay_code] INFO: Reward: -1.1 from move ['DOWN']
+2021-03-25 19:37:20,107 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.014s.
+2021-03-25 19:37:20,107 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:20,111 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:20,200 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:20,225 [exp_replay_code] INFO: Reward: -1.1 from move ['DOWN']
+2021-03-25 19:37:20,226 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.025s.
+2021-03-25 19:37:20,226 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:20,232 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2021-03-25 19:37:20,299 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:20,328 [exp_replay_code] INFO: Reward: 0.9 from move ['UP']
+2021-03-25 19:37:20,329 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.030s.
+2021-03-25 19:37:20,330 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:20,334 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:20,400 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:20,432 [exp_replay_code] INFO: Reward: -1.1 from move ['DOWN']
+2021-03-25 19:37:20,432 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.032s.
+2021-03-25 19:37:20,433 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:20,438 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-25 19:37:20,500 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:20,545 [exp_replay_code] INFO: Reward: -1.1 from move [array(['LEFT'], dtype='<U5')]
+2021-03-25 19:37:20,550 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.050s.
+2021-03-25 19:37:20,551 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:20,556 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-25 19:37:20,600 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:20,617 [exp_replay_code] INFO: Reward: 0.9 from move [array(['RIGHT'], dtype='<U5')]
+2021-03-25 19:37:20,618 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.018s.
+2021-03-25 19:37:20,623 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:20,632 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.008s.
+2021-03-25 19:37:20,717 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:20,740 [exp_replay_code] INFO: Reward: 0.9 from move ['UP']
+2021-03-25 19:37:20,740 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.018s.
+2021-03-25 19:37:20,741 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:20,744 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:20,806 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:20,837 [exp_replay_code] INFO: Reward: 0.9 from move ['UP']
+2021-03-25 19:37:20,842 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.036s.
+2021-03-25 19:37:20,842 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:20,846 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:20,906 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:20,962 [exp_replay_code] INFO: Reward: -1.1 from move [array(['LEFT'], dtype='<U5')]
+2021-03-25 19:37:20,963 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.056s.
+2021-03-25 19:37:20,963 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:20,968 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-25 19:37:21,006 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:21,024 [exp_replay_code] INFO: Reward: -2 from move ['UP']
+2021-03-25 19:37:21,031 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.025s.
+2021-03-25 19:37:21,032 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:21,036 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:21,117 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:21,151 [exp_replay_code] INFO: Reward: -2 from move [array(['DOWN'], dtype='<U5')]
+2021-03-25 19:37:21,152 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.033s.
+2021-03-25 19:37:21,152 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:21,156 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:21,212 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:21,232 [exp_replay_code] INFO: Reward: -1.1 from move ['LEFT']
+2021-03-25 19:37:21,232 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.019s.
+2021-03-25 19:37:21,232 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:21,236 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:21,312 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:21,342 [exp_replay_code] INFO: Reward: -1.1 from move ['DOWN']
+2021-03-25 19:37:21,343 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.030s.
+2021-03-25 19:37:21,343 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:21,353 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-25 19:37:21,413 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:21,464 [exp_replay_code] INFO: Reward: -1.1 from move ['DOWN']
+2021-03-25 19:37:21,468 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.054s.
+2021-03-25 19:37:21,468 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:21,474 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-25 19:37:21,513 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:21,529 [exp_replay_code] INFO: Reward: 0.9 from move ['RIGHT']
+2021-03-25 19:37:21,530 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.017s.
+2021-03-25 19:37:21,530 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:21,540 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-25 19:37:21,630 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:21,643 [exp_replay_code] INFO: Reward: -1.1 from move [array(['LEFT'], dtype='<U5')]
+2021-03-25 19:37:21,643 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.013s.
+2021-03-25 19:37:21,644 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:21,648 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:21,719 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:21,773 [exp_replay_code] INFO: Reward: 0.9 from move [array(['RIGHT'], dtype='<U5')]
+2021-03-25 19:37:21,774 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.030s.
+2021-03-25 19:37:21,774 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:21,780 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-25 19:37:21,819 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:21,834 [exp_replay_code] INFO: Reward: -1.1 from move ['LEFT']
+2021-03-25 19:37:21,834 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.016s.
+2021-03-25 19:37:21,835 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:21,840 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-25 19:37:21,919 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:21,955 [exp_replay_code] INFO: Reward: -2 from move [array(['LEFT'], dtype='<U5')]
+2021-03-25 19:37:21,960 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.040s.
+2021-03-25 19:37:21,962 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:21,966 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:22,020 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:22,063 [exp_replay_code] INFO: Reward: 0.9 from move ['RIGHT']
+2021-03-25 19:37:22,071 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.051s.
+2021-03-25 19:37:22,072 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:22,078 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2021-03-25 19:37:22,119 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:22,136 [exp_replay_code] INFO: Reward: 0.9 from move ['RIGHT']
+2021-03-25 19:37:22,137 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.018s.
+2021-03-25 19:37:22,137 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:22,142 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:22,230 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:22,265 [exp_replay_code] INFO: Reward: -1.1 from move [array(['RIGHT'], dtype='<U5')]
+2021-03-25 19:37:22,266 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.031s.
+2021-03-25 19:37:22,266 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:22,270 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:22,326 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:22,362 [exp_replay_code] INFO: Reward: 0.9 from move ['LEFT']
+2021-03-25 19:37:22,364 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.037s.
+2021-03-25 19:37:22,364 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:22,367 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:22,426 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:22,466 [exp_replay_code] INFO: Reward: -1.1 from move ['DOWN']
+2021-03-25 19:37:22,467 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.041s.
+2021-03-25 19:37:22,467 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:22,475 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.007s.
+2021-03-25 19:37:22,542 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:22,576 [exp_replay_code] INFO: Reward: 0.9 from move ['UP']
+2021-03-25 19:37:22,577 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.030s.
+2021-03-25 19:37:22,578 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:22,582 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:22,626 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:22,635 [exp_replay_code] INFO: Reward: -1.1 from move ['LEFT']
+2021-03-25 19:37:22,635 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.009s.
+2021-03-25 19:37:22,635 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:22,638 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:22,727 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:22,757 [exp_replay_code] INFO: Reward: -2 from move ['UP']
+2021-03-25 19:37:22,757 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.030s.
+2021-03-25 19:37:22,757 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:22,761 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:22,826 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:22,850 [exp_replay_code] INFO: Reward: -2 from move [array(['UP'], dtype='<U5')]
+2021-03-25 19:37:22,859 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.032s.
+2021-03-25 19:37:22,859 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:22,863 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:22,937 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:22,970 [exp_replay_code] INFO: Reward: -2 from move ['UP']
+2021-03-25 19:37:22,970 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.027s.
+2021-03-25 19:37:22,971 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:22,973 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:23,027 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:23,070 [exp_replay_code] INFO: Reward: -2 from move ['DOWN']
+2021-03-25 19:37:23,070 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.043s.
+2021-03-25 19:37:23,071 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:23,075 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:23,127 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:23,148 [exp_replay_code] INFO: Reward: 0.9 from move ['RIGHT']
+2021-03-25 19:37:23,154 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.027s.
+2021-03-25 19:37:23,162 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:23,168 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2021-03-25 19:37:23,227 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:23,261 [exp_replay_code] INFO: Reward: -1.1 from move [array(['DOWN'], dtype='<U5')]
+2021-03-25 19:37:23,267 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.039s.
+2021-03-25 19:37:23,270 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:23,274 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:23,327 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:23,351 [exp_replay_code] INFO: Reward: -1.1 from move ['DOWN']
+2021-03-25 19:37:23,357 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.029s.
+2021-03-25 19:37:23,362 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:23,366 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:23,428 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:23,474 [exp_replay_code] INFO: Reward: -1.1 from move [array(['LEFT'], dtype='<U5')]
+2021-03-25 19:37:23,479 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.051s.
+2021-03-25 19:37:23,480 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:23,484 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-25 19:37:23,528 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:23,542 [exp_replay_code] INFO: Reward: 0.9 from move ['RIGHT']
+2021-03-25 19:37:23,543 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.015s.
+2021-03-25 19:37:23,543 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:23,548 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-25 19:37:23,639 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:23,658 [exp_replay_code] INFO: Reward: -1.1 from move ['LEFT']
+2021-03-25 19:37:23,658 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.014s.
+2021-03-25 19:37:23,659 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:23,662 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:23,747 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:23,778 [exp_replay_code] INFO: Reward: -1.1 from move ['LEFT']
+2021-03-25 19:37:23,779 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.031s.
+2021-03-25 19:37:23,779 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:23,784 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:23,847 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:23,873 [exp_replay_code] INFO: Reward: 0.9 from move ['RIGHT']
+2021-03-25 19:37:23,874 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.026s.
+2021-03-25 19:37:23,874 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:23,879 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-25 19:37:23,945 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:23,973 [exp_replay_code] INFO: Reward: -2 from move ['UP']
+2021-03-25 19:37:23,974 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.029s.
+2021-03-25 19:37:23,974 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:23,978 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:24,045 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:24,074 [exp_replay_code] INFO: Reward: -2 from move ['UP']
+2021-03-25 19:37:24,080 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.035s.
+2021-03-25 19:37:24,085 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:24,091 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.007s.
+2021-03-25 19:37:24,145 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:24,189 [exp_replay_code] INFO: Reward: -2 from move ['DOWN']
+2021-03-25 19:37:24,194 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.048s.
+2021-03-25 19:37:24,195 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:24,199 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:24,245 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:24,261 [exp_replay_code] INFO: Reward: -2 from move ['UP']
+2021-03-25 19:37:24,262 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.016s.
+2021-03-25 19:37:24,262 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:24,275 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.007s.
+2021-03-25 19:37:24,362 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:24,392 [exp_replay_code] INFO: Reward: -2 from move ['DOWN']
+2021-03-25 19:37:24,393 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.026s.
+2021-03-25 19:37:24,393 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:24,397 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:24,451 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:24,473 [exp_replay_code] INFO: Reward: -2 from move ['UP']
+2021-03-25 19:37:24,479 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.028s.
+2021-03-25 19:37:24,486 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:24,493 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.007s.
+2021-03-25 19:37:24,552 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:24,597 [exp_replay_code] INFO: Reward: -2 from move ['DOWN']
+2021-03-25 19:37:24,598 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.045s.
+2021-03-25 19:37:24,598 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:24,607 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:24,651 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:24,663 [exp_replay_code] INFO: Reward: 0.9 from move ['RIGHT']
+2021-03-25 19:37:24,663 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.012s.
+2021-03-25 19:37:24,663 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:24,667 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:24,763 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:24,802 [exp_replay_code] INFO: Reward: -1.1 from move ['RIGHT']
+2021-03-25 19:37:24,803 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.035s.
+2021-03-25 19:37:24,804 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:24,807 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:24,864 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:24,892 [exp_replay_code] INFO: Reward: -1.1 from move ['RIGHT']
+2021-03-25 19:37:24,892 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.028s.
+2021-03-25 19:37:24,893 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:24,896 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:24,963 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:24,990 [exp_replay_code] INFO: Reward: -1.1 from move ['RIGHT']
+2021-03-25 19:37:24,991 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.028s.
+2021-03-25 19:37:24,991 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:24,997 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-25 19:37:25,063 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:25,090 [exp_replay_code] INFO: Reward: 0.9 from move ['RIGHT']
+2021-03-25 19:37:25,091 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.028s.
+2021-03-25 19:37:25,091 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:25,097 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-25 19:37:25,179 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:25,209 [exp_replay_code] INFO: Reward: -1.1 from move ['LEFT']
+2021-03-25 19:37:25,209 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.026s.
+2021-03-25 19:37:25,209 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:25,213 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:25,269 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:25,288 [exp_replay_code] INFO: Reward: 0.9 from move ['RIGHT']
+2021-03-25 19:37:25,288 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.019s.
+2021-03-25 19:37:25,289 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:25,295 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2021-03-25 19:37:25,369 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:25,399 [exp_replay_code] INFO: Reward: -1.1 from move ['LEFT']
+2021-03-25 19:37:25,399 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.030s.
+2021-03-25 19:37:25,400 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:25,405 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-25 19:37:25,469 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:25,508 [exp_replay_code] INFO: Reward: 0.9 from move ['LEFT']
+2021-03-25 19:37:25,509 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.040s.
+2021-03-25 19:37:25,510 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:25,514 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:25,569 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:25,610 [exp_replay_code] INFO: Reward: 0.9 from move [array(['LEFT'], dtype='<U5')]
+2021-03-25 19:37:25,611 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.041s.
+2021-03-25 19:37:25,611 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:25,614 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:25,670 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:25,707 [exp_replay_code] INFO: Reward: -1.1 from move ['RIGHT']
+2021-03-25 19:37:25,713 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.042s.
+2021-03-25 19:37:25,713 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:25,716 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:25,770 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:25,802 [exp_replay_code] INFO: Reward: 0.9 from move [array(['LEFT'], dtype='<U5')]
+2021-03-25 19:37:25,809 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.039s.
+2021-03-25 19:37:25,810 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:25,813 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:25,870 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:25,900 [exp_replay_code] INFO: Reward: 0.9 from move ['LEFT']
+2021-03-25 19:37:25,908 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.038s.
+2021-03-25 19:37:25,908 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:25,912 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:25,971 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:26,009 [exp_replay_code] INFO: Reward: -1.1 from move ['RIGHT']
+2021-03-25 19:37:26,010 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.039s.
+2021-03-25 19:37:26,010 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:26,014 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:26,070 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:26,120 [exp_replay_code] INFO: Reward: -1.1 from move ['RIGHT']
+2021-03-25 19:37:26,124 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.053s.
+2021-03-25 19:37:26,125 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:26,130 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-25 19:37:26,171 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:26,205 [exp_replay_code] INFO: Reward: -1.1 from move ['RIGHT']
+2021-03-25 19:37:26,207 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.036s.
+2021-03-25 19:37:26,207 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:26,210 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:26,271 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:26,309 [exp_replay_code] INFO: Reward: -2 from move ['DOWN']
+2021-03-25 19:37:26,310 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.039s.
+2021-03-25 19:37:26,310 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:26,313 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:26,372 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:26,420 [exp_replay_code] INFO: Reward: 0.9 from move ['RIGHT']
+2021-03-25 19:37:26,421 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.049s.
+2021-03-25 19:37:26,421 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:26,425 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:26,471 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:26,508 [exp_replay_code] INFO: Reward: 0.9 from move ['RIGHT']
+2021-03-25 19:37:26,509 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.037s.
+2021-03-25 19:37:26,509 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:26,512 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:26,571 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:26,615 [exp_replay_code] INFO: Reward: -1.1 from move ['LEFT']
+2021-03-25 19:37:26,615 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.044s.
+2021-03-25 19:37:26,616 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:26,618 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:26,672 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:26,706 [exp_replay_code] INFO: Reward: -1.1 from move [array(['LEFT'], dtype='<U5')]
+2021-03-25 19:37:26,710 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.038s.
+2021-03-25 19:37:26,711 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:26,713 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:26,771 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:26,812 [exp_replay_code] INFO: Reward: -2 from move [array(['DOWN'], dtype='<U5')]
+2021-03-25 19:37:26,813 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.041s.
+2021-03-25 19:37:26,813 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:26,815 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-25 19:37:26,891 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:26,923 [exp_replay_code] INFO: Reward: 0.9 from move ['RIGHT']
+2021-03-25 19:37:26,923 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.032s.
+2021-03-25 19:37:26,923 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:26,928 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-25 19:37:26,987 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:27,007 [exp_replay_code] INFO: Reward: 0.9 from move [array(['RIGHT'], dtype='<U5')]
+2021-03-25 19:37:27,008 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.021s.
+2021-03-25 19:37:27,008 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:27,011 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:27,082 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:27,099 [exp_replay_code] INFO: Reward: -1.1 from move ['LEFT']
+2021-03-25 19:37:27,099 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.017s.
+2021-03-25 19:37:27,099 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:27,102 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:27,182 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:27,207 [exp_replay_code] INFO: Reward: -2 from move [array(['DOWN'], dtype='<U5')]
+2021-03-25 19:37:27,208 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.025s.
+2021-03-25 19:37:27,208 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:27,212 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:27,283 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:27,314 [exp_replay_code] INFO: Reward: -2 from move ['DOWN']
+2021-03-25 19:37:27,314 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.031s.
+2021-03-25 19:37:27,315 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:27,318 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:27,383 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:27,415 [exp_replay_code] INFO: Reward: -1.1 from move ['LEFT']
+2021-03-25 19:37:27,421 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.037s.
+2021-03-25 19:37:27,422 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:27,426 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:27,483 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:27,518 [exp_replay_code] INFO: Reward: 0.9 from move ['RIGHT']
+2021-03-25 19:37:27,521 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.038s.
+2021-03-25 19:37:27,521 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:27,524 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:27,583 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:27,620 [exp_replay_code] INFO: Reward: -1.1 from move ['LEFT']
+2021-03-25 19:37:27,623 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.040s.
+2021-03-25 19:37:27,624 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:27,626 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:27,683 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:27,700 [exp_replay_code] INFO: Reward: 0.9 from move ['RIGHT']
+2021-03-25 19:37:27,700 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.017s.
+2021-03-25 19:37:27,700 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:27,703 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-03-25 19:37:27,790 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:27,806 [exp_replay_code] INFO: Reward: -1.1 from move ['LEFT']
+2021-03-25 19:37:27,806 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.016s.
+2021-03-25 19:37:27,807 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:27,810 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-25 19:37:27,888 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:27,914 [exp_replay_code] INFO: Reward: 0.9 from move [array(['LEFT'], dtype='<U5')]
+2021-03-25 19:37:27,915 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.026s.
+2021-03-25 19:37:27,915 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:27,920 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-25 19:37:27,989 [exp_replay_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-25 19:37:28,015 [exp_replay_code] INFO: Reward: -1.1 from move ['RIGHT']
+2021-03-25 19:37:28,015 [exp_replay_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.026s.
+2021-03-25 19:37:28,016 [exp_replay_wrapper] DEBUG: Calling act on callback.
+2021-03-25 19:37:28,022 [exp_replay_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2021-03-25 19:37:28,046 [exp_replay_wrapper] DEBUG: Calling end_of_round on callback.
+2021-03-25 19:37:28,052 [exp_replay_wrapper] DEBUG: Got result from callback#end_of_round in 0.005s.

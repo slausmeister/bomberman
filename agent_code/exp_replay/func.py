@@ -87,7 +87,7 @@ def look_for_targets(free_space, start, targets):
     current = best
     iteration = 0
     while True:
-        if parent_dict[current] == start: return (iteration,tuple(current))[1]
+        if parent_dict[current] == start: return (iteration,tuple(current))
         current = parent_dict[current] 
         iteration += 1
 
@@ -112,7 +112,7 @@ def possible_actions(self,game_state):
             poss_moves.append('LEFT')
         if stats[pos[3][0]+1,pos[3][1]] == 0:
             poss_moves.append('RIGHT')
-        if pos[2] == True:
+        if False:#pos[2] == True:
             poss_moves.append('BOMB')
     #print('Debug: def possible_actions: executed succesfully')
         return poss_moves
@@ -264,18 +264,19 @@ def state_to_features(game_state: dict) -> np.array:
     features.append(num)
 
     #feature 5: distance to closest safe spot
-    safe = safe_spot(game_state)[0]
-    features.append(safe)
-
+    safe_dist = safe_spot(game_state)[0]
+    features.append(safe_dist)
+    
     #feature 6: horizontal distance to closest safe spot
-    safecoordinates = safe_spot(game_state)
+    safecoordinates = safe_spot(game_state)[1]
     horisafe = safecoordinates[0]-state[3][0]
     features.append(horisafe)
 
     #feature 7: vertical distance to closest safe spot
-    safecoordinates = safe_spot(game_state)
+    safecoordinates = safe_spot(game_state)[1]
     vertisafe = safecoordinates[1]-state[3][1]
     features.append(vertisafe)
+
 
     #print('Debug: state_to_features executed succesfully')
  

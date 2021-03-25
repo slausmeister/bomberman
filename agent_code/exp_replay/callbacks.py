@@ -1,4 +1,4 @@
-from agent_code.nlb_agent.func import *
+from agent_code.exp_replay.func import *
 import os
 import pickle
 import random
@@ -6,7 +6,7 @@ from collections import deque
 import numpy as np
 
 
-ACTIONS = ['UP', 'RIGHT', 'DOWN', 'LEFT', 'WAIT', 'BOMB']
+ACTIONS = ['UP', 'RIGHT', 'DOWN', 'LEFT', 'WAIT']
 
 
 def setup(self):
@@ -24,7 +24,7 @@ def setup(self):
 def act(self, game_state: dict) -> str:
     self.history.append(game_state['self'][3])
     acts=np.array(ACTIONS)
-    eps = 0.1
+    eps = 0.2
     X = state_to_features(game_state)
     moves = possible_actions(self,game_state)
     beta = self.model
