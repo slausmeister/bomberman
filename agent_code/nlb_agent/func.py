@@ -5,25 +5,28 @@ def norm(a,b):
     return abs(a[0]-b[0])+abs(a[1]-b[1])
 
 #returns all the possible actions the agent could make
-def possible_actions(game_state):
-
+def possible_actions(self,game_state):
+    reduced=['UP','DOWN','LEFT','RIGHT']
     #print('Debug: def possible_actions: called succesfully')
     poss_moves = []
     pos = game_state['self']
     stats = game_state['field']
-
-    if stats[pos[3][0],pos[3][1]+1] == 0:
-        poss_moves.append('DOWN')
-    if stats[pos[3][0],pos[3][1]-1] == 0:
-        poss_moves.append('UP')
-    if stats[pos[3][0]-1,pos[3][1]] == 0:
-        poss_moves.append('LEFT')
-    if stats[pos[3][0]+1,pos[3][1]] == 0:
-        poss_moves.append('RIGHT')
-    if pos[2] == True:
-        poss_moves.append('BOMB')
+    #print(self.history)
+    if self.history.count(pos[3])>2:
+        return np.random.choice(reduced,1)
+    else:
+        if stats[pos[3][0],pos[3][1]+1] == 0:
+            poss_moves.append('DOWN')
+        if stats[pos[3][0],pos[3][1]-1] == 0:
+            poss_moves.append('UP')
+        if stats[pos[3][0]-1,pos[3][1]] == 0:
+            poss_moves.append('LEFT')
+        if stats[pos[3][0]+1,pos[3][1]] == 0:
+            poss_moves.append('RIGHT')
+        if pos[2] == True:
+            poss_moves.append('BOMB')
     #print('Debug: def possible_actions: executed succesfully')
-    return poss_moves
+        return poss_moves
 
 #returns tuple (d,(x,y)): d is distance to next crate, (x,y) are the coordinates of the next crate. 
 #This function is only called, when there are no coins on the field
@@ -101,7 +104,7 @@ def destroyable_crates(game_state):
 
 #it should return a tuple (d,(x,y)). d is the distance to the next safe spot, (x,y) are the coordinates
 def safe_spot(game_state): 
-    #print('Debug: def safe_spot called succesfully')
+    #print('Debug: def safe_spot called successfully')
     """Plan: make an array with all the possible threats and safe spots. 0=safe_spot, not0=possible threat"""
     S=game_state['self']        
     field = game_state['field']
@@ -140,7 +143,8 @@ def safe_spot(game_state):
         safe_spots.append((dist,tuple(i)))
     
     safe_spots.sort(key=lambda x: x[0::])
-    print(safe_spots[0])
+    #print(safe_spots[0])
+    #print('Debug: safe_spot executed successfully')
     return safe_spots[0]
 
 

@@ -2,7 +2,7 @@ from agent_code.nlb_agent.func import *
 import os
 import pickle
 import random
-
+from collections import deque
 import numpy as np
 
 
@@ -13,17 +13,20 @@ def setup(self):
     if self.train or not os.path.isfile("my-saved-model.pt"):
         self.logger.info("Setting up model from scratch.")
         self.model = np.zeros((6,7),dtype=float)
+        self.history = deque([], 20)
     else:
         self.logger.info("Loading model from saved state.")
         with open("my-saved-model.pt", "rb") as file:
             self.model = pickle.load(file)
+        self.history = deque([], 20)
 
 
 def act(self, game_state: dict) -> str:
+    self.history.append(game_state['self'][3])
     acts=np.array(ACTIONS)
     eps = 0.1
     X = state_to_features(game_state)
-    moves = possible_actions(game_state)
+    moves = possible_actions(self,game_state)
     beta = self.model
     q_values = []
     #print(beta)

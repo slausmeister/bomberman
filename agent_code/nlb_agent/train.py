@@ -17,6 +17,7 @@ CLOSERCRATE = 'CLOSERCRATE'
 FURTHERCRATE = 'FURTHERCRATE'
 CLOSERSAFE = 'CLOSERSAFE'
 FURTHERSAFE = 'FURTHERSAFE'
+NICEBOMB = 'NICEBOMB'
 
 
 # This is only an example!
@@ -54,6 +55,8 @@ def game_events_occurred(self, old_game_state: dict, self_action: str, new_game_
             events.append(CLOSERSAFE)
         if safe_spot(old_game_state)[0] < safe_spot(new_game_state)[0]:
             events.append(FURTHERSAFE)
+        if destroyable_crates(old_game_state) >=2 and new_game_state['self'][2]==0:
+            events.append(NICEBOMB)
 
         R = reward_from_events(self,events)
         X = state_to_features(old_game_state)
@@ -119,21 +122,23 @@ def end_of_round(self, last_game_state: dict, last_action: str, events: List[str
 def reward_from_events(self, events: List[str]) -> int:
     
     game_rewards = {
-        e.COIN_COLLECTED: 3,
+        e.COIN_COLLECTED: 5,
         e.MOVED_UP: -.1,
         e.MOVED_DOWN: -.1,
         e.MOVED_LEFT: -.1,
         e.MOVED_RIGHT: -.1,
         e.WAITED: -0.1,
-        e.CRATE_DESTROYED: 1,
+        e.CRATE_DESTROYED: 3,
         e.KILLED_SELF: -5,
         #e.INVALID_ACTION: -5,
         CLOSERCOIN: 0.5,
         FURTHERCOIN: -0.5,
         CLOSERCRATE: 0.3,
         FURTHERCRATE: -0.3,
-        CLOSERSAFE: 1,
-        FURTHERSAFE: -1  
+        CLOSERSAFE: 2,
+        FURTHERSAFE: -1,
+        NICEBOMB: 3
+
     }
     reward_sum = 0
     for event in events:
