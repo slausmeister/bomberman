@@ -1,8 +1,95 @@
 import numpy as np
 from operator import itemgetter
-
+import random
 def norm(a,b):
     return abs(a[0]-b[0])+abs(a[1]-b[1])
+
+def free_space(game_state, explosions = True):
+    # A function that returns an array indicating free spots on the grid.
+    # if explosions == False, exposions are not counted as an obstacle
+    # Retruns an array with True for free spots
+
+    S=game_state['self']
+    field = game_state['field']
+    bombs = game_state['bombs']
+
+    new_field=np.zeros((17,17),dtype=float)          
+    new_field+=0.3*game_state['explosion_map']
+    new_field+=0.5*field # Adding half, to prevent bombs canceling crates, thus making the cell appear free
+    # Initialising a larger array containing future explosions. The array will be cut to (15,15), as that is the relevant grid for explosions
+    temp = np.zeros((21,21))
+    for bomb in bombs :
+        x=bomb[0][0]+2
+        y=bomb[0][1]+2
+        temp[(x,y)]=5
+
+        if explosions == True:
+            #Checking wether a wall will block the explosion
+            if x%2!=0:
+                for i in [-3,-2,-1,1,2,3]:
+                    temp[(x,y+i)]=5
+            if y%2!=0:
+                for i in [-3,-2,-1,1,2,3]:
+                    temp[(x+i,y)]=5
+    # slicing the array to size
+    temp = temp[2:19,2:19]
+    new_field += temp
+
+    # Building boolean array
+    boolean = np.ones((17,17), dtype=bool)
+
+    boolean[np.nonzero(new_field)] = False
+    return boolean
+
+def look_for_targets(free_space, start, targets):
+    """Find direction of closest target that can be reached via free tiles.
+
+    Performs a breadth-first search of the reachable free tiles until a target is encountered.
+    If no target can be reached, the path that takes the agent closest to any target is chosen.
+
+    Args:
+        free_space: Boolean numpy array. True for free tiles and False for obstacles.
+        start: the coordinate from which to begin the search.
+        targets: list or array holding the coordinates of all target tiles.
+        logger: optional logger object for debugging.
+    Returns:
+        coordinate of first step towards closest target or towards tile closest to any target.
+    """
+    if len(targets) == 0: return None
+
+    frontier = [start]
+    parent_dict = {start: start}
+    dist_so_far = {start: 0}
+    best = start
+    best_dist = np.sum(np.abs(np.subtract(targets, start)), axis=1).min() #Taxi to closest target
+
+    while len(frontier) > 0:
+        current = frontier.pop(0)
+        # Find distance from current position to all targets, track closest
+        d = np.sum(np.abs(np.subtract(targets, current)), axis=1).min()
+        if d + dist_so_far[current] <= best_dist: #Bin ich richtig gelaufen?
+            best = current
+            best_dist = d + dist_so_far[current]
+        if d == 0:
+            # Found path to a target's exact position, mission accomplished!
+            best = current
+            break
+        # Add unexplored free neighboring tiles to the queue in a random order
+        x, y = current
+        neighbors = [(x, y) for (x, y) in [(x + 1, y), (x - 1, y), (x, y + 1), (x, y - 1)] if free_space[x, y]]
+        random.shuffle(neighbors)
+        for neighbor in neighbors:
+            if neighbor not in parent_dict:
+                frontier.append(neighbor)
+                parent_dict[neighbor] = current
+                dist_so_far[neighbor] = dist_so_far[current] + 1
+    # Determine the first step towards the best found target tile
+    current = best
+    while True:
+        if parent_dict[current] == start: return current
+        current = parent_dict[current] 
+
+
 
 #returns all the possible actions the agent could make
 def possible_actions(self,game_state):
@@ -103,49 +190,39 @@ def destroyable_crates(game_state):
     return count
 
 #it should return a tuple (d,(x,y)). d is the distance to the next safe spot, (x,y) are the coordinates
-def safe_spot(game_state): 
-    #print('Debug: def safe_spot called successfully')
-    """Plan: make an array with all the possible threats and safe spots. 0=safe_spot, not0=possible threat"""
-    S=game_state['self']        
-    field = game_state['field']
-    bombs = game_state['bombs']
+def safe_spot(game_state, all=False): 
+    # A function returning the closest safe spot as a (d, (x,y)) tuple
+    # if all == True all possible safe spots will be returned, else only the next coordinate on a path to the closest safe spot
 
-    new_field=np.zeros((17,17),dtype=float)          
-    new_field+=0.3*game_state['explosion_map']
-    new_field+=0.5*field # Adding half, to prevent bombs canceling crates, thus making the cell appear free
-    # Initialising a larger array containing future explosions. The array will be cut to (15,15), as that is the relevant grid for explosions
-    temp = np.zeros((21,21))
-    for bomb in bombs :
-        x=bomb[0][0]+2
-        y=bomb[0][1]+2
-        temp[(x,y)]=5
-        #Checking wether a wall will block the explosion
-        if x%2!=0:
-            for i in [-3,-2,-1,1,2,3]:
-                temp[(x,y+i)]=5
-        if y%2!=0:
-            for i in [-3,-2,-1,1,2,3]:
-                temp[(x+i,y)]=5
-    # slicing the array to size
-    temp = temp[2:19,2:19]
-    new_field += temp
+    # Calling fee spots on the grid
 
 
-    # We will now itterate through the array to find the closest safe spot
-    temp = []
-    for i in np.argwhere(new_field == 0):
-        temp.append(i)
+
+    target = free_space(game_state, explosions=True)
+
+    target_list = []
+
+    rows = target.shape[0]
+    cols = target.shape[1]
+    for l in range(0, cols):
+        for m in range(0, rows):
+            if target[l,m]==True:
+                target_list.append((l,m))
+
+    if all == False:
+        free = free_space(game_state, explosions=False)
+        return look_for_targets(free, game_state['self'][3], target_list)
+    else:    
+        # Itterating through all safe spots to find the closest.
 
 
-    safe_spots = []
-    for i in temp:
-        dist=norm(i, game_state['self'][3])
-        safe_spots.append((dist,tuple(i)))
-    
-    safe_spots.sort(key=lambda x: x[0::])
-    #print(safe_spots[0])
-    #print('Debug: safe_spot executed successfully')
-    return safe_spots[0]
+        safe_spots = []
+        for i in target_list:
+            dist=norm(i, game_state['self'][3])
+            safe_spots.append((dist,tuple(i)))
+        
+        safe_spots.sort(key=lambda x: x[0::])
+        return safe_spots
 
 
 
@@ -189,13 +266,12 @@ def state_to_features(game_state: dict) -> np.array:
     features.append(safe)
 
     #feature 6: horizontal distance to closest safe spot
-    safecoordinates = safe_spot(game_state)[1]
+    safecoordinates = safe_spot(game_state)
     horisafe = safecoordinates[0]-state[3][0]
     features.append(horisafe)
 
     #feature 7: vertical distance to closest safe spot
-    safecoordinates = safe_spot(game_state)[1]
-    #print(safecoordinates)
+    safecoordinates = safe_spot(game_state)
     vertisafe = safecoordinates[1]-state[3][1]
     features.append(vertisafe)
 

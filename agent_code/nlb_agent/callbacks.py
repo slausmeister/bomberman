@@ -29,6 +29,9 @@ def act(self, game_state: dict) -> str:
     moves = possible_actions(self,game_state)
     beta = self.model
     q_values = []
+
+    if len(game_state['bombs'])!=0 and game_state['self'][3]==safe_spot(game_state):
+        return 'WAIT'
     #print(beta)
     for mov in moves:
         index = np.where(acts==mov)[0][0]         

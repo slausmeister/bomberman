@@ -15,8 +15,8 @@ CLOSERCOIN = 'CLOSERCOIN'
 FURTHERCOIN = 'FURTHERCOIN'
 CLOSERCRATE = 'CLOSERCRATE'
 FURTHERCRATE = 'FURTHERCRATE'
-CLOSERSAFE = 'CLOSERSAFE'
-FURTHERSAFE = 'FURTHERSAFE'
+SAFE = 'SAFE'
+NOTSAFE = 'NOTSAFE'
 NICEBOMB = 'NICEBOMB'
 
 
@@ -51,10 +51,10 @@ def game_events_occurred(self, old_game_state: dict, self_action: str, new_game_
             events.append(CLOSERCRATE)
         if destroyable_crates(old_game_state) > destroyable_crates(new_game_state):
             events.append(FURTHERCRATE)
-        if safe_spot(old_game_state)[0] > safe_spot(new_game_state)[0]:
-            events.append(CLOSERSAFE)
-        if safe_spot(old_game_state)[0] < safe_spot(new_game_state)[0]:
-            events.append(FURTHERSAFE)
+        if safe_spot(old_game_state) == new_game_state['self'][3]:
+            events.append(SAFE)
+        else:
+            events.append(NOTSAFE)
         if destroyable_crates(old_game_state) >=2 and new_game_state['self'][2]==0:
             events.append(NICEBOMB)
 
@@ -135,8 +135,8 @@ def reward_from_events(self, events: List[str]) -> int:
         FURTHERCOIN: -0.5,
         CLOSERCRATE: 0.3,
         FURTHERCRATE: -0.3,
-        CLOSERSAFE: 2,
-        FURTHERSAFE: -1,
+        SAFE: 2,
+        NOTSAFE: -1,
         NICEBOMB: 3
 
     }

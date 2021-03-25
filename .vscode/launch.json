@@ -10,7 +10,7 @@
             "type": "python",
             "request": "launch",
             "program": "main.py",
-            "args": ["play", "--my-agent", "nlb_agent", "--train", "1", "--n-rounds", "50", "--no-gui"],
+            "args": ["play", "--my-agent", "nlb_agent", "--train", "1", "--n-rounds", "500", "--no-gui"],
             "console": "integratedTerminal"
         }
     ]
