@@ -83,18 +83,21 @@ def destroyable_crates(game_state):
     field = game_state['field']
     pos = game_state['self'][3]
     count = 0
-    for i in range(-3,4):
-        if pos[0]+i>15 or pos[0]<1:
-            break
-        else:
-            #print('Position:', field[pos[0]])
-            if field[pos[0]+i,pos[1]] == 1:
-                count = count+1
-        if pos[1]+i>15 or pos[1]<1:
-            break
-        else:
-            if field[pos[0],pos[1]+i] == 1:
-                count = count+1
+    #temp = np.zeros((21,21))
+    if pos[0]%2 == 0:
+        for i in range(-3,4):
+            if pos[0]+i>15 or pos[0]<1:
+                break
+            else:
+                if field[pos[0]+i,pos[1]] == 1:
+                    count = count+1
+    if pos[1]%2 == 0:
+        for i in range(-3,4):
+            if pos[1]+i>15 or pos[1]<1:
+                break
+            else:
+                if field[pos[0],pos[1]+i] == 1:
+                    count = count+1
     #print(count)
     #print('Debug: def destroyable_crates executed succesfully')
     return count
