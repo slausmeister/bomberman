@@ -1,32 +1,29 @@
-from agent_code.nlb_agent.func import *
+from agent_code.nlb_agent.func import possible_actions, state_to_features
 import os
 import pickle
 import random
-from collections import deque
+
 import numpy as np
 
 
 ACTIONS = ['UP', 'RIGHT', 'DOWN', 'LEFT', 'WAIT', 'BOMB']
-
+ACTIONBEGIN = ['UP', 'RIGHT', 'DOWN', 'LEFT', 'WAIT']
 
 def setup(self):
     if self.train or not os.path.isfile("my-saved-model.pt"):
         self.logger.info("Setting up model from scratch.")
-        self.model = np.zeros((6,7),dtype=float)
-        self.history = deque([], 20)
+        self.model = np.array([[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0]],dtype=float)
     else:
         self.logger.info("Loading model from saved state.")
         with open("my-saved-model.pt", "rb") as file:
             self.model = pickle.load(file)
-        self.history = deque([], 20)
 
 
 def act(self, game_state: dict) -> str:
-    self.history.append(game_state['self'][3])
     acts=np.array(ACTIONS)
-    eps = 0.1
+    eps = 0.2
     X = state_to_features(game_state)
-    moves = possible_actions(self,game_state)
+    moves = possible_actions(game_state)
     beta = self.model
     q_values = []
     #print(beta)
@@ -48,3 +45,8 @@ def act(self, game_state: dict) -> str:
         return actual_action
     else:
         return action_greedy
+
+    
+
+
+
