@@ -11,6 +11,7 @@ import events as e
 from .callbacks import state_to_features
 
 ACTIONS = ['UP', 'RIGHT', 'DOWN', 'LEFT', 'WAIT', 'BOMB']
+ACTION_DICT = {'UP':0, 'RIGHT':1, 'DOWN':2, 'LEFT':3, 'WAIT':4, 'BOMB':5}
 
 CLOSERCOIN = 'CLOSERCOIN'
 FURTHERCOIN = 'FURTHERCOIN'
@@ -28,7 +29,7 @@ FURTHERSAFE = 'FURTHERSAFE'
 TRANSITION_HISTORY_SIZE = 20  # keep only ... last transitions
 RECORD_ENEMY_TRANSITIONS = 1.0  # record enemy transitions with probability ...
 
-alpha=0.001
+alpha=0.03
 gamma=0.9
 
 def setup_training(self):
@@ -57,10 +58,8 @@ def game_events_occurred(self, old_game_state: dict, self_action: str, new_game_
             events.append(FURTHERSAFE)
         if safe_spot(old_game_state)[1] == new_game_state['self'][3]:
             events.append(SAFE)
-            print("SAFE")
         if free_space(new_game_state, explosions=True)[new_game_state['self'][3]] == False:
             events.append(NOTSAFE)
-            print("NOT SAFE")
         if destroyable_crates(old_game_state) >=2 and new_game_state['self'][2]==0:
             events.append(NICEBOMB)
 
@@ -90,14 +89,14 @@ def train(experience,self):
 
     beta_prime_best = []
     for i in range(len(ACTIONS)):
-        beta_prime_best.append((experience[0]@beta_current[i],i))
+        beta_prime_best.append((experience[3]@beta_current[i],i))
 
 
     beta_prime_best.sort(key=lambda x: x[0], reverse=True)
     i=beta_prime_best[0][1]
-    
-    self.model[i] = beta_current[i] + 0.001*(experience[2] + (gamma * beta_prime_best[0][0]))
-    #print(beta)
+    old_move = ''.join(list(experience[1][0]))
+    old_index = ACTION_DICT[old_move]
+    self.model[i] = beta_current[i] + 0.001*(experience[2] + gamma * beta_prime_best[0][0]- experience[0]@beta_current[old_index])
 
 
 

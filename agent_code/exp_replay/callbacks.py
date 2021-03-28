@@ -24,7 +24,7 @@ def setup(self):
 def act(self, game_state: dict) -> str:
     self.history.append(game_state['self'][3])
     acts=np.array(ACTIONS)
-    eps = 0.2
+    eps = 0.1
     X = state_to_features(game_state)
     moves = possible_actions(self,game_state)
     beta = self.model

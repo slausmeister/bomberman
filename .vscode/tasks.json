@@ -13,7 +13,7 @@
         {
             "label": "train",
             "type": "shell",
-            "command": "python main.py play --my-agent exp_replay --train 1 --n-rounds 500",
+            "command": "python main.py play --my-agent exp_replay --train 1 --n-rounds 500 --turnbased",
             "problemMatcher": [],
             "group": {
                 "kind": "build",

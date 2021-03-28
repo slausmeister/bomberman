@@ -146,27 +146,8 @@ def nearest_crate(game_state):
 
 #returns tupel (d,(x,y)): d is distance in taxicab geometry, (x,y) is the coordinate tupel
 def nearest_coin(game_state): 
-    #print('Debug: def nearest_coin: called succesfully')
-
-    C=game_state['coins']
-    S=game_state['self']
-    distances = np.array([])
-    coo = []
-    for coins in C:
-        x_dist= np.abs(coins[0]-S[3][0])
-        y_dist= np.abs(coins[1]-S[3][1])
-        distances = np.append(distances,x_dist+y_dist)
-        coo.append(coins)
-
-    if coo == []:
-        return nearest_crate(game_state)
-    index=np.argmin(distances)
-    
-    nearest_dist = distances[index]
-    coordin = coo[index]
-
-    #print('Debug: def nearest_coin: executed succesfully')
-    return nearest_dist,coordin
+    print(look_for_targets(free_space(game_state, explosions=True),game_state['self'][3],game_state['coins']))
+    return look_for_targets(free_space(game_state, explosions=True),game_state['self'][3],game_state['coins'])
 
 #returns the number of destructible crates in the current state
 def destroyable_crates(game_state):

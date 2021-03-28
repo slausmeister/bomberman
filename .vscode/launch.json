@@ -10,7 +10,6 @@
             "type": "python",
             "request": "launch",
             "program": "main.py",
-            "pythonPath": "/usr/bin/python",
             "args": ["play", "--my-agent", "exp_replay", "--train", "1", "--n-rounds", "500", "--no-gui"],
             "console": "integratedTerminal"
         }
