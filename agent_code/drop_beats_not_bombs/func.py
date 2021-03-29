@@ -46,12 +46,16 @@ def nearest_crate(game_state):
         distances = np.append(distances,x_dist+y_dist)
         coo.append(crate)
     
+    #to avoid bug
+    if coo == []:
+        return 0,(0,0)
     index=np.argmin(distances)
     
     nearest_dist = distances[index]
     coordin = coo[index]
-
+    
     #print('Debug: def nearest_crate: executed succesfully')
+    
     return nearest_dist,coordin
 
 #returns tupel (d,(x,y)): d is distance in taxicab geometry, (x,y) is the coordinate tupel
@@ -67,6 +71,7 @@ def nearest_coin(game_state):
         distances = np.append(distances,x_dist+y_dist)
         coo.append(coins)
 
+    #if no coin can be found, reward the agent for getting closer to a crate
     if coo == []:
         return nearest_crate(game_state)
     index=np.argmin(distances)
@@ -102,7 +107,45 @@ def destroyable_crates(game_state):
     #print('Debug: def destroyable_crates executed succesfully')
     return count
 
-"""def look_for_targets(game_state,free_space, start, targets):
+    """def free_space(game_state, explosions = True):
+    # A function that returns an array indicating free spots on the grid.
+    # if explosions == False, exposions are not counted as an obstacle
+    # Returns an array with True for free spots
+
+    S=game_state['self']
+    field = game_state['field']
+    bombs = game_state['bombs']
+
+    new_field=np.zeros((17,17),dtype=float)          
+    new_field+=0.3*game_state['explosion_map']
+    new_field+=0.5*field # Adding half, to prevent bombs canceling crates, thus making the cell appear free
+    # Initialising a larger array containing future explosions. The array will be cut to (15,15), as that is the relevant grid for explosions
+    temp = np.zeros((21,21))
+    for bomb in bombs :
+        x=bomb[0][0]+2
+        y=bomb[0][1]+2
+        temp[(x,y)]=5
+
+        if explosions == True:
+            #Checking wether a wall will block the explosion
+            if x%2!=0:
+                for i in [-3,-2,-1,1,2,3]:
+                    temp[(x,y+i)]=5
+            if y%2!=0:
+                for i in [-3,-2,-1,1,2,3]:
+                    temp[(x+i,y)]=5
+    # slicing the array to size
+    temp = temp[2:19,2:19]
+    new_field += temp
+
+    # Building boolean array
+    boolean = np.ones((17,17), dtype=bool)
+
+    boolean[np.nonzero(new_field)] = False
+    return boolean
+ 
+ 
+    def look_for_targets(game_state,free_space, start, targets):
 
     if len(targets) == 0: return nearest_crate(game_state)
 
@@ -197,16 +240,20 @@ def state_to_features(game_state: dict) -> np.array:
 
     features =[]
     #feature 1: total distance to closest coin
-    dist=nearest_coin(game_state)[0]
-    coordinates = nearest_coin(game_state)[1]
+    if nearest_coin(game_state)[0]==0:
+        dist=0
+        hori=0
+        vert=0
+    else:
+        dist=nearest_coin(game_state)[0]
+        coordinates = nearest_coin(game_state)[1]
+        #feature 2: horizontal distance to closest coin
+        hori=coordinates[0]-state[3][0]
+        #feature 3: vertical distance to closest coin
+        vert=coordinates[1]-state[3][1]
+        
     features.append(dist)
-
-    #feature 2: horizontal distance to closest coin
-    hori=coordinates[0]-state[3][0]
     features.append(hori)
-
-    #feature 3: vertical distance to closest coin
-    vert=coordinates[1]-state[3][1]
     features.append(vert)
 
     #feature 4: number of destroyable crates

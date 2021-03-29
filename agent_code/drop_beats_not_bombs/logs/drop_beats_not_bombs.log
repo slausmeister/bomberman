@@ -1,117 +1,381 @@
-2021-03-28 15:51:34,607 [drop_beats_not_bombs_wrapper] DEBUG: Calling setup on callback.
-2021-03-28 15:51:34,607 [drop_beats_not_bombs_code] INFO: Loading model from saved state.
-2021-03-28 15:51:34,608 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#setup in 0.001s.
-2021-03-28 15:51:34,712 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
-2021-03-28 15:51:34,722 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
-2021-03-28 15:51:34,815 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
-2021-03-28 15:51:34,826 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.011s.
-2021-03-28 15:51:34,918 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
-2021-03-28 15:51:34,928 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
-2021-03-28 15:51:35,026 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
-2021-03-28 15:51:35,036 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.009s.
-2021-03-28 15:51:35,127 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
-2021-03-28 15:51:35,138 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.011s.
-2021-03-28 15:51:35,229 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
-2021-03-28 15:51:35,239 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
-2021-03-28 15:51:35,330 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
-2021-03-28 15:51:35,337 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.006s.
-2021-03-28 15:51:35,432 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
-2021-03-28 15:51:35,437 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.005s.
-2021-03-28 15:51:35,534 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
-2021-03-28 15:51:35,545 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.009s.
-2021-03-28 15:51:35,635 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
-2021-03-28 15:51:35,645 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
-2021-03-28 15:51:35,738 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
-2021-03-28 15:51:35,750 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.012s.
-2021-03-28 15:51:35,841 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
-2021-03-28 15:51:35,851 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.009s.
-2021-03-28 15:51:35,943 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
-2021-03-28 15:51:35,953 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.009s.
-2021-03-28 15:51:36,046 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
-2021-03-28 15:51:36,055 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.009s.
-2021-03-28 15:51:36,148 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
-2021-03-28 15:51:36,160 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.012s.
-2021-03-28 15:51:36,260 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
-2021-03-28 15:51:36,269 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.009s.
-2021-03-28 15:51:36,357 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
-2021-03-28 15:51:36,366 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
-2021-03-28 15:51:36,458 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
-2021-03-28 15:51:36,469 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.011s.
-2021-03-28 15:51:36,560 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
-2021-03-28 15:51:36,567 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.006s.
-2021-03-28 15:51:36,670 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
-2021-03-28 15:51:36,682 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.012s.
-2021-03-28 15:51:36,768 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
-2021-03-28 15:51:36,778 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
-2021-03-28 15:51:36,870 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
-2021-03-28 15:51:36,880 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
-2021-03-28 15:51:36,972 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
-2021-03-28 15:51:36,982 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.009s.
-2021-03-28 15:51:37,074 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
-2021-03-28 15:51:37,083 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
-2021-03-28 15:51:37,178 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
-2021-03-28 15:51:37,188 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
-2021-03-28 15:51:37,280 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
-2021-03-28 15:51:37,290 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
-2021-03-28 15:51:37,382 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
-2021-03-28 15:51:37,392 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.009s.
-2021-03-28 15:51:37,483 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
-2021-03-28 15:51:37,498 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.014s.
-2021-03-28 15:51:37,591 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
-2021-03-28 15:51:37,600 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
-2021-03-28 15:51:37,692 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
-2021-03-28 15:51:37,702 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.009s.
-2021-03-28 15:51:37,793 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
-2021-03-28 15:51:37,803 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.009s.
-2021-03-28 15:51:37,895 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
-2021-03-28 15:51:37,905 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.009s.
-2021-03-28 15:51:38,000 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
-2021-03-28 15:51:38,010 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
-2021-03-28 15:51:38,101 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
-2021-03-28 15:51:38,113 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.011s.
-2021-03-28 15:51:38,202 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
-2021-03-28 15:51:38,212 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
-2021-03-28 15:51:38,304 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
-2021-03-28 15:51:38,321 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.016s.
-2021-03-28 15:51:38,415 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
-2021-03-28 15:51:38,426 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.011s.
-2021-03-28 15:51:38,512 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
-2021-03-28 15:51:38,522 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.009s.
-2021-03-28 15:51:38,615 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
-2021-03-28 15:51:38,627 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.012s.
-2021-03-28 15:51:38,716 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
-2021-03-28 15:51:38,726 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.009s.
-2021-03-28 15:51:38,827 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
-2021-03-28 15:51:38,837 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.009s.
-2021-03-28 15:51:38,924 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
-2021-03-28 15:51:38,936 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.012s.
-2021-03-28 15:51:39,025 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
-2021-03-28 15:51:39,038 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.012s.
-2021-03-28 15:51:39,127 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
-2021-03-28 15:51:39,136 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.009s.
-2021-03-28 15:51:39,233 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
-2021-03-28 15:51:39,243 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
-2021-03-28 15:51:39,335 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
-2021-03-28 15:51:39,344 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.009s.
-2021-03-28 15:51:39,436 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
-2021-03-28 15:51:39,445 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.009s.
-2021-03-28 15:51:39,537 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
-2021-03-28 15:51:39,547 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
-2021-03-28 15:51:39,642 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
-2021-03-28 15:51:39,653 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
-2021-03-28 15:51:39,744 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
-2021-03-28 15:51:39,756 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.012s.
-2021-03-28 15:51:39,846 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
-2021-03-28 15:51:39,856 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
-2021-03-28 15:51:39,948 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
-2021-03-28 15:51:39,958 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
-2021-03-28 15:51:40,061 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
-2021-03-28 15:51:40,072 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.011s.
-2021-03-28 15:51:40,158 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
-2021-03-28 15:51:40,167 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
-2021-03-28 15:51:40,259 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
-2021-03-28 15:51:40,269 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
-2021-03-28 15:51:40,360 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
-2021-03-28 15:51:40,370 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.009s.
-2021-03-28 15:51:40,468 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
-2021-03-28 15:51:40,477 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-29 15:31:19,580 [drop_beats_not_bombs_wrapper] DEBUG: Calling setup on callback.
+2021-03-29 15:31:19,581 [drop_beats_not_bombs_code] INFO: Loading model from saved state.
+2021-03-29 15:31:19,594 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#setup in 0.013s.
+2021-03-29 15:31:19,702 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:19,713 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.011s.
+2021-03-29 15:31:19,802 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:19,814 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-29 15:31:19,905 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:19,915 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-29 15:31:20,005 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:20,016 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.011s.
+2021-03-29 15:31:20,110 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:20,123 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.013s.
+2021-03-29 15:31:20,211 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:20,222 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.011s.
+2021-03-29 15:31:20,314 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:20,324 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.009s.
+2021-03-29 15:31:20,415 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:20,431 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.016s.
+2021-03-29 15:31:20,521 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:20,532 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-29 15:31:20,622 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:20,633 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.011s.
+2021-03-29 15:31:20,724 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:20,735 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.011s.
+2021-03-29 15:31:20,824 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:20,836 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.011s.
+2021-03-29 15:31:20,939 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:20,950 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-29 15:31:21,035 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:21,045 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-29 15:31:21,137 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:21,148 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-29 15:31:21,239 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:21,249 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-29 15:31:21,339 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:21,350 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-29 15:31:21,450 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:21,460 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.011s.
+2021-03-29 15:31:21,548 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:21,561 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.012s.
+2021-03-29 15:31:21,649 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:21,659 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-29 15:31:21,751 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:21,763 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.012s.
+2021-03-29 15:31:21,858 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:21,870 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.011s.
+2021-03-29 15:31:21,958 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:21,971 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.012s.
+2021-03-29 15:31:22,060 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:22,072 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.011s.
+2021-03-29 15:31:22,162 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:22,173 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.011s.
+2021-03-29 15:31:22,267 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:22,277 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-29 15:31:22,368 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:22,381 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.013s.
+2021-03-29 15:31:22,469 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:22,475 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-29 15:31:22,571 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:22,577 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2021-03-29 15:31:22,672 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:22,678 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-29 15:31:22,773 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:22,781 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.008s.
+2021-03-29 15:31:22,874 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:22,890 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.015s.
+2021-03-29 15:31:22,979 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:22,991 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.012s.
+2021-03-29 15:31:23,079 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:23,090 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.009s.
+2021-03-29 15:31:23,180 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:23,191 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-29 15:31:23,281 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:23,291 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-29 15:31:23,387 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:23,397 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-29 15:31:23,488 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:23,499 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-29 15:31:23,589 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:23,599 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-29 15:31:23,691 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:23,702 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.011s.
+2021-03-29 15:31:23,796 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:23,807 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-29 15:31:23,897 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:23,907 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.009s.
+2021-03-29 15:31:24,000 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:24,009 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.009s.
+2021-03-29 15:31:24,101 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:24,113 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.011s.
+2021-03-29 15:31:24,206 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:24,216 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.009s.
+2021-03-29 15:31:24,307 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:24,316 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.009s.
+2021-03-29 15:31:24,408 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:24,418 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.009s.
+2021-03-29 15:31:24,509 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:24,524 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.015s.
+2021-03-29 15:31:24,613 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:24,623 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.009s.
+2021-03-29 15:31:24,713 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:24,724 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-29 15:31:24,815 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:24,824 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.009s.
+2021-03-29 15:31:24,916 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:24,927 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.011s.
+2021-03-29 15:31:25,023 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:25,033 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-29 15:31:25,123 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:25,133 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-29 15:31:25,225 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:25,235 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.009s.
+2021-03-29 15:31:25,326 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:25,335 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.009s.
+2021-03-29 15:31:25,429 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:25,439 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-29 15:31:25,530 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:25,539 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.009s.
+2021-03-29 15:31:25,632 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:25,644 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.011s.
+2021-03-29 15:31:25,734 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:25,743 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.009s.
+2021-03-29 15:31:31,010 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:31,023 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.013s.
+2021-03-29 15:31:31,111 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:31,124 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.012s.
+2021-03-29 15:31:31,226 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:31,237 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.011s.
+2021-03-29 15:31:31,321 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:31,331 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-29 15:31:31,422 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:31,435 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.012s.
+2021-03-29 15:31:31,524 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:31,534 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-29 15:31:31,635 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:31,646 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-29 15:31:31,732 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:31,743 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.009s.
+2021-03-29 15:31:31,834 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:31,844 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-29 15:31:31,936 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:31,948 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.012s.
+2021-03-29 15:31:32,043 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:32,056 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.013s.
+2021-03-29 15:31:32,143 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:32,155 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.012s.
+2021-03-29 15:31:32,245 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:32,255 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-29 15:31:32,346 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:32,356 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-29 15:31:32,456 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:32,468 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.012s.
+2021-03-29 15:31:32,556 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:32,567 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.011s.
+2021-03-29 15:31:32,656 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:32,666 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-29 15:31:32,758 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:32,768 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-29 15:31:32,860 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:32,877 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-29 15:31:32,973 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:32,982 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.009s.
+2021-03-29 15:31:33,069 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:33,081 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.012s.
+2021-03-29 15:31:33,171 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:33,184 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.012s.
+2021-03-29 15:31:33,274 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:33,284 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-29 15:31:33,386 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:33,396 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-29 15:31:33,484 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:33,495 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-29 15:31:33,585 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:33,595 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-29 15:31:33,687 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:33,698 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.009s.
+2021-03-29 15:31:33,793 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:33,804 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.011s.
+2021-03-29 15:31:33,894 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:33,903 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-29 15:31:33,994 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:34,006 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.011s.
+2021-03-29 15:31:34,096 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:34,112 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.016s.
+2021-03-29 15:31:34,202 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:34,213 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-29 15:31:34,304 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:34,314 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-29 15:31:34,405 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:34,414 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.009s.
+2021-03-29 15:31:34,507 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:34,516 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.009s.
+2021-03-29 15:31:34,620 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:34,631 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.011s.
+2021-03-29 15:31:34,716 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:34,729 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.013s.
+2021-03-29 15:31:34,817 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:34,830 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.012s.
+2021-03-29 15:31:34,919 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:34,929 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.009s.
+2021-03-29 15:31:35,026 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:35,035 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.009s.
+2021-03-29 15:31:35,127 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:35,137 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-29 15:31:35,229 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:35,239 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-29 15:31:35,330 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:35,340 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-29 15:31:35,433 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:35,443 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-29 15:31:35,534 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:35,544 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-29 15:31:35,635 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:35,646 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.011s.
+2021-03-29 15:31:35,737 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:35,747 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-29 15:31:35,841 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:35,854 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.012s.
+2021-03-29 15:31:35,942 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:35,949 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.008s.
+2021-03-29 15:31:36,042 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:36,051 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.009s.
+2021-03-29 15:31:36,144 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:36,152 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.009s.
+2021-03-29 15:31:36,252 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:36,262 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-29 15:31:36,353 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:36,364 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.011s.
+2021-03-29 15:31:36,454 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:36,463 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.009s.
+2021-03-29 15:31:36,556 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:36,566 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.009s.
+2021-03-29 15:31:36,659 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:36,669 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-29 15:31:36,761 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:36,770 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.009s.
+2021-03-29 15:31:36,863 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:36,872 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.009s.
+2021-03-29 15:31:36,966 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:36,975 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.009s.
+2021-03-29 15:31:37,071 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:37,082 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.011s.
+2021-03-29 15:31:37,173 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:37,182 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.009s.
+2021-03-29 15:31:37,273 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:37,285 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.012s.
+2021-03-29 15:31:37,375 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:37,386 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.011s.
+2021-03-29 15:31:37,481 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:37,492 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.011s.
+2021-03-29 15:31:37,582 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:37,592 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-29 15:31:37,683 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:37,695 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.012s.
+2021-03-29 15:31:37,786 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:37,794 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.009s.
+2021-03-29 15:31:37,895 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:37,905 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.009s.
+2021-03-29 15:31:37,994 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:38,006 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.012s.
+2021-03-29 15:31:39,822 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:39,832 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-29 15:31:39,924 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:39,936 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.012s.
+2021-03-29 15:31:40,031 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:40,042 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.011s.
+2021-03-29 15:31:40,132 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:40,142 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.009s.
+2021-03-29 15:31:40,233 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:40,243 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-29 15:31:40,335 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:40,347 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.012s.
+2021-03-29 15:31:40,441 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:40,452 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-29 15:31:40,543 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:40,554 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.011s.
+2021-03-29 15:31:40,644 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:40,656 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.012s.
+2021-03-29 15:31:40,744 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:40,754 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-29 15:31:40,848 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:40,859 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-29 15:31:40,950 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:40,960 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.009s.
+2021-03-29 15:31:41,051 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:41,061 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-29 15:31:41,153 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:41,163 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-29 15:31:41,257 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:41,267 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-29 15:31:41,358 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:41,369 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-29 15:31:41,460 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:41,470 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-29 15:31:41,562 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:41,572 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-29 15:31:41,668 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:41,680 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.012s.
+2021-03-29 15:31:41,771 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:41,780 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-29 15:31:41,872 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:41,882 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-29 15:31:41,973 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:41,985 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.012s.
+2021-03-29 15:31:42,080 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:42,090 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-29 15:31:42,182 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:42,193 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-29 15:31:42,284 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:42,293 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-29 15:31:42,385 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:42,401 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.016s.
+2021-03-29 15:31:42,494 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:42,504 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-29 15:31:42,593 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:42,603 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-29 15:31:42,695 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:42,705 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-29 15:31:42,797 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:42,807 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.009s.
+2021-03-29 15:31:42,902 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:42,912 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-29 15:31:43,004 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:43,016 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.011s.
+2021-03-29 15:31:43,107 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:43,119 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.012s.
+2021-03-29 15:31:43,209 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:43,218 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.009s.
+2021-03-29 15:31:43,313 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:43,325 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.012s.
+2021-03-29 15:31:43,416 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:43,425 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.009s.
+2021-03-29 15:31:43,517 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:43,526 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.009s.
+2021-03-29 15:31:43,619 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:43,629 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.009s.
+2021-03-29 15:31:43,723 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:43,733 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-29 15:31:43,825 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:43,837 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.012s.
+2021-03-29 15:31:43,927 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:43,937 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-29 15:31:44,029 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:44,039 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-29 15:31:44,138 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:44,151 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.012s.
+2021-03-29 15:31:44,237 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:44,247 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.009s.
+2021-03-29 15:31:44,339 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:44,349 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.009s.
+2021-03-29 15:31:44,441 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:44,450 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.009s.
+2021-03-29 15:31:44,551 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:44,562 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-29 15:31:44,648 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:44,658 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-29 15:31:44,751 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:44,761 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-29 15:31:44,853 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:44,862 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.009s.
+2021-03-29 15:31:44,963 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:44,973 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.009s.
+2021-03-29 15:31:45,117 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:45,133 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.016s.
+2021-03-29 15:31:45,161 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:45,171 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-29 15:31:45,262 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:45,271 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.009s.
+2021-03-29 15:31:45,374 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:45,385 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-29 15:31:45,471 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:45,480 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.009s.
+2021-03-29 15:31:45,572 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:45,582 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.008s.
+2021-03-29 15:31:45,673 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:45,685 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.012s.
+2021-03-29 15:31:45,774 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:45,790 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.016s.
+2021-03-29 15:31:45,879 [drop_beats_not_bombs_wrapper] DEBUG: Calling act on callback.
+2021-03-29 15:31:45,889 [drop_beats_not_bombs_wrapper] DEBUG: Got result from callback#act in 0.010s.

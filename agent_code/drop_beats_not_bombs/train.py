@@ -61,13 +61,13 @@ def game_events_occurred(self, old_game_state: dict, self_action: str, new_game_
         q_max = np.amax(beta_best)
         delta = R + gamma * q_max - X@beta[index]
         
-        
+       
         for i in range(len(beta[index])):
             beta[index][i] = beta[index][i]+alpha*delta*state_to_features(old_game_state)[i]
             if beta[index][i]>=1000:
                 print('Runde:', new_game_state['round'])
                 sys.exit('Zahlen zu groß')
-        
+        #print(beta)
         self.model=beta
     #state_to_features is defined in func.py
     
